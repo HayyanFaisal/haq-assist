@@ -1,0 +1,112 @@
+{
+ "id": "online_harm",
+ "region": "ict",
+ "title_en": "Online fraud or harassment",
+ "title_ur": "آن لائن فراڈ یا ہراسانی",
+ "steps": [
+  {
+   "kind": "tip",
+   "text_en": "Urgent first: in immediate physical danger call the police (15). If money was just taken, call your bank or wallet provider at once to try to block it.",
+   "text_ur": "پہلے فوری اقدام: فوری جسمانی خطرے میں پولیس (15) کو کال کریں۔ اگر ابھی رقم نکلی ہے تو فوراً اپنے بینک یا والیٹ کمپنی کو کال کریں تاکہ اسے روکا جا سکے۔"
+  },
+  {
+   "kind": "tip",
+   "text_en": "When safe, keep evidence privately: links, account names, transaction IDs, dates and messages. Never download, screenshot or forward sexual images of children - note the account or link and report it.",
+   "text_ur": "محفوظ ہونے پر ثبوت نجی طور پر محفوظ کریں: لنکس، اکاؤنٹ کے نام، ٹرانزیکشن آئی ڈی، تاریخیں اور پیغامات۔ بچوں کی جنسی تصاویر کبھی ڈاؤن لوڈ، اسکرین شاٹ یا فارورڈ نہ کریں - صرف اکاؤنٹ یا لنک نوٹ کر کے رپورٹ کریں۔"
+  },
+  {
+   "kind": "law",
+   "source": "peca:14",
+   "text_en": "Electronic fraud can include using an information system, device or data, with intent for wrongful gain, to deceive someone where it is likely to cause damage or harm.",
+   "text_ur": "الیکٹرانک فراڈ میں یہ شامل ہو سکتا ہے کہ ناجائز فائدے کی نیت سے کسی سسٹم، ڈیوائس یا ڈیٹا کے ذریعے کسی کو دھوکا دیا جائے جس سے نقصان کا امکان ہو۔",
+   "quotes": [
+    {
+     "text": "fraud.—Whoever with the intent for wrongful gain interferes with or uses any information system, device or data or induces any person to enter into a relationship or deceives any person, which act or omission is likely to cause damage or harm to that person or any other person",
+     "page": 20,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator6a061efe0ed5bd153fa8b79b8eb4cba7.pdf#page=20"
+    }
+   ],
+   "act": "Prevention of Electronic Crimes Act, 2016",
+   "section": "14",
+   "section_title": "Electronic fraud",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator6a061efe0ed5bd153fa8b79b8eb4cba7.pdf#page=20",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "peca:24",
+   "text_en": "One form of cyber stalking: using electronic means, with intent to coerce, intimidate or harass, to repeatedly contact or try to contact a person after they clearly showed they did not want contact.",
+   "text_ur": "سائبر اسٹاکنگ کی ایک صورت: ڈرانے، دباؤ ڈالنے یا ہراساں کرنے کی نیت سے الیکٹرانک ذرائع سے کسی شخص سے بار بار رابطہ کرنا یا کوشش کرنا، جب اس شخص نے واضح کر دیا ہو کہ وہ رابطہ نہیں چاہتا۔",
+   "quotes": [
+    {
+     "text": "with the intent to coerce or intimidate or harass any person, uses information system, information system network, the Internet, website, electronic mail or any other similar means of communication to—",
+     "page": 23,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator6a061efe0ed5bd153fa8b79b8eb4cba7.pdf#page=23"
+    },
+    {
+     "text": "follow a person or contacts or attempts to contact such person to foster personal interaction repeatedly despite a clear indication of disinterest by such person;",
+     "page": 23,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator6a061efe0ed5bd153fa8b79b8eb4cba7.pdf#page=23"
+    }
+   ],
+   "act": "Prevention of Electronic Crimes Act, 2016",
+   "section": "24",
+   "section_title": "Cyber stalking",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator6a061efe0ed5bd153fa8b79b8eb4cba7.pdf#page=23",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "peca:29",
+   "text_en": "The National Cyber Crime Investigation Agency (NCCIA) inquires into, investigates and prosecutes offences under this Act.",
+   "text_ur": "نیشنل سائبر کرائم انویسٹی گیشن ایجنسی (این سی سی آئی اے) اس قانون کے تحت جرائم کی انکوائری، تفتیش اور استغاثہ کرتی ہے۔",
+   "quotes": [
+    {
+     "text": "National Cyber Crime Investigation Agency (NCCIA) for inquiry into, investigation and prosecution of the offences specified under this Act.",
+     "page": 25,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator6a061efe0ed5bd153fa8b79b8eb4cba7.pdf#page=25"
+    }
+   ],
+   "act": "Prevention of Electronic Crimes Act, 2016",
+   "section": "29",
+   "section_title": "Investigation agency",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator6a061efe0ed5bd153fa8b79b8eb4cba7.pdf#page=25",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "label": "NCCIA online complaint portal (official)",
+   "url": "https://complaint.nccia.gov.pk/",
+   "checked_status": 403
+  },
+  {
+   "label": "NCCIA official website",
+   "url": "https://www.nccia.gov.pk/",
+   "checked_status": 403
+  }
+ ],
+ "not_covered_en": "The Act also covers monitoring, spying and harmful sharing of photos or videos (PECA section 24) and sexual images (sections 21-22). Ask Haq Assist for those situations.",
+ "not_covered_ur": "یہ قانون نگرانی، جاسوسی اور تصاویر یا ویڈیو کی نقصان دہ تشہیر (پیکا دفعہ 24) اور جنسی تصاویر (دفعات 21-22) کا بھی احاطہ کرتا ہے۔ ان صورتوں کے لیے حق اسسٹ سے پوچھیں۔"
+}

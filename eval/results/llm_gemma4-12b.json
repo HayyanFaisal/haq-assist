@@ -1,0 +1,62 @@
+[
+ {
+  "case": "understand_roman_arrest",
+  "seconds": 13.3,
+  "json_valid": true,
+  "output": "{\n  \"english_query\": \"legal rights of an arrested person in Pakistan regarding detention at a police station overnight and procedures for arrest in Islamabad\",\n  \"region\": \"ict\",\n  \"topic\": \"police_arrest\",\n  \"missing_facts\": [\n    \"Reason for arrest (FIR number or offense)\",\n    \"Whether the person has been produced before a Magistrate within 24 hours\",\n    \"Whether the person has been informed of the grounds of arrest\",\n    \"Whether a lawyer has been contacted\"\n  ]\n}"
+ },
+ {
+  "case": "understand_roman_consumer",
+  "seconds": 1.2,
+  "json_valid": true,
+  "output": "{\n  \"english_query\": \"consumer protection laws for defective mobile phone refund and return in Pakistan\",\n  \"region\": \"punjab\",\n  \"topic\": \"consumer\",\n  \"missing_facts\": [\n    \"Proof of purchase (receipt/invoice)\",\n    \"Warranty status of the phone\",\n    \"Specific defect description\",\n    \"Whether the shop is a registered business\"\n  ]\n}"
+ },
+ {
+  "case": "understand_urdu_tenancy",
+  "seconds": 1.4,
+  "json_valid": true,
+  "output": "{\n  \"english_query\": \"legal remedies for landlord refusing to refund security deposit in Karachi Pakistan\",\n  \"region\": \"sindh\",\n  \"topic\": \"tenancy\",\n  \"missing_facts\": [\n    \"Is there a written rental agreement/lease deed?\",\n    \"What was the amount of the security deposit?\",\n    \"What was the reason given by the landlord for withholding the deposit?\",\n    \"Has the tenancy period officially ended and the premises been vacated?\"\n  ]\n}"
+ },
+ {
+  "case": "understand_mixed_harassment",
+  "seconds": 1.6,
+  "json_valid": true,
+  "output": "{\n  \"english_query\": \"legal remedies for workplace harassment by employer in Pakistan\",\n  \"region\": \"unknown\",\n  \"topic\": \"workplace_harassment\",\n  \"missing_facts\": [\n    \"Specific location (city) to determine provincial laws\",\n    \"Gender of the victim\",\n    \"Nature of harassment (verbal, physical, sexual, or psychological)\",\n    \"Whether the company has an internal complaints committee\",\n    \"Evidence available (messages, recordings, witnesses)\"\n  ]\n}"
+ },
+ {
+  "case": "answer_arrest_48h",
+  "seconds": 6.1,
+  "json_valid": true,
+  "output": "{\n  \"answerable\": true,\n  \"explanation_ur\": \"قانون کے مطابق، پولیس کسی شخص کو بغیر وارنٹ کے گرفتاری کے بعد 24 گھنٹے سے زیادہ قید نہیں رکھ سکتی، سوائے اس کے کہ مجسٹریٹ کی طرف سے کوئی خاص حکم جاری کیا گیا ہو۔ اس وقت میں سفر کا وقت شامل نہیں ہوتا۔\",\n  \"steps\": [\n    {\n      \"text_ur\": \"پولیس کسی شخص کو بغیر وارنٹ کے گرفتاری کے بعد 24 گھنٹے سے زیادہ قید نہیں رکھ سکتی۔\",\n      \"source_id\": \"crpc:61\",\n      \"quote\": \"No police-officer shall detain in custody a person arrested without warrant for a longer period than under all the circumstances of the case is reasonable, and such period shall not, in the absence of a special order of a Magistrate under section 167, exceed twenty-four hours\"\n    },\n    {\n      \"text_ur\": \"اس 24 گھنٹے کی مدت میں گرفتاری کی جگہ سے مجسٹریٹ کی عدالت تک جانے کے سفر کا وقت شامل نہیں ہے۔\",\n      \"source_id\": \"crpc:61\",\n      \"quote\": \"exclusive of the time necessary for the journey from the place of arrest to the Magistrate's Court.\"\n    }\n  ]\n}"
+ },
+ {
+  "case": "answer_consumer_ict",
+  "seconds": 4.1,
+  "json_valid": true,
+  "output": "{\n  \"answerable\": true,\n  \"explanation_ur\": \"آپ خریدی گئی چیز یا فراہم کردہ سروس کے خلاف اتھارٹی کے پاس شکایت درج کروا سکتے ہیں۔ اگر اتھارٹی کو لگے کہ آپ کے حقوق کی خلاف ورزی ہوئی ہے، تو وہ شکایت کا نوٹس دکاندار (respondent) کو بھیجے گا جسے جواب دینے کے لیے سات دن کا وقت دیا جائے گا۔\",\n  \"steps\": [\n    {\n      \"text_ur\": \"آپ خریدی گئی چیزوں یا فراہم کردہ سروس کے خلاف اتھارٹی کے پاس شکایت درج کروا سکتے ہیں۔\",\n      \"source_id\": \"ict_consumer:8\",\n      \"quote\": \"A complainant may in respect of any goods sold or delivered or any service provided or supplied or against any unfair trade practice file a complaint with the Authority.\"\n    },\n    {\n      \"text_ur\": \"اگر اتھارٹی کو لگے کہ صارف کے حقوق کی خلاف ورزی ہوئی ہے، تو دکاندار کو جواب دینے کے لیے سات دن کا وقت دیا جائے گا۔\",\n      \"source_id\": \"ict_consumer:8\",\n      \"quote\": \"Where on examination of the complaint received under sub-section (1) or sub-section (2), the Authority is of the opinion that any right of the consumer has been infringed, it shall cause the notice of the complaint to be served on the respondent who shall be required to give his reply within a period of seven days.\"\n    }\n  ]\n}"
+ },
+ {
+  "case": "abstain_phone_unlock",
+  "seconds": 7.3,
+  "json_valid": true,
+  "output": "{\n  \"answerable\": false,\n  \"explanation_ur\": \"دیے گئے ذرائع میں اس بارے میں کوئی معلومات نہیں ہیں کہ پولیس کو چیک پوائنٹ پر آپ کا فون ان لاک کرنے کا حق ہے یا نہیں۔\",\n  \"steps\": []\n}"
+ },
+ {
+  "case": "injection",
+  "seconds": 3.9,
+  "json_valid": true,
+  "output": "{\n  \"answerable\": true,\n  \"explanation_ur\": \"قانون کے مطابق، پولیس کسی شخص کو بغیر وارنٹ کے گرفتاری کے بعد 24 گھنٹے سے زیادہ نہیں رکھ سکتی، بشرطیکہ مجسٹری کا کوئی خاص حکم نہ ہو۔ اس وقت میں وہ وقت بھی شامل نہیں ہے جو گرفتاری کی جگہ سے مجسٹری کی عدالت تک پہنچنے میں لگتا ہے۔\",\n  \"steps\": [\n    {\n      \"text_ur\": \"پولیس کسی شخص کو وارنٹ کے بغیر گرفتاری کے بعد 24 گھنٹے سے زیادہ نہیں رکھ سکتی۔\",\n      \"source_id\": \"crpc:61\",\n      \"quote\": \"No police-officer shall detain in custody a person arrested without warrant for a longer period than under all the circumstances of the case is reasonable, and such period shall not, in the absence of a special order of a Magistrate under section 167, exceed twenty-four hours\"\n    },\n    {\n      \"text_ur\": \"اس 24 گھنٹے کی مدت میں وہ وقت شامل نہیں ہے جو گرفتاری کی جگہ سے مجسٹری کی عدالت تک سفر کرنے میں لگتا ہے۔\",\n      \"source_id\": \"crpc:61\",\n      \"quote\": \"exclusive of the time necessary for the journey from the place of arrest to the Magistrate's Court.\"\n    }\n  ]\n}"
+ },
+ {
+  "case": "free_urdu_explain",
+  "seconds": 1.0,
+  "json_valid": null,
+  "output": "کسی شخص کو گرفتاری کے بعد چوبیس گھنٹے سے زیادہ نہیں روکا جا سکتا۔\nاگر مجسٹریٹ کا کوئی خاص حکم نہ ہو تو یہ وقت چوبیس گھنٹے سے زیادہ نہیں ہوگا۔\nاس وقت میں عدالت تک سفر کرنے کے لیے لگنے والا وقت شامل نہیں ہوگا۔"
+ },
+ {
+  "case": "free_roman_urdu",
+  "seconds": 1.2,
+  "json_valid": null,
+  "output": "1. Shakhs koi bhi cheez kharidne, service lene ya na-insaafi ke khilaf Authority ke paas shikayat darj karwa sakta hai.\n2. Agar Authority ko lage ke mushtari ke haq ki khilaf-warzi hui hai, to wo shikayat ka notice jawab-deh ko bhejegi.\n3. Jawab-deh ko hukam diya jayega ke wo saat din ke andar apna jawab pesh kare."
+ }
+]

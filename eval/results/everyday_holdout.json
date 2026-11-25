@@ -1,0 +1,1544 @@
+{
+ "summary": {
+  "set": "everyday_holdout.jsonl",
+  "baseline": false,
+  "questions": 40,
+  "answerable_answered": "30/32",
+  "answerable_clarify": 0,
+  "answerable_correct_law_cited": "19/32",
+  "answerable_gold_in_sources_considered": "23/32",
+  "unanswerable_correctly_not_answered": "8/8",
+  "latency_p50_s": 13.2,
+  "latency_p90_s": 18.1
+ },
+ "rows": [
+  {
+   "id": "h01",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "police_order:125"
+   ],
+   "considered": [
+    "police_order:156",
+    "police_order:106",
+    "police_order:125",
+    "crpc:54",
+    "crpc:22A",
+    "constitution:14"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "its quote was not found word-for-word in the official text",
+      "source": "police_order:156"
+     },
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "police_order:106"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "legal requirements for police to search a person or vehicle on a public road without a warrant or reasonable suspicion",
+   "issues": [
+    "Every person shall be entitled to protection against unreasonable search and seizure of their person or property by public officials.",
+    "A person aggrieved by an unlawful search by a police official may seek a remedy or file a complaint before the relevant oversight authority or court.",
+    "Whoever conducts a search without a valid legal reason or authorization shall be liable for misconduct or violation of the individual's rights."
+   ],
+   "summary": "A police officer is permitted to search a person in a public place only when they have reasonable grounds to suspect that the person is carrying an article unlawfully obtained or likely to be used in a crime.",
+   "seconds": 15.0,
+   "error": null
+  },
+  {
+   "id": "h02",
+   "expect": "answer",
+   "region": "punjab",
+   "status": "answered",
+   "level": 1,
+   "cited": [
+    "punjab_consumer:28"
+   ],
+   "considered": [
+    "punjab_consumer:4",
+    "punjab_consumer:28",
+    "punjab_consumer:23",
+    "punjab_consumer:31",
+    "punjab_consumer:30",
+    "punjab_consumer:20"
+   ],
+   "gold_cited": false,
+   "gold_considered": true,
+   "steps": 4,
+   "checks": {
+    "steps_proposed": 5,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "punjab_consumer:31"
+     }
+    ],
+    "quotes_snapped": 1,
+    "steps_kept": 4
+   },
+   "rewrite": "consumer rights for refund or replacement of defective washing machine and procedure for filing a complaint against a seller for failure to repair",
+   "issues": [
+    "A consumer shall be entitled to a refund or replacement of a product that is defective or does not perform its intended function.",
+    "A person aggrieved by a seller's failure to provide a functional product or repair service may file a complaint before the relevant consumer protection authority.",
+    "Whoever engages in unfair trade practices or sells defective goods may be subject to penalties or orders for compensation by the designated authority."
+   ],
+   "summary": "You must first send a written notice to the seller or manufacturer asking them to fix the defect or provide damages for the faulty product. The seller or manufacturer is required to reply to your written notice within 15 days of receiving it.",
+   "seconds": 18.3,
+   "error": null
+  },
+  {
+   "id": "h03",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "domestic_violence:8"
+   ],
+   "considered": [
+    "domestic_violence:8",
+    "crpc:522",
+    "domestic_violence:16",
+    "peca:24",
+    "peca:14",
+    "peca:29"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 5,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "domestic_violence:8"
+     },
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "domestic_violence:8"
+     },
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "domestic_violence:16"
+     }
+    ],
+    "quotes_snapped": 1,
+    "steps_kept": 2
+   },
+   "rewrite": "wife forcibly evicted from home by husband with threats of violence and harassment, seeking protection from domestic violence, recovery of personal belongings and child's belongings, and legal remedies for threats.",
+   "issues": [
+    "Every woman shall be entitled to protection against domestic violence, including physical assault, forced eviction from the matrimonial home, and threats of violence by her spouse.",
+    "A woman aggrieved by domestic violence or threats by her husband may seek protection orders and assistance from the relevant police authorities or designated protection centers.",
+    "A person aggrieved by the illegal withholding of personal belongings or a child's belongings may seek a court order for the recovery of such property."
+   ],
+   "summary": "You can ask the court to issue a protection order that prevents your husband from contacting you in any way, including via phone or electronic means, and requires him to stay away from you. You can request the court to order the nearest police station to provide you with protection or assist in impl",
+   "seconds": 18.9,
+   "error": null
+  },
+  {
+   "id": "h04",
+   "expect": "abstain",
+   "region": "punjab",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "ppc:217",
+    "workplace_harassment:9",
+    "constitution:38",
+    "punjab_police:79",
+    "punjab_police:91",
+    "punjab_police:55"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "eligibility criteria and score requirements for BISP social safety net payments and how to complain about exclusion from the payment list despite previous receipt of funds",
+   "issues": [
+    "Every person eligible for social safety net payments shall be entitled to receive funds provided they meet the prescribed socio-economic criteria and scoring thresholds.",
+    "A person aggrieved by the exclusion from a government social welfare program may file a complaint before the relevant department or ombudsperson to seek a review of their eligibility score.",
+    "Any public official who intentionally excludes a qualified beneficiary from a government payment scheme may be subject to disciplinary action or a formal inquiry."
+   ],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 6.5,
+   "error": null
+  },
+  {
+   "id": "h05",
+   "expect": "answer",
+   "region": "unknown",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ppc:489F",
+    "constitution:10"
+   ],
+   "considered": [
+    "ppc:489F",
+    "contract_act:60",
+    "cpc:128",
+    "constitution:14",
+    "constitution:10",
+    "crpc:496"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 4,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 4
+   },
+   "rewrite": "legal action for dishonoured cheque due to insufficient funds and recovery of debt",
+   "issues": [
+    "Every person who issues a cheque that is dishonoured by a bank due to insufficient funds shall be liable for criminal prosecution.",
+    "A person aggrieved by a dishonoured cheque may file a criminal complaint before the relevant judicial authority to seek punishment for the offender.",
+    "A creditor who is unable to recover a debt through criminal means may file a civil suit before the competent civil court to recover the outstanding amount."
+   ],
+   "summary": "If someone issues a cheque for a loan that is dishonored by the bank, they can be punished with imprisonment up to three years, a fine, or both. The person who issued the cheque must prove they had arranged with the bank to honor it and that the bank was at fault. If you are arrested, you have the r",
+   "seconds": 16.3,
+   "error": null
+  },
+  {
+   "id": "h06",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ict_rent:17"
+   ],
+   "considered": [
+    "ppc:441",
+    "ppc:442",
+    "specific_relief:8",
+    "ict_rent:17",
+    "ict_rent:18",
+    "ict_rent:5"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "ict_rent:17"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal consequences of landlord changing locks and evicting tenant before lease expiry despite full rent payment",
+   "issues": [
+    "Every tenant shall be entitled to peaceful possession of the leased premises for the duration of the agreed lease term provided that the rent is paid in full.",
+    "A person aggrieved by the illegal lockout or forcible eviction by a landlord may seek an injunction or restoration of possession from the civil court.",
+    "Whoever forcibly enters a premises or changes locks to deny a tenant access without due process of law shall be liable for criminal trespass and harassment."
+   ],
+   "summary": "If the landlord seeks eviction for personal use, they are not entitled to do so before the expiry of the agreed lease period. Provided that where the tenancy is for a specified period agreed upon between the landlord and the tenant, the landlord shall not be entitled to apply under this sub-section ",
+   "seconds": 17.2,
+   "error": null
+  },
+  {
+   "id": "h07",
+   "expect": "answer",
+   "region": "kp",
+   "status": "answered",
+   "level": 1,
+   "cited": [
+    "peca:24"
+   ],
+   "considered": [
+    "workplace_harassment:schedules",
+    "kp_workplace_harassment_of_women:13",
+    "workplace_harassment:2",
+    "peca:24",
+    "peca:14",
+    "peca:29"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "kp_workplace_harassment_of_women:13"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal remedies for sexual harassment and workplace harassment by a manager and owner of a private clinic including reporting to authorities without internal complaint",
+   "issues": [
+    "Every woman or employee shall have the right to a workplace free from sexual harassment, including unwelcome messages or demands for private meetings.",
+    "A person aggrieved by sexual harassment or harassment in the workplace may file a complaint before the relevant regulatory authority or the police.",
+    "Whoever commits an act of sexual harassment or harassment in the workplace shall be subject to punishment as prescribed by law."
+   ],
+   "summary": "Because your manager is using electronic messages to harass you, this may also constitute cyber stalking. A person commits the offence of cyber stalking who, with the intent to coerce or intimidate or harass any person, uses information system, information system network, the Internet, website, elec",
+   "seconds": 18.8,
+   "error": null
+  },
+  {
+   "id": "h08",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "crpc:190",
+    "crpc:22A"
+   ],
+   "considered": [
+    "crpc:190",
+    "crpc:4",
+    "crpc:154",
+    "crpc:22A",
+    "mvo_1965:116A",
+    "crpc:172"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 2,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "police refusal to register FIR for theft of motorcycle with CCTV evidence and procedure for complaint against police inaction",
+   "issues": [
+    "Every person aggrieved by the refusal of a police officer to register an information about a cognizable offence shall have the right to approach the relevant senior police officer or the magistrate.",
+    "A person aggrieved by the illegal detention of property or theft may seek a remedy through a formal complaint to the oversight authority for the registration of a case.",
+    "Whoever willfully refuses to register an information about a cognizable offence shall be liable for punishment under the law."
+   ],
+   "summary": "You can approach an ex-officio Justice of the Peace to address the police's refusal to register your case, as they can issue directions regarding the non-registration of a criminal case. A Magistrate has the power to take cognizance of the theft based on your complaint of facts regarding the crime.",
+   "seconds": 11.5,
+   "error": null
+  },
+  {
+   "id": "h09",
+   "expect": "answer",
+   "region": "sindh",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "sindh_consumer:13",
+    "sindh_consumer:29"
+   ],
+   "considered": [
+    "sindh_consumer:23",
+    "sindh_consumer:13",
+    "sindh_consumer:29",
+    "sindh_consumer:15",
+    "sindh_consumer:26",
+    "sindh_consumer:28"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 5,
+   "checks": {
+    "steps_proposed": 5,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 5
+   },
+   "rewrite": "where to file a consumer complaint for property damage caused by a service technician and how to claim compensation for repair costs",
+   "issues": [
+    "A consumer shall be entitled to compensation for any loss or damage caused to property by a service provider during the course of providing services.",
+    "A person aggrieved by a deficiency in service or damage to property by a service provider may file a complaint before the relevant consumer court or authority.",
+    "Whoever causes damage to the property of another person while performing a contracted service shall be liable to pay for the repair or replacement of said property."
+   ],
+   "summary": "You can file a claim for damages against the service provider in a Consumer Court because they are liable for damages caused by faulty services. You must first send a written notice to the provider and, if they do not respond within 15 days, you can file a claim in the Consumer Court within 30 days ",
+   "seconds": 15.7,
+   "error": null
+  },
+  {
+   "id": "h10",
+   "expect": "abstain",
+   "region": "ict",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "ict_consumer:2",
+    "ict_consumer:8A",
+    "ppc:462M",
+    "constitution:157",
+    "ict_domestic_workers:16",
+    "ict_senior_citizens:21"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "what is the current net-metering buyback rate for solar energy exported to the grid by a residential consumer in Islamabad and how to contest a discrepancy in the billing rate",
+   "issues": [
+    "Every consumer who exports electricity to the national grid under a net-metering agreement shall be entitled to the prevailing tariff rate as determined by the relevant regulatory authority.",
+    "A consumer aggrieved by an incorrect billing rate or a breach of the net-metering agreement may file a complaint before the electricity distribution company or the relevant regulatory commission.",
+    "The electricity distribution company shall be liable to rectify billing errors and provide the correct refund or credit for units exported to the grid in accordance with the signed agreement."
+   ],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 7.2,
+   "error": null
+  },
+  {
+   "id": "h11",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "specific_relief:19",
+    "ict_senior_citizens:14"
+   ],
+   "considered": [
+    "specific_relief:23",
+    "ppc:491",
+    "specific_relief:19",
+    "ict_senior_citizens:14",
+    "mflo:9",
+    "constitution:24"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "ict_senior_citizens:14"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "can an elderly person reclaim ownership of a house from a son who is violating a written agreement to provide maintenance and medical care, and what are the legal remedies for breach of maintenance obligations?",
+   "issues": [
+    "Every person who enters into a written agreement for the provision of maintenance and housing shall be entitled to seek specific performance or a court order for the fulfillment of those obligations.",
+    "A person aggrieved by the failure of a legal heir to provide maintenance and medical care as agreed may file a complaint before the relevant civil court to seek a decree for maintenance or the restoration of property rights.",
+    "Whoever intentionally violates a legally binding agreement to provide for the basic needs of an elderly parent may be held liable for breach of contract or misconduct."
+   ],
+   "summary": "You can submit your application for maintenance to an ADR Centre as provided in the Alternative Dispute Resolution Act, 2017. If you sue for the specific performance of the contract regarding your care and the court decides that specific performance is not the proper remedy, the court can award you ",
+   "seconds": 14.8,
+   "error": null
+  },
+  {
+   "id": "h12",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 1,
+   "cited": [
+    "torture_custodial:5"
+   ],
+   "considered": [
+    "police_order:106",
+    "torture_custodial:3",
+    "police_order:156",
+    "torture_custodial:5",
+    "crpc:168",
+    "police_order:4"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "police_order:106"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "police brutality and custodial torture by officers during investigation of theft, procedure for filing complaint against police, and right to medical examination and compensation",
+   "issues": [
+    "Every person shall be entitled to protection against torture and cruel, inhuman, or degrading treatment by any law enforcement official.",
+    "A person aggrieved by physical assault or custodial violence by police officers may file a complaint before the relevant oversight authority or a judicial magistrate.",
+    "Whoever commits an act of violence or physical hurt against a person in police custody shall be subject to disciplinary action and criminal prosecution."
+   ],
+   "summary": "The Agency is the specific body with the exclusive power to investigate complaints against public officials who have committed offenses under the Torture and Custodial Death Act. These investigations by the Agency must be conducted under the supervision of the National Commission for Human Rights.",
+   "seconds": 12.0,
+   "error": null
+  },
+  {
+   "id": "h13",
+   "expect": "answer",
+   "region": "punjab",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "crpc:522",
+    "crpc:145"
+   ],
+   "considered": [
+    "crpc:522",
+    "cpc:schedules",
+    "crpc:145",
+    "constitution:14",
+    "crpc:22A",
+    "crpc:25"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 4,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 4
+   },
+   "rewrite": "how to recover possession of land from a relative who changed the locks and took over the property without a court order",
+   "issues": [
+    "Every person who is in illegal possession of immovable property by force or without a valid legal title shall be liable to have such possession restored by a court of competent jurisdiction.",
+    "A person aggrieved by the illegal seizure of property and forcible entry may file a complaint before the police or a civil court to seek a restoration of possession and an injunction against the trespasser.",
+    "Whoever commits an act of criminal trespass or forcibly enters the property of another with the intent to commit an offence shall be liable for punishment under the law."
+   ],
+   "summary": "If you were dispossessed of your property through cheating, forgery, or criminal force, the Court can order the person who took it to return it to you within one month of their conviction. In cases where a land dispute is likely to cause a breach of peace, a Magistrate can investigate the evidence t",
+   "seconds": 17.7,
+   "error": null
+  },
+  {
+   "id": "h14",
+   "expect": "answer",
+   "region": "balochistan",
+   "status": "answered",
+   "level": 1,
+   "cited": [
+    "peca:29"
+   ],
+   "considered": [
+    "ppc:477A",
+    "peca:14",
+    "peca:13",
+    "peca:29",
+    "peca:24",
+    "limitation_act:18"
+   ],
+   "gold_cited": false,
+   "gold_considered": true,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 2,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "peca:14"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "legal consequences of online fraud and impersonation of a bank official to obtain money via WhatsApp, and how to report the crime and recover funds",
+   "issues": [
+    "Every person who commits fraud by impersonating a bank official or using a fake logo to deceive another person into transferring money shall be liable for punishment under the law.",
+    "A person aggrieved by online fraud or financial cheating may file a complaint with the relevant cybercrime authority or the police to initiate an investigation.",
+    "A person who is cheated of money through electronic means shall be entitled to seek a recovery of the amount from the perpetrator through the appropriate legal forum."
+   ],
+   "summary": "You can report this incident to the National Cyber Crime Investigation Agency (NCCIA). This is the specific agency established by the Federal Government to inquire into, investigate, and prosecute cyber crimes.",
+   "seconds": 12.8,
+   "error": null
+  },
+  {
+   "id": "h15",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "constitution:25A",
+    "police_order:4"
+   ],
+   "considered": [
+    "ppc:498B",
+    "constitution:25A",
+    "succession_act:22",
+    "constitution:14",
+    "constitution:10",
+    "police_order:4"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [],
+    "quotes_snapped": 1,
+    "steps_kept": 3
+   },
+   "rewrite": "legal rights of a minor girl regarding marriage and education, right to refuse marriage, and legal age of marriage in Pakistan",
+   "issues": [
+    "Every minor shall have the right to education and shall not be deprived of the opportunity to attend school due to marriage.",
+    "A minor girl who is forced into marriage against her will may seek protection and legal intervention from the relevant authorities or the judiciary.",
+    "Any person who marries a minor without the required legal age or consent may be subject to criminal penalties."
+   ],
+   "summary": "The State is required to provide you with free and compulsory education between the ages of five and sixteen. Additionally, the police have a duty to protect your rights and prevent the harassment of women and children in public places.",
+   "seconds": 11.6,
+   "error": null
+  },
+  {
+   "id": "h16",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "mflo:7"
+   ],
+   "considered": [
+    "ict_child_marriage:3",
+    "dmma:2",
+    "specific_relief:43",
+    "family_courts:7",
+    "mflo:7",
+    "mvo_1965:116A"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "legal validity of oral divorce by husband without registration or notice to wife and requirements for formal dissolution of marriage",
+   "issues": [
+    "Every woman shall be entitled to a formal notice of dissolution of marriage and a certified copy of the decree from the relevant local authority.",
+    "A person aggrieved by an oral declaration of divorce may seek a declaration from a court regarding the legal status of the marriage.",
+    "Whoever fails to comply with the legal requirements for the registration of a dissolution of marriage may be subject to legal penalties."
+   ],
+   "summary": "A man who wishes to divorce his wife must give a written notice to the Chairman as soon as possible after pronouncing talaq and must also provide a copy to the wife. Unless it is revoked earlier, a talaq is not effective until 90 days have passed from the day the notice was delivered to the Chairman",
+   "seconds": 13.8,
+   "error": null
+  },
+  {
+   "id": "h17",
+   "expect": "abstain",
+   "region": "kp",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "wafaqi_mohtasib:10",
+    "constitution:9A",
+    "peca:38",
+    "limitation_act:21",
+    "succession_act:191",
+    "contract_act:30C"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "eligibility of mother for knee replacement surgery under Sehat Card and whether the implant cost is covered or requires out-of-pocket payment",
+   "issues": [
+    "Every eligible person shall be entitled to medical treatment and surgical procedures as specified under the government health insurance scheme.",
+    "A person aggrieved by the denial of a covered medical procedure or the demand for additional payments for implants may file a complaint before the relevant health authority or ombudsperson.",
+    "The health insurance provider shall be liable to provide the full scope of treatment including necessary implants if the procedure is included in the approved package."
+   ],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 6.8,
+   "error": null
+  },
+  {
+   "id": "h18",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ict_rent:10",
+    "ict_rent:11"
+   ],
+   "considered": [
+    "ict_rent:9",
+    "ict_rent:10",
+    "ict_rent:11",
+    "ict_rent:18",
+    "cpc:128",
+    "ict_rent:2"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 4,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 4
+   },
+   "rewrite": "legal limit on rent increase for a commercial shop without a written agreement on escalation and rights of a tenant to contest arbitrary rent hikes",
+   "issues": [
+    "A tenant of a commercial property shall be entitled to the terms of the written agreement and may contest any rent increase not expressly provided for in the contract.",
+    "A person aggrieved by an arbitrary rent increase by a landlord may seek a declaration or stay from the relevant civil court.",
+    "A landlord who demands rent in excess of the agreed terms or without legal justification may be held liable for breach of contract."
+   ],
+   "summary": "For residential and non-residential buildings, the rent automatically increases by 10% every year unless there is a written agreement stating otherwise. However, a landlord cannot charge any amount higher than the 'fair rent' determined by the Controller, and any agreement to pay more than the fair ",
+   "seconds": 14.7,
+   "error": null
+  },
+  {
+   "id": "h19",
+   "expect": "answer",
+   "region": "unknown",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "peca:16"
+   ],
+   "considered": [
+    "peca:16",
+    "peca:14",
+    "peca:2C",
+    "peca:24",
+    "peca:26A",
+    "peca:29"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 2,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "how to report and get a fake social media account deleted that is using my identity and CNIC photo",
+   "issues": [
+    "Every person shall have the right to protection against the unauthorized use of their personal identity and government-issued identification documents by others.",
+    "A person aggrieved by the creation of a fraudulent social media profile using their identity may report the matter to the relevant cybercrime authority for removal of the account.",
+    "Whoever impersonates another person or uses their personal data without consent for fraudulent purposes shall be liable for punishment under the law."
+   ],
+   "summary": "You have the right to apply to the Authority to have the unauthorized use of your identity information blocked or destroyed. Upon receiving your application, the Authority can take appropriate actions to block access to or prevent the transmission of that information.",
+   "seconds": 10.1,
+   "error": null
+  },
+  {
+   "id": "h20",
+   "expect": "answer",
+   "region": "kp",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "constitution:10",
+    "crpc:497"
+   ],
+   "considered": [
+    "constitution:10",
+    "crpc:199A",
+    "crpc:61",
+    "crpc:497",
+    "crpc:54",
+    "crpc:496"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "constitution:10"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal rights of a minor detained by police without informing parents and procedure for bail or production before a magistrate in Abbottabad",
+   "issues": [
+    "Every child or minor detained by the police shall be produced before a magistrate within the prescribed time limit.",
+    "A person aggrieved by the failure of police officials to inform the parents or guardians of a minor's detention may file a complaint before the relevant oversight authority.",
+    "Every person has the right to be informed of the grounds of their arrest and the right to legal representation regardless of their financial status."
+   ],
+   "summary": "The police must bring your brother before a magistrate within 24 hours of his arrest, not counting the time taken to travel to the court. Because your brother is under the age of sixteen years, the court may direct that he be released on bail even if he is accused of a serious offence.",
+   "seconds": 13.7,
+   "error": null
+  },
+  {
+   "id": "h21",
+   "expect": "abstain",
+   "region": "ict",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "peca:37",
+    "constitution:165A",
+    "constitution:260",
+    "peca:29",
+    "peca:14",
+    "peca:24"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "how to calculate tax slab and report combined salary and freelance income in annual tax return",
+   "issues": [
+    "Every person shall be entitled to have their total annual income from all sources, including employment and freelance services, aggregated to determine the applicable tax rate.",
+    "A person aggrieved by incorrect tax assessment may file a complaint before the relevant tax authority to seek rectification.",
+    "Whoever provides false information regarding sources of income in a tax return shall be subject to penalties or prosecution."
+   ],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 6.4,
+   "error": null
+  },
+  {
+   "id": "h22",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ict_domestic_workers:13"
+   ],
+   "considered": [
+    "ict_domestic_workers:18",
+    "ict_domestic_workers:8",
+    "ict_domestic_workers:4",
+    "ict_domestic_workers:19",
+    "ict_domestic_workers:13",
+    "ict_domestic_workers:14"
+   ],
+   "gold_cited": false,
+   "gold_considered": true,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 2,
+    "dropped": [
+     {
+      "reason": "it stated a number that is not in its quote",
+      "source": "ict_domestic_workers:18"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "time limit for payment of outstanding wages to a domestic worker after termination of employment and legal remedy for non-payment of salary",
+   "issues": [
+    "Every domestic worker shall be entitled to receive all outstanding wages and dues within a reasonable timeframe following the termination of their employment.",
+    "A domestic worker aggrieved by the non-payment of wages may file a complaint before the relevant labor authority or magistrate to seek recovery of unpaid salary.",
+    "Whoever fails to pay the wages of a domestic worker upon the termination of service may be subject to penalties or legal action for breach of employment terms."
+   ],
+   "summary": "You have the right to receive one month's wages as a substitute for a written notice of one month if your employer terminates your employment.",
+   "seconds": 10.6,
+   "error": null
+  },
+  {
+   "id": "h23",
+   "expect": "answer",
+   "region": "sindh",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "guardians_wards:17"
+   ],
+   "considered": [
+    "guardians_wards:17",
+    "juvenile_justice:2",
+    "sindh_domestic_violence:13",
+    "cpc:schedules",
+    "guardians_wards:7",
+    "guardians_wards:11"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "custody of a minor child between parents where the child is over seven years old and the child prefers to stay with the mother due to school and stability",
+   "issues": [
+    "Every person seeking custody of a minor child shall be entitled to have the court consider the welfare of the child as the primary factor in the decision.",
+    "A person aggrieved by a custody dispute may file a petition before the relevant family court to seek a decree for custody.",
+    "The court shall take into account the child's preference, current living arrangements, and educational stability when determining the best interests of the child."
+   ],
+   "summary": "The court is required to make decisions based on what is best for the minor's welfare rather than just following a specific rule. When deciding what is best for the child, the judge will look at his age, sex, and religion, but also the character of the proposed guardian and his relationship with the",
+   "seconds": 13.5,
+   "error": null
+  },
+  {
+   "id": "h24",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "mvo_1965:89A"
+   ],
+   "considered": [
+    "mvo_1965:89A",
+    "mvo_1965:89",
+    "ppc:140",
+    "constitution:14",
+    "crpc:22A",
+    "police_order:156"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 1,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "legal requirement for pillion rider to wear a helmet on a motorcycle in Pakistan",
+   "issues": [
+    "Every person riding a motorcycle as a pillion rider shall be required to wear a protective helmet while in motion on a public road."
+   ],
+   "summary": "The law requires every person on a two-wheeled motorcycle, including the person sitting behind the driver, to wear a crash helmet.",
+   "seconds": 6.8,
+   "error": null
+  },
+  {
+   "id": "h25",
+   "expect": "abstain",
+   "region": "unknown",
+   "status": "clarify",
+   "level": null,
+   "cited": [],
+   "considered": [],
+   "gold_cited": false,
+   "gold_considered": null,
+   "steps": 0,
+   "checks": null,
+   "rewrite": "passport validity for a minor child and the maximum duration allowed for a child's passport renewal",
+   "issues": [
+    "Every minor child shall be entitled to a passport with a validity period determined by the relevant issuing authority based on age and purpose of travel."
+   ],
+   "summary": "This depends on where you are. Which province or city?",
+   "seconds": 1.8,
+   "error": null
+  },
+  {
+   "id": "h26",
+   "expect": "answer",
+   "region": "ict",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "ppc:206",
+    "succession_act:45",
+    "cpc:16",
+    "succession_act:34",
+    "succession_act:56",
+    "succession_act:49"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "checks": {
+      "steps_proposed": 1,
+      "dropped": [
+       {
+        "reason": "its quote was not found word-for-word in the official text",
+        "source": "cpc:16"
+       }
+      ],
+      "quotes_snapped": 0,
+      "steps_kept": 0
+     }
+    }
+   ],
+   "rewrite": "how to claim inheritance share of a house from siblings who excluded daughters from the property records and are collecting rent without consent",
+   "issues": [
+    "Every legal heir shall be entitled to their respective share of the ancestral or inherited property as determined by the law of inheritance.",
+    "A person aggrieved by the exclusion of their name from property records or the illegal collection of rent by other heirs may file a suit for partition and declaration before the competent civil court.",
+    "Whoever fraudulently excludes a legal heir from property records or misappropriates the rental income of the property shall be liable for civil and criminal action."
+   ],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 8.5,
+   "error": null
+  },
+  {
+   "id": "h27",
+   "expect": "answer",
+   "region": "punjab",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "cpc:schedules",
+    "punjab_consumer:33",
+    "punjab_rent:13",
+    "punjab_rent:6",
+    "specific_relief:10",
+    "succession_act:375"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "checks": {
+      "steps_proposed": 2,
+      "dropped": [
+       {
+        "reason": "its quote was not found word-for-word in the official text",
+        "source": "punjab_rent:6"
+       },
+       {
+        "reason": "the quote did not fully support the claim",
+        "source": "punjab_rent:13"
+       }
+      ],
+      "quotes_snapped": 0,
+      "steps_kept": 0
+     }
+    }
+   ],
+   "rewrite": "how to recover refundable security deposit from a landlord after vacating a flat and returning keys, and which court or authority handles such a dispute",
+   "issues": [
+    "A tenant who has vacated a premises and returned the keys shall be entitled to the refund of a security deposit as per the terms of the rental agreement.",
+    "A person aggrieved by the refusal of a landlord to refund a security deposit may file a complaint before the relevant civil court or consumer protection authority.",
+    "Whoever dishonestly refuses to return a security deposit as agreed upon in a contract may be liable for a civil suit for recovery of money."
+   ],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 10.7,
+   "error": null
+  },
+  {
+   "id": "h28",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "rti:17"
+   ],
+   "considered": [
+    "rti:17",
+    "rti:14",
+    "ict_senior_citizens:18",
+    "constitution:14",
+    "crpc:22A",
+    "crpc:25"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "rti:17"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "procedure for filing a complaint against a government department for failing to respond to a formal information request within the prescribed time limit and how to seek a remedy for non-compliance",
+   "issues": [
+    "A person aggrieved by the failure of a public authority to provide requested information within the stipulated timeframe may file a complaint before the relevant oversight body or ombudsperson.",
+    "Every public official shall be required to provide information to a citizen within a reasonable period as prescribed by the rules governing public information.",
+    "A person seeking access to public records shall have the right to seek a remedy or penalty against a government department for unreasonable delay or refusal to disclose information."
+   ],
+   "summary": "Since the public body has failed to respond to your request within the legal timeframe, you have the right to file a free appeal with the Information Commission within 30 days of the deadline passing. The Commission is required to decide on your appeal within 60 days.",
+   "seconds": 13.7,
+   "error": null
+  },
+  {
+   "id": "h29",
+   "expect": "answer",
+   "region": "unknown",
+   "status": "answered",
+   "level": 1,
+   "cited": [
+    "peca:24"
+   ],
+   "considered": [
+    "peca:24",
+    "workplace_harassment:schedules",
+    "peca:37",
+    "peca:14",
+    "anti_rape:25",
+    "peca:29"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "peca:24"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "legal remedies for persistent unwanted communication and stalking by a man despite a written request to stop, including late-night messages and monitoring of movements, and whether a lack of response from the woman affects her right to report harassment.",
+   "issues": [
+    "Every woman shall have the right to protection against persistent unwanted communication and stalking by a person who has been instructed in writing to cease such contact.",
+    "A person aggrieved by persistent unwanted communication or monitoring of their movements may file a complaint with the relevant law enforcement authority or cybercrime cell.",
+    "Whoever subjects a woman to harassment, stalking, or threats through electronic means or physical monitoring shall be subject to punishment as prescribed by law."
+   ],
+   "summary": "The person's actions of repeatedly contacting you despite your clear indication of disinterest constitutes the offense of cyber stalking. You or your guardian can apply to the Authority to have the information blocked, removed, or destroyed.",
+   "seconds": 14.0,
+   "error": null
+  },
+  {
+   "id": "h30",
+   "expect": "abstain",
+   "region": "balochistan",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "ppc:177",
+    "ppc:203",
+    "constitution:253",
+    "wafaqi_mohtasib:14",
+    "cpc:61",
+    "succession_act:79"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "eligibility criteria for solar pump subsidy for agricultural land owned by a father but managed by a tenant or contractor",
+   "issues": [
+    "Every person seeking a government subsidy for agricultural equipment shall be entitled to the benefit only if they hold the legal title or ownership of the land.",
+    "A person aggrieved by the denial of a subsidy due to land ownership status may file a complaint before the relevant agricultural department authority.",
+    "Whoever provides false information regarding land ownership to obtain a government subsidy shall be subject to legal penalties for fraud."
+   ],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 6.7,
+   "error": null
+  },
+  {
+   "id": "h31",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "constitution:10",
+    "crpc:491"
+   ],
+   "considered": [
+    "constitution:10",
+    "crpc:86",
+    "crpc:491",
+    "crpc:54",
+    "crpc:496",
+    "police_order:4"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "legal time limit for production of an arrested person before a magistrate and rights of the accused regarding detention without a warrant",
+   "issues": [
+    "Every person arrested by the police shall be produced before a magistrate within a specific time limit from the time of arrest.",
+    "A person aggrieved by illegal detention without a warrant or beyond the prescribed time limit may seek a writ of habeas corpus or file a complaint before the relevant judicial authority.",
+    "Any public servant who fails to produce an arrested person before a magistrate within the legally mandated timeframe shall be liable for punishment for illegal detention."
+   ],
+   "summary": "Your husband has a right to be produced before a magistrate within 24 hours of his arrest. The police are required to inform him of the reasons for his arrest and allow him to speak with a lawyer of his choice. You can also approach the High Court to seek his release if he is being held illegally.",
+   "seconds": 15.7,
+   "error": null
+  },
+  {
+   "id": "h32",
+   "expect": "answer",
+   "region": "sindh",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "family_courts:7"
+   ],
+   "considered": [
+    "cpc:schedules",
+    "family_courts:schedules",
+    "family_courts:7",
+    "ppc:498A",
+    "specific_relief:54",
+    "specific_relief:11"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 1,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "can a woman seeking dissolution of marriage at her own request also claim the return of her personal belongings and furniture from her in-laws in the same proceeding",
+   "issues": [
+    "A woman seeking dissolution of marriage at her own request shall be entitled to the return of her personal belongings and dowry items from her in-laws.",
+    "A person aggrieved by the refusal of a spouse to return personal property may seek a decree for the recovery of such property from the relevant family court.",
+    "Whoever unlawfully retains the personal property of a woman following the dissolution of marriage may be subject to legal action for the recovery of said property."
+   ],
+   "summary": "You can include your claim for personal property and belongings in the same lawsuit as your petition for the dissolution of marriage (Khula). You do not need to file a separate case for your belongings.",
+   "seconds": 9.8,
+   "error": null
+  },
+  {
+   "id": "h33",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ppc:162"
+   ],
+   "considered": [
+    "ppc:162",
+    "ppc:171E",
+    "police_order:106",
+    "constitution:14",
+    "police_order:156",
+    "crpc:22A"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 2,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "ppc:171E"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "legal consequences of a traffic police officer demanding a cash bribe for not issuing a traffic violation ticket and the procedure to report such corruption",
+   "issues": [
+    "Every public servant who demands or accepts a gratification or bribe for performing or omitting to perform a public duty shall be liable to punishment.",
+    "A person aggrieved by the demand of a bribe or corrupt practice by a police official may file a complaint before the relevant oversight authority or anti-corruption commission.",
+    "Every citizen shall have the right to be treated with dignity and shall be protected against the arbitrary demand of money by law enforcement officials."
+   ],
+   "summary": "The law states that anyone who attempts to obtain any gratification as a reward for inducing a public servant to show favor or to perform an official act can be punished with imprisonment for a term which may extend to three years, or with fine, or with both.",
+   "seconds": 14.5,
+   "error": null
+  },
+  {
+   "id": "h34",
+   "expect": "answer",
+   "region": "punjab",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "legal_aid:9"
+   ],
+   "considered": [
+    "legal_aid:2",
+    "legal_aid:9",
+    "legal_aid:17",
+    "crpc:496",
+    "constitution:10",
+    "torture_custodial:3"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 4,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 4
+   },
+   "rewrite": "legal aid for an indigent person facing a theft charge who cannot afford a private lawyer",
+   "issues": [
+    "Every person who is unable to afford legal representation due to poverty shall be entitled to legal aid provided by the state.",
+    "A person aggrieved by an inability to pay for a private counsel may apply to the relevant authority for the appointment of a legal aid lawyer.",
+    "The state shall provide legal assistance to ensure that an indigent person's right to a fair trial is not prejudiced by their financial status."
+   ],
+   "summary": "The Authority provides legal aid and assistance to individuals charged with a criminal offense who are unable to afford legal representation or access to justice. You must submit an application to the Authority in the required manner, which must be supported by an affidavit sworn by you.",
+   "seconds": 14.7,
+   "error": null
+  },
+  {
+   "id": "h35",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ict_corporal_punishment:3",
+    "ict_corporal_punishment:2"
+   ],
+   "considered": [
+    "ict_corporal_punishment:3",
+    "ict_corporal_punishment:8",
+    "crpc:392",
+    "ict_corporal_punishment:2",
+    "crpc:390",
+    "domestic_violence:5"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 4,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 4
+   },
+   "rewrite": "legal remedy for physical punishment and corporal punishment of a child by a teacher in a private school and the rights of a parent to complain against school administration",
+   "issues": [
+    "Every child shall be entitled to protection against physical violence and corporal punishment by educational institutions or staff.",
+    "A parent aggrieved by physical abuse or harsh treatment of a child by a school official may file a complaint before the relevant education authority or a consumer court.",
+    "Whoever administers physical punishment to a student in a school shall be liable for disciplinary action or legal proceedings for misconduct."
+   ],
+   "summary": "Corporal punishment is strictly prohibited for children in all types of schools, including private ones. Any physical force used to cause pain or discomfort, or any treatment that humiliates or degrades a child, is illegal. You can seek legal protection or report the incident as it violates the chil",
+   "seconds": 19.1,
+   "error": null
+  },
+  {
+   "id": "h36",
+   "expect": "abstain",
+   "region": "sindh",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "constitution:schedules",
+    "constitution:260",
+    "ppc:331",
+    "constitution:10",
+    "constitution:14",
+    "torture_custodial:3"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "eligibility for monthly pension versus lump sum payment from social security fund for an employee with 12 years of service and age 60",
+   "issues": [
+    "Every person who has contributed to the social security fund for a minimum period shall be entitled to a monthly pension upon reaching the age of retirement.",
+    "A person aggrieved by the non-payment of pension or incorrect calculation of service years may file a complaint before the relevant social security authority.",
+    "The authority shall determine whether the length of service qualifies the employee for a monthly pension or a one-time lump sum payment."
+   ],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 7.3,
+   "error": null
+  },
+  {
+   "id": "h37",
+   "expect": "answer",
+   "region": "unknown",
+   "status": "answered",
+   "level": 1,
+   "cited": [
+    "peca:24"
+   ],
+   "considered": [
+    "peca:22A",
+    "peca:21",
+    "peca:24A",
+    "peca:24",
+    "peca:14",
+    "peca:29"
+   ],
+   "gold_cited": false,
+   "gold_considered": true,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "its quote was not found word-for-word in the official text",
+      "source": "peca:21"
+     },
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "peca:24"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "legal remedies and criminal penalties for blackmailing a woman with threats to share private sexual videos on social media and WhatsApp",
+   "issues": [
+    "Every person who threatens to share private sexual content of another person with the intent to extort money or cause harm shall be subject to criminal prosecution.",
+    "A woman who is threatened with the distribution of private sexual images or videos may report the matter to the police or the relevant cybercrime authority for immediate intervention.",
+    "Any person who distributes or threatens to distribute private sexual content without consent shall be liable for punishment under the law."
+   ],
+   "summary": "You or your guardian can apply to the Authority to have the information or communication blocked or removed.",
+   "seconds": 12.7,
+   "error": null
+  },
+  {
+   "id": "h38",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "wafaqi_mohtasib:14",
+    "wafaqi_mohtasib:10"
+   ],
+   "considered": [
+    "wafaqi_mohtasib:14",
+    "wafaqi_mohtasib:10",
+    "workplace_harassment:9",
+    "crpc:schedules",
+    "ict_consumer:8",
+    "ict_consumer:5"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 4,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 4
+   },
+   "rewrite": "how to file a complaint against Pakistan Post for lost parcel and lack of transparency in complaint resolution",
+   "issues": [
+    "A consumer who is aggrieved by the loss of goods or poor service by a government-run postal service shall have the right to seek redress for the value of the lost item.",
+    "A person aggrieved by the failure of a public service provider to resolve a formal complaint may file a complaint before the relevant ombudsperson or oversight authority.",
+    "Every public servant or official responsible for a public service shall be liable to disciplinary action or investigation for negligence or failure to provide information regarding the status of a public grievance."
+   ],
+   "summary": "You can submit a written complaint to the Mohtasib, either in person at the office or through any other means of communication, provided it is made on solemn affirmation or oath. Your complaint must be filed no later than three months after you first became aware of the issue with your parcel.",
+   "seconds": 18.1,
+   "error": null
+  },
+  {
+   "id": "h39",
+   "expect": "abstain",
+   "region": "balochistan",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "balochistan_police:33",
+    "juvenile_justice:8",
+    "constitution:106",
+    "constitution:14",
+    "crpc:22A",
+    "crpc:25"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "minimum age requirement for obtaining a learner license for a motorcycle in Balochistan",
+   "issues": [
+    "Every person seeking a learner license for a motorcycle shall be entitled to obtain it provided they meet the minimum age requirement prescribed by the relevant transport authority."
+   ],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 5.6,
+   "error": null
+  },
+  {
+   "id": "h40",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "family_courts:17A"
+   ],
+   "considered": [
+    "family_courts:17A",
+    "domestic_violence:9",
+    "guardians_wards:45",
+    "ppc:66",
+    "ict_rent:22",
+    "ict_child_marriage:11"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "it stated a number that is not in its quote",
+      "source": "family_courts:17A"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "how to obtain interim maintenance for children's school fees and living expenses while a maintenance case is pending in court",
+   "issues": [
+    "A woman may apply to the court for an interim order directing the father to provide immediate maintenance for the children's living expenses and school fees while the main case is pending.",
+    "A person aggrieved by the non-payment of maintenance may seek a court order to enforce the payment of arrears and regular monthly expenses.",
+    "Whoever fails to provide maintenance for their children as ordered by a court may be subject to penalties or imprisonment for non-compliance."
+   ],
+   "summary": "You can ask the Family Court to issue an interim order for maintenance at any stage of your ongoing maintenance suit. If the father fails to make the payment by the deadline, the court may strike off his defense and grant the decree for the suit.",
+   "seconds": 12.3,
+   "error": null
+  }
+ ]
+}

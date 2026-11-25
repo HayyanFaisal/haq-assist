@@ -1,0 +1,7 @@
+{
+ "chunking": "window",
+ "query": "raw+rewrite",
+ "retriever": "bge-m3+qwen3",
+ "rerank": true,
+ "abstain_threshold": 0.51
+}

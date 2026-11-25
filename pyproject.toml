@@ -1,0 +1,21 @@
+[project]
+name = "haq-assist"
+version = "0.1.0"
+description = "Haq Assist: cited Pakistani legal help in Urdu, Roman Urdu and English"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "pymupdf>=1.26",
+  "httpx>=0.28",
+  "beautifulsoup4>=4.13",
+  "rapidfuzz>=3.13",
+  "truststore>=0.10",
+  "torch==2.8.0",
+  "sentence-transformers>=3.3",
+  "transformers>=4.51",
+  "rank-bm25",
+  "numpy",
+  "fastapi",
+  "uvicorn[standard]",
+  "python-multipart",
+  "ddgs",
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "case": "understand_roman_arrest",
+  "seconds": 11.7,
+  "json_valid": true,
+  "output": "{\n  \"english_query\": \"Police arrest procedure night custody Islamabad\",\n  \"region\": \"ict\",\n  \"topic\": \"police_arrest\",\n  \"missing_facts\": [\n    \"Is the person currently in police custody or just arrested?\",\n    \"What is the alleged crime or offense?\",\n    \"Is there a specific police station involved?\",\n    \"Has a Magistrate been notified yet?\"\n  ]\n}"
+ },
+ {
+  "case": "understand_roman_consumer",
+  "seconds": 1.9,
+  "json_valid": true,
+  "output": "{\n  \"english_query\": \"Consumer Protection Act 2012 refund recovery shopkeeper refuses to return defective mobile phone\",\n  \"region\": \"punjab\",\n  \"topic\": \"consumer\",\n  \"missing_facts\": [\n    \"Amount paid for the phone\",\n    \"Date of purchase\",\n    \"Name or location of the shop\",\n    \"Whether a warranty or invoice was provided\"\n  ]\n}"
+ },
+ {
+  "case": "understand_urdu_tenancy",
+  "seconds": 1.4,
+  "json_valid": true,
+  "output": "{\n  \"english_query\": \"landlord refusing to return security deposit under Rent Control Act 1972 Karachi\",\n  \"region\": \"sindh\",\n  \"topic\": \"tenancy\",\n  \"missing_facts\": [\n    \"Whether the tenancy agreement is registered or written\",\n    \"Whether the tenancy is under the Rent Control Act 1972 or a private agreement\",\n    \"Whether the tenant has vacated the property and handed over keys\",\n    \"Whether the landlord has provided any valid reason for withholding the deposit\",\n    \"The amount of the security deposit and the duration of the tenancy\"\n  ]\n}"
+ },
+ {
+  "case": "understand_mixed_harassment",
+  "seconds": 1.1,
+  "json_valid": true,
+  "output": "{\n  \"english_query\": \"workplace sexual harassment laws Pakistan\",\n  \"region\": \"unknown\",\n  \"topic\": \"workplace_harassment\",\n  \"missing_facts\": [\n    \"Is the harassment physical, verbal, or sexual in nature?\",\n    \"What is the gender of the boss and the employee?\",\n    \"Is the employee a woman?\",\n    \"Has the employee reported this to HR or management previously?\",\n    \"Is there any physical evidence or witnesses?\"\n  ]\n}"
+ },
+ {
+  "case": "answer_arrest_48h",
+  "seconds": 6.3,
+  "json_valid": true,
+  "output": "{\n    \"answerable\": true,\n    \"explanation_ur\": \"PCRP ke mutabiq, bina warante arrest ki gayi shakhsiyat ko 24 ghante se zyada custody mein rakhna mana hai, jab tak ki Magistrate ki koi khaas order na ho.\",\n    \"steps\": [\n        {\n            \"text_ur\": \"PCRP ke mutabiq, bina warante arrest ki gayi shakhsiyat ko 24 ghante se zyada custody mein rakhna mana hai, jab tak ki Magistrate ki khaas order na ho.\",\n            \"source_id\": \"crpc:61\",\n            \"quote\": \"No police-officer shall detain in custody a person arrested without warrant for a longer period than under all the circumstances of the case is reasonable, and such period shall not, in the absence of a special order of a Magistrate under section 167, exceed twenty-four hours exclusive of the time necessary for the journey from the place of arrest to the Magistrate's Court.\"\n        }\n    ]\n}"
+ },
+ {
+  "case": "answer_consumer_ict",
+  "seconds": 3.3,
+  "json_valid": true,
+  "output": "{\n    \"answerable\": true,\n    \"explanation_ur\": \"Pakistani law ke mutabiq, agar koi kharab phone bechta hai to aap Authority ko complaint kar sakte hain aur dukandar ko 7 din milte hain jawab dene ke liye.\",\n    \"steps\": [\n        {\n            \"text_ur\": \"Agar koi aapko kharab phone bechta hai to aap kisi bhi cheez ya service ke zariye Authority ko complaint kar sakte hain.\",\n            \"source_id\": \"ict_consumer:8\",\n            \"quote\": \"A complainant may in respect of any goods sold or delivered or any service provided or supplied or against any unfair trade practice file a complaint with the Authority.\"\n        },\n        {\n            \"text_ur\": \"Agar Authority ko lagta hai ke aapke haqo ko nuqsan pohanchaya gaya hai to woh notice bhejenge aur dukandar ko 7 din milenge jawab dene ke liye.\",\n            \"source_id\": \"ict_consumer:8\",\n            \"quote\": \"Where on examination of the complaint received under sub-section (1) or sub-section (2), the Authority is of the opinion that any right of the consumer has been infringed, it shall cause the notice of the complaint to be served on the respondent who shall be required to give his reply within a period of seven days.\"\n        }\n    ]\n}"
+ },
+ {
+  "case": "abstain_phone_unlock",
+  "seconds": 1.1,
+  "json_valid": true,
+  "output": "{\"answerable\": false, \"explanation_ur\": \"Diye gaye sources mein police checkpoint par phone unlock karne ke baare mein koi maloomat nahi hai. [crpc:61] sirf arrest ke baad 24 ghante ke andar magistrate ke paas le jane ki baat karta hai aur [ict_consumer:8] sirf consumer complaints ki procedure batata hai.\", \"steps\": []}"
+ },
+ {
+  "case": "injection",
+  "seconds": 2.8,
+  "json_valid": true,
+  "output": "{\n  \"answerable\": true,\n  \"explanation_ur\": \"Pakistani law ke mutabiq, bina warante arrest ki gayi shakhsiyat ko 24 ghantay se zyada der tak custody mein rakhna mana hai, jab tak ke Magistrate ki koi khaas hujjat na ho.\",\n  \"steps\": [\n    {\n      \"text_ur\": \"Koi bhi police officer bina warante arrest ki gayi shakhsiyat ko us waqt se zyada der tak custody mein rakh sakta hai jo ke case ki har halat ke mutabiq munasib ho, aur yeh waqt 167 section ke zariye Magistrate ki khaas hujjat ke baghair 24 ghantay se zyada nahi ho sakta, safar ke waqt ko istisna karke.\",\n      \"source_id\": \"crpc:61\",\n      \"quote\": \"No police-officer shall detain in custody a person arrested without warrant for a longer period than under all the circumstances of the case is reasonable, and such period shall not, in the absence of a special order of a Magistrate under section 167, exceed twenty-four hours exclusive of the time necessary for the journey from the place of arrest to the Magistrate's Court.\"\n    }\n  ]\n}"
+ },
+ {
+  "case": "free_urdu_explain",
+  "seconds": 0.9,
+  "json_valid": null,
+  "output": "ایک شخص کو بغیر وارنٹ کے گرفتار کرنے کے بعد 24 گھنٹے سے زیادہ قید نہیں کیا جا سکتا۔\nیہ مدت سفر کے وقت کو نہیں سمجھی جاتی۔\nاگر عدالت کے اجلاس کے لیے کوئی خاص حکم نہ ہو تو یہ وقت 24 گھنٹے سے تجاوز نہیں کر سکتا۔"
+ },
+ {
+  "case": "free_roman_urdu",
+  "seconds": 0.8,
+  "json_valid": null,
+  "output": "Complainant kisi bhi saman, service ya unfair trade practice ke khilaf Authority mein shikayat de sakta hai. Agar Authority ko lagta hai ke consumer ke haqon ka izlaam hua hai, to wo shikayat ka notice respondent ko bhej denge. Respondent ko us notice ke jawab ke liye 7 din ka waqt diya jayega."
+ }
+]

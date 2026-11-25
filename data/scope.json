@@ -1,0 +1,614 @@
+{
+ "balochistan_consumer": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "balochistan"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "balochistan_domestic_violence": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "balochistan"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "balochistan_mvo": {
+  "status": "excluded",
+  "reason": "Triple check failed: Codex found this PDF incorporates Punjab-specific provisions, so it is not verified as Balochistan's version."
+ },
+ "balochistan_police": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "balochistan"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "balochistan_rent": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "balochistan"
+  ],
+  "scope_note": "Provincial code portal version. A footnote in the official PDF (p. 3) records an extension under Article 247(3) by Government of Balochistan notification dated 27 January 2014."
+ },
+ "balochistan_workplace_harassment_of_women": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "balochistan"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "anti_rape": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "constitution": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "contract_act": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "cpc": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "crpc": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "dmma": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "family_courts": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "guardians_wards": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "juvenile_justice": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "legal_aid": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "mflo": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "peca": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "ppc": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "qso": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "specific_relief": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "succession_act": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "torture_custodial": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "wafaqi_mohtasib": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "domestic_violence": {
+  "status": "included",
+  "level": "federal (ICT law)",
+  "applies_in": [
+   "ict"
+  ],
+  "scope_note": "Extent clause: Islamabad Capital Territory."
+ },
+ "ict_child_marriage": {
+  "status": "included",
+  "level": "federal (ICT law)",
+  "applies_in": [
+   "ict"
+  ],
+  "scope_note": "Extent clause: Islamabad Capital Territory."
+ },
+ "ict_consumer": {
+  "status": "included",
+  "level": "federal (ICT law)",
+  "applies_in": [
+   "ict"
+  ],
+  "scope_note": "Extent clause: Islamabad Capital Territory."
+ },
+ "ict_corporal_punishment": {
+  "status": "included",
+  "level": "federal (ICT law)",
+  "applies_in": [
+   "ict"
+  ],
+  "scope_note": "Extent clause: Islamabad Capital Territory."
+ },
+ "ict_domestic_workers": {
+  "status": "included",
+  "level": "federal (ICT law)",
+  "applies_in": [
+   "ict"
+  ],
+  "scope_note": "Extent clause: Islamabad Capital Territory."
+ },
+ "ict_rent": {
+  "status": "included",
+  "level": "federal (ICT law)",
+  "applies_in": [
+   "ict"
+  ],
+  "scope_note": "Extent clause: Islamabad Capital Territory."
+ },
+ "ict_senior_citizens": {
+  "status": "included",
+  "level": "federal (ICT law)",
+  "applies_in": [
+   "ict"
+  ],
+  "scope_note": "Extent clause: Islamabad Capital Territory."
+ },
+ "mvo_1965": {
+  "status": "included",
+  "level": "West Pakistan ordinance (Pakistan Code edition, as applied in ICT)",
+  "applies_in": [
+   "ict"
+  ],
+  "scope_note": "Promulgated as a West Pakistan ordinance; this Pakistan Code edition carries ICT amendments. Each province applies its own amended version."
+ },
+ "police_order": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict"
+  ],
+  "scope_note": "General (federal) text of the Police Order 2002; extent: whole of Pakistan. Article 1(3) made its commencement in ICT conditional. The Islamabad High Court recorded on 17 Sep 2020 (W.P. 2407/2020) that 'The Police Order, 2002 has been enforced' in ICT. Provinces apply their own amended versions or police laws."
+ },
+ "rti": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Applies to federal public bodies anywhere in Pakistan; provincial bodies fall under provincial RTI laws (not in the library)."
+ },
+ "women_property": {
+  "status": "included",
+  "level": "federal (ICT law)",
+  "applies_in": [
+   "ict"
+  ],
+  "scope_note": "Extent clause: Islamabad Capital Territory."
+ },
+ "workplace_harassment": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Federal Act (amended 2022); extent: whole of Pakistan. Punjab, KP and Balochistan have also enacted their own versions, which the app shows first for those provinces; Sindh operates under this Act."
+ },
+ "kp_consumer": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "kp"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "kp_domestic_violence": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "kp"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "kp_mvo": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "kp"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "kp_police": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "kp"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "kp_rent": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "kp"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "kp_workplace_harassment_of_women": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "kp"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "punjab_consumer": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "punjab"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "punjab_domestic_violence": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "punjab"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "punjab_mvo": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "punjab"
+  ],
+  "scope_note": "Provincial code portal version. Its extent clause still reads 'Pakistan' from the original text; the portal publishes it as the provincial version."
+ },
+ "punjab_police": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "punjab"
+  ],
+  "scope_note": "Provincial code portal version. Its extent clause still reads 'Pakistan' from the original text; the portal publishes it as the provincial version."
+ },
+ "punjab_rent": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "punjab"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "punjab_workplace_harassment_of_women": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "punjab"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "sindh_consumer": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "sindh"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "sindh_domestic_violence": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "sindh"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "sindh_mvo": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "sindh"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "sindh_police": {
+  "status": "excluded",
+  "reason": "Triple check failed: the official PDF is an amending act with a broken text layer, and a schedule item collided with Article 2. Questions go to the online fallback."
+ },
+ "sindh_rent": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "sindh"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "sindh_workplace_harassment_of_women": {
+  "status": "excluded",
+  "reason": "Version unverified: this is the federal Act hosted by the federal ombudsperson (fospah.gov.pk), not a Sindh text."
+ },
+ "limitation_act": {
+  "status": "included",
+  "level": "federal",
+  "applies_in": [
+   "ict",
+   "punjab",
+   "sindh",
+   "kp",
+   "balochistan"
+  ],
+  "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+ },
+ "punjab_land_revenue": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "punjab"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "punjab_women_property": {
+  "status": "included",
+  "level": "provincial",
+  "applies_in": [
+   "punjab"
+  ],
+  "scope_note": "Provincial code portal version."
+ },
+ "_section_overrides": {
+  "punjab_police:70": {
+   "status": "excluded",
+   "reason": "Articles 61-72 form the Islamabad District Public Safety Commission chapter carried over in the Punjab compilation; the federal Order covers ICT."
+  },
+  "punjab_police:61": {
+   "status": "excluded",
+   "reason": "Articles 61-72 form the Islamabad District Public Safety Commission chapter carried over in the Punjab compilation; the federal Order covers ICT."
+  },
+  "punjab_police:62": {
+   "status": "excluded",
+   "reason": "Articles 61-72 form the Islamabad District Public Safety Commission chapter carried over in the Punjab compilation; the federal Order covers ICT."
+  },
+  "punjab_police:63": {
+   "status": "excluded",
+   "reason": "Articles 61-72 form the Islamabad District Public Safety Commission chapter carried over in the Punjab compilation; the federal Order covers ICT."
+  },
+  "punjab_police:64": {
+   "status": "excluded",
+   "reason": "Articles 61-72 form the Islamabad District Public Safety Commission chapter carried over in the Punjab compilation; the federal Order covers ICT."
+  },
+  "punjab_police:65": {
+   "status": "excluded",
+   "reason": "Articles 61-72 form the Islamabad District Public Safety Commission chapter carried over in the Punjab compilation; the federal Order covers ICT."
+  },
+  "punjab_police:66": {
+   "status": "excluded",
+   "reason": "Articles 61-72 form the Islamabad District Public Safety Commission chapter carried over in the Punjab compilation; the federal Order covers ICT."
+  },
+  "punjab_police:67": {
+   "status": "excluded",
+   "reason": "Articles 61-72 form the Islamabad District Public Safety Commission chapter carried over in the Punjab compilation; the federal Order covers ICT."
+  },
+  "punjab_police:68": {
+   "status": "excluded",
+   "reason": "Articles 61-72 form the Islamabad District Public Safety Commission chapter carried over in the Punjab compilation; the federal Order covers ICT."
+  },
+  "punjab_police:69": {
+   "status": "excluded",
+   "reason": "Articles 61-72 form the Islamabad District Public Safety Commission chapter carried over in the Punjab compilation; the federal Order covers ICT."
+  },
+  "punjab_police:71": {
+   "status": "excluded",
+   "reason": "Articles 61-72 form the Islamabad District Public Safety Commission chapter carried over in the Punjab compilation; the federal Order covers ICT."
+  },
+  "punjab_police:72": {
+   "status": "excluded",
+   "reason": "Articles 61-72 form the Islamabad District Public Safety Commission chapter carried over in the Punjab compilation; the federal Order covers ICT."
+  },
+  "limitation_act:schedules": {
+   "status": "excluded",
+   "reason": "The First Schedule is a three-column table that extracts column by column, so a period (e.g. 'Three years') cannot be reliably matched to its article; excluded rather than risk a wrong deadline (confirmed by the Codex audit). Sections 3-28 are included; section 2 was not extracted and sections 1 and 29 are excluded."
+  },
+  "limitation_act:1": {
+   "status": "excluded",
+   "reason": "Codex sample audit 2026-11-24 (data/checks/codex_newacts_review.md): extracted text skips subsections (1)-(3) and contains part of section 2."
+  },
+  "limitation_act:29": {
+   "status": "excluded",
+   "reason": "Codex sample audit 2026-11-24 (data/checks/codex_newacts_review.md): a citation fragment is misplaced and the repeal entries for sections 30-32 are appended."
+  },
+  "punjab_land_revenue:70-A": {
+   "status": "excluded",
+   "reason": "Codex sample audit 2026-11-24 (data/checks/codex_newacts_review.md): section 70-B is merged into it and the fee-rate table loses its numbers."
+  },
+  "punjab_land_revenue:164": {
+   "text_replace": [
+    [
+     "Substituted for the word \"ninety\" by the Punjab Land Revenue (Amendment) Act 2026 (XLII of 2026), published in the Punjab\n",
+     ""
+    ]
+   ],
+   "reason": "Codex sample audit 2026-11-24 (data/checks/codex_newacts_review.md): a footnote line leaked into the body after 'variance:'; removed."
+  },
+  "punjab_land_revenue:42": {
+   "text_replace": [
+    [
+     "immovable property.]\n[",
+     "immovable property.]"
+    ]
+   ],
+   "reason": "Codex sample audit 2026-11-24 (data/checks/codex_newacts_review.md): a stray opening bracket from section 42-A was attached at the end; removed."
+  }
+ }
+}

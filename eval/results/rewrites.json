@@ -1,0 +1,572 @@
+{
+ "q01": {
+  "english_query": "maximum duration of police detention without a warrant before production before a magistrate",
+  "region": "unknown",
+  "topic": "criminal",
+  "missing_facts": [
+   "specific province of arrest",
+   "whether the arrest is for a bailable or non-bailable offense",
+   "whether the person is being held for questioning or formal investigation"
+  ]
+ },
+ "q02": {
+  "english_query": "maximum duration of police detention in police station before production before magistrate",
+  "region": "unknown",
+  "topic": "police_arrest",
+  "missing_facts": [
+   "whether the person is being arrested or just detained",
+   "whether the person is being held for questioning or as an accused",
+   "whether the person has been formally arrested"
+  ]
+ },
+ "q03": {
+  "english_query": "maximum time limit for police to detain a person at a police station before producing them before a magistrate",
+  "region": "unknown",
+  "topic": "criminal",
+  "missing_facts": [
+   "whether the person is being arrested or just detained for questioning",
+   "whether the person is being held for a specific crime",
+   "whether the person has already been produced before a court"
+  ]
+ },
+ "q04": {
+  "english_query": "right to be informed of grounds of arrest and right to legal counsel during police detention",
+  "region": "unknown",
+  "topic": "criminal",
+  "missing_facts": [
+   "current location of the user",
+   "whether the user is currently in police custody",
+   "whether the arrest was made by police or another agency"
+  ]
+ },
+ "q05": {
+  "english_query": "police refusal to register first information report for theft",
+  "region": "unknown",
+  "topic": "criminal",
+  "missing_facts": [
+   "specific location of the incident",
+   "whether a written application was submitted",
+   "whether the police provided a reason for refusal"
+  ]
+ },
+ "q06": {
+  "english_query": "procedure to compel police to register a first information report when refused by station house officer",
+  "region": "unknown",
+  "topic": "criminal",
+  "missing_facts": [
+   "specific province",
+   "nature of the crime",
+   "whether a written application was already submitted"
+  ]
+ },
+ "q07": {
+  "english_query": "unlawful search and detention of person and vehicle by police without reasonable suspicion or warrant",
+  "region": "unknown",
+  "topic": "police_arrest",
+  "missing_facts": [
+   "specific location of incident",
+   "presence of any weapons or contraband",
+   "whether the officer provided a reason for the stop"
+  ]
+ },
+ "q08": {
+  "english_query": "police power to stop and search individuals without reasonable suspicion or warrant",
+  "region": "unknown",
+  "topic": "police_arrest",
+  "missing_facts": [
+   "reason given by police for the stop",
+   "whether any physical search was conducted",
+   "whether the individual was detained or arrested"
+  ]
+ },
+ "q09": {
+  "english_query": "criminal liability and punishment for police torture and custodial violence",
+  "region": "unknown",
+  "topic": "criminal",
+  "missing_facts": [
+   "specific location of the incident",
+   "status of the victim (e.g., arrested, detained, or missing)",
+   "whether the incident is ongoing or past"
+  ]
+ },
+ "q10": {
+  "english_query": "consumer rights for selling defective mobile phone and refusal to refund or replace",
+  "region": "ict",
+  "topic": "consumer",
+  "missing_facts": [
+   "whether a formal receipt or invoice was provided",
+   "whether the shop is a registered brand outlet or a local retailer",
+   "whether the defect was reported immediately upon purchase"
+  ]
+ },
+ "q11": {
+  "english_query": "procedure for filing a consumer complaint and statutory timeframe for seller response",
+  "region": "ict",
+  "topic": "consumer",
+  "missing_facts": [
+   "type of product or service purchased",
+   "total value of the transaction",
+   "whether the seller is a registered company or individual"
+  ]
+ },
+ "q12": {
+  "english_query": "requirement of legal notice before filing consumer complaint for defective goods",
+  "region": "punjab",
+  "topic": "consumer",
+  "missing_facts": [
+   "whether a formal complaint was already lodged with the shop",
+   "the specific duration of time since the purchase",
+   "whether the shop provided a warranty or refund policy"
+  ]
+ },
+ "q13": {
+  "english_query": "remedies and powers of consumer court for deficient services provided by a company",
+  "region": "punjab",
+  "topic": "consumer",
+  "missing_facts": [
+   "type of service provided",
+   "monetary value of the loss",
+   "specific nature of the grievance"
+  ]
+ },
+ "q14": {
+  "english_query": "legal requirement for retail shops to issue sales receipts to customers",
+  "region": "sindh",
+  "topic": "consumer",
+  "missing_facts": [
+   "type of goods or services purchased",
+   "whether the shop is a registered business",
+   "amount of the transaction"
+  ]
+ },
+ "q15": {
+  "english_query": "procedure for filing a consumer complaint and the legal process following filing",
+  "region": "kp",
+  "topic": "consumer",
+  "missing_facts": [
+   "type of product or service",
+   "monetary value of the claim",
+   "whether the complaint is against a government body or private entity"
+  ]
+ },
+ "q16": {
+  "english_query": "cyberstalking online harassment and impersonation using personal photographs",
+  "region": "unknown",
+  "topic": "criminal",
+  "missing_facts": [
+   "specific platform where harassment occurs",
+   "whether threats of violence were made",
+   "user's specific city/province"
+  ]
+ },
+ "q17": {
+  "english_query": "procedure for reporting online financial fraud and cybercrime to relevant authorities",
+  "region": "unknown",
+  "topic": "online_harm",
+  "missing_facts": [
+   "type of financial institution involved (bank, mobile wallet, or e-commerce)",
+   "time elapsed since the fraud occurred",
+   "whether the user has already contacted their bank"
+  ]
+ },
+ "q18": {
+  "english_query": "legal consequences and remedies for online harassment and blackmail involving the distribution of private images without consent",
+  "region": "unknown",
+  "topic": "online_harm",
+  "missing_facts": [
+   "whether the images are explicit or private",
+   "whether a formal complaint has been lodged",
+   "whether the perpetrator is known or anonymous"
+  ]
+ },
+ "q19": {
+  "english_query": "procedure for filing a sexual harassment complaint against an employer in a private company",
+  "region": "ict",
+  "topic": "workplace_harassment",
+  "missing_facts": [
+   "whether the company has an internal inquiry committee",
+   "whether the company has a written sexual harassment policy",
+   "whether the harassment is ongoing or a single incident"
+  ]
+ },
+ "q20": {
+  "english_query": "procedure and authority for handling workplace harassment complaints by women in the province of Punjab",
+  "region": "punjab",
+  "topic": "workplace_harassment",
+  "missing_facts": [
+   "type of organization (private vs. public)",
+   "size of the workplace",
+   "existence of an internal inquiry committee"
+  ]
+ },
+ "q21": {
+  "english_query": "requirement for written tenancy agreement and registration with rent controller for residential property",
+  "region": "ict",
+  "topic": "tenancy",
+  "missing_facts": [
+   "type of property (residential or commercial)",
+   "total monthly rent amount",
+   "duration of the lease"
+  ]
+ },
+ "q22": {
+  "english_query": "legal grounds for eviction of tenant by landlord and procedure for forced eviction",
+  "region": "ict",
+  "topic": "property",
+  "missing_facts": [
+   "tenancy agreement status",
+   "reason provided by landlord",
+   "payment of rent status"
+  ]
+ },
+ "q23": {
+  "english_query": "grounds for eviction of a tenant by a landlord",
+  "region": "punjab",
+  "topic": "property",
+  "missing_facts": [
+   "type of property (residential or commercial)",
+   "existence of a written lease agreement",
+   "reason for eviction (non-payment of rent, personal use, etc.)"
+  ]
+ },
+ "q24": {
+  "english_query": "legal validity of unilateral rent increase by landlord without tenant consent",
+  "region": "sindh",
+  "topic": "tenancy",
+  "missing_facts": [
+   "existence of a written lease agreement",
+   "duration of the current lease term",
+   "reason for the requested increase"
+  ]
+ },
+ "q25": {
+  "english_query": "time limit for payment of traffic violation fine and consequences of late payment",
+  "region": "ict",
+  "topic": "traffic",
+  "missing_facts": [
+   "type of traffic violation",
+   "specific amount of the fine",
+   "location of the ticket issuance"
+  ]
+ },
+ "q26": {
+  "english_query": "legal remedies for domestic violence and physical abuse by husband and availability of protection orders",
+  "region": "ict",
+  "topic": "domestic_violence",
+  "missing_facts": [
+   "whether a formal police complaint has been lodged",
+   "whether there is a history of previous domestic violence",
+   "whether the woman is currently in immediate physical danger"
+  ]
+ },
+ "q27": {
+  "english_query": "legal remedies and protection orders for women against domestic violence in Punjab",
+  "region": "punjab",
+  "topic": "domestic_violence",
+  "missing_facts": [
+   "specific type of domestic violence",
+   "current marital status",
+   "presence of children"
+  ]
+ },
+ "q28": {
+  "english_query": "legal validity of second marriage by husband without wife's consent or permission",
+  "region": "unknown",
+  "topic": "family",
+  "missing_facts": [
+   "marital status of the first wife",
+   "religious affiliation",
+   "whether the first wife is currently alive"
+  ]
+ },
+ "q29": {
+  "english_query": "grounds for dissolution of marriage by a wife in Pakistan",
+  "region": "unknown",
+  "topic": "family",
+  "missing_facts": [
+   "marital status (e.g., whether there are children)",
+   "specific reasons for seeking divorce (e.g., cruelty, desertion, non-maintenance)",
+   "current location of the user"
+  ]
+ },
+ "q30": {
+  "english_query": "legal remedies for non-payment of maintenance by husband to wife",
+  "region": "unknown",
+  "topic": "family",
+  "missing_facts": [
+   "marital status (divorced or still married)",
+   "existence of children",
+   "current employment status of the husband"
+  ]
+ },
+ "q31": {
+  "english_query": "minimum legal age of marriage for females and legal consequences of child marriage",
+  "region": "ict",
+  "topic": "family",
+  "missing_facts": [
+   "consent of the minor",
+   "guardian status of the minor",
+   "presence of a Nikah Nama"
+  ]
+ },
+ "q32": {
+  "english_query": "time limit for federal government department to respond to request for information",
+  "region": "unknown",
+  "topic": "government",
+  "missing_facts": [
+   "specific government department",
+   "type of information requested",
+   "method of request (e.g., RTI, FOI, or general inquiry)"
+  ]
+ },
+ "q33": {
+  "english_query": "eligibility criteria and procedures for free legal aid services for indigent persons",
+  "region": "unknown",
+  "topic": "property",
+  "missing_facts": [
+   "current province or city",
+   "type of legal matter (civil, criminal, family)",
+   "income level or proof of indigency"
+  ]
+ },
+ "q34": {
+  "english_query": "procedure for filing a complaint against maladministration by a federal government department",
+  "region": "unknown",
+  "topic": "government",
+  "missing_facts": [
+   "specific federal agency involved",
+   "nature of the maladministration",
+   "whether a formal complaint has already been filed"
+  ]
+ },
+ "q35": {
+  "english_query": "legal protection for senior citizens against property seizure and abandonment by children",
+  "region": "ict",
+  "topic": "property",
+  "missing_facts": [
+   "Is the property registered in the parent's name or jointly?",
+   "Is there a formal will or gift deed involved?",
+   "Has a police report or formal complaint been filed?"
+  ]
+ },
+ "q36": {
+  "english_query": "civil remedy for non-delivery of goods after payment breach of contract",
+  "region": "unknown",
+  "topic": "contract",
+  "missing_facts": [
+   "existence of a written agreement",
+   "specific payment amount",
+   "nature of the goods"
+  ]
+ },
+ "q37": {
+  "english_query": "punishment for theft and larceny",
+  "region": "unknown",
+  "topic": "criminal",
+  "missing_facts": [
+   "value of stolen property",
+   "method of theft (e.g. housebreaking, robbery)",
+   "whether the theft was committed by a group"
+  ]
+ },
+ "q38": {
+  "english_query": "civil and criminal liability for defamation and spreading false information to damage reputation",
+  "region": "unknown",
+  "topic": "criminal",
+  "missing_facts": [
+   "whether the statements were made orally, in writing, or on social media",
+   "whether the person who spread the information is a private individual or a public figure",
+   "whether any financial loss or physical harm resulted from the defamation"
+  ]
+ },
+ "t01": {
+  "english_query": "maximum time limit for police detention before production before a magistrate",
+  "region": "unknown",
+  "topic": "criminal",
+  "missing_facts": [
+   "whether the person is being held for investigation or under arrest",
+   "whether the person has been formally charged",
+   "whether the person is being held in a police station or elsewhere"
+  ]
+ },
+ "t02": {
+  "english_query": "police refusal to register first information report and legal remedies",
+  "region": "unknown",
+  "topic": "criminal",
+  "missing_facts": [
+   "nature of the crime",
+   "specific police station location",
+   "whether a written application was submitted"
+  ]
+ },
+ "t03": {
+  "english_query": "consumer rights regarding refund for defective or faulty goods",
+  "region": "ict",
+  "topic": "consumer",
+  "missing_facts": [
+   "type of product purchased",
+   "receipt or proof of purchase",
+   "shop size (small retail vs large mall)"
+  ]
+ },
+ "t04": {
+  "english_query": "cyber crime financial fraud unauthorized bank account transaction",
+  "region": "unknown",
+  "topic": "online_harm",
+  "missing_facts": [
+   "method of transaction (e.g., phishing, UPI, banking app)",
+   "bank or mobile wallet name",
+   "time elapsed since the incident"
+  ]
+ },
+ "t05": {
+  "english_query": "sexual harassment in the workplace by a superior and legal remedies for employees",
+  "region": "unknown",
+  "topic": "workplace_harassment",
+  "missing_facts": [
+   "gender of the complainant",
+   "specific nature of the harassment",
+   "whether a formal complaint has been filed"
+  ]
+ },
+ "t06": {
+  "english_query": "grounds for eviction of a tenant from a residential property",
+  "region": "ict",
+  "topic": "property",
+  "missing_facts": [
+   "reason for eviction",
+   "existence of a written lease agreement",
+   "payment status of rent"
+  ]
+ },
+ "t07": {
+  "english_query": "time limit for payment of traffic violation fines",
+  "region": "unknown",
+  "topic": "traffic",
+  "missing_facts": [
+   "province of the violation",
+   "type of vehicle",
+   "severity of the violation"
+  ]
+ },
+ "t08": {
+  "english_query": "maintenance rights of wife from husband and legal remedies for non-payment",
+  "region": "unknown",
+  "topic": "family",
+  "missing_facts": [
+   "marital status (divorced or still married)",
+   "husband's financial status",
+   "wife's current living situation"
+  ]
+ },
+ "r01": {
+  "english_query": "consumer rights for defective product refund and complaint procedure",
+  "region": "unknown",
+  "topic": "consumer",
+  "missing_facts": [
+   "location of the shop",
+   "type of product purchased",
+   "receipt or proof of purchase"
+  ]
+ },
+ "r02": {
+  "english_query": "legal rights of tenant against eviction by landlord without notice or valid reason",
+  "region": "unknown",
+  "topic": "property",
+  "missing_facts": [
+   "tenancy agreement status (written or oral)",
+   "reason for eviction provided by landlord",
+   "current payment status of rent"
+  ]
+ },
+ "r03": {
+  "english_query": "domestic violence protection order against spouse for physical assault",
+  "region": "unknown",
+  "topic": "domestic_violence",
+  "missing_facts": [
+   "specific location of residence",
+   "presence of children in the home",
+   "whether a police report has been filed"
+  ]
+ },
+ "u01": {
+  "english_query": "legal requirement for individuals to provide mobile phone passwords or biometric access to police during a routine checkpoint",
+  "region": "unknown",
+  "topic": "police_stop_search",
+  "missing_facts": [
+   "whether the person is being arrested",
+   "whether the police have a specific warrant or suspicion of a crime",
+   "the specific province where the checkpoint is located"
+  ]
+ },
+ "u02": {
+  "english_query": "income tax rates for freelancers and self-employed individuals",
+  "region": "unknown",
+  "topic": "fir",
+  "missing_facts": [
+   "annual gross income amount",
+   "residency status",
+   "type of services provided"
+  ]
+ },
+ "u03": {
+  "english_query": "procedure for registering software patent and copyright protection",
+  "region": "unknown",
+  "topic": "fir",
+  "missing_facts": [
+   "specific type of software (AI, hardware-integrated, or pure code)",
+   "current development stage (prototype or commercial product)",
+   "whether the software is already being sold or used commercially"
+  ]
+ },
+ "u04": {
+  "english_query": "legal status of cryptocurrency trading and digital assets in Pakistan",
+  "region": "unknown",
+  "topic": "government",
+  "missing_facts": [
+   "user's intent (trading vs mining)",
+   "user's location in Pakistan",
+   "specific platform being used"
+  ]
+ },
+ "u05": {
+  "english_query": "consumer court refund rights and remedies for defective goods or deficient services",
+  "region": "unknown",
+  "topic": "consumer",
+  "missing_facts": [
+   "nature of the product or service",
+   "evidence of defect or deficiency",
+   "amount of money spent"
+  ]
+ },
+ "u06": {
+  "english_query": "maximum duration of police detention without production before a magistrate",
+  "region": "unknown",
+  "topic": "criminal",
+  "missing_facts": [
+   "specific nature of the offense",
+   "whether the person is under arrest or in custody",
+   "whether the person is being held for investigation or remand"
+  ]
+ },
+ "u07": {
+  "english_query": "maximum speed limit for passenger cars on motorways",
+  "region": "unknown",
+  "topic": "traffic",
+  "missing_facts": [
+   "specific province or city",
+   "type of vehicle (commercial vs private)",
+   "time of day or weather conditions"
+  ]
+ },
+ "u08": {
+  "english_query": "requirements and application process for a student visa to the United Kingdom",
+  "region": "unknown",
+  "topic": "fir",
+  "missing_facts": [
+   "educational level (undergraduate, postgraduate, etc.)",
+   "current nationality",
+   "whether a Confirmation of Acceptance for Studies (CAS) has been received"
+  ]
+ }
+}

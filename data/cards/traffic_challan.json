@@ -1,0 +1,99 @@
+{
+ "id": "traffic_challan",
+ "region": "ict",
+ "title_en": "On-the-spot traffic challan (paper) in Islamabad",
+ "title_ur": "اسلام آباد میں موقع پر ٹریفک چالان (کاغذی)",
+ "steps": [
+  {
+   "kind": "law",
+   "source": "mvo_1965:116A",
+   "text_en": "In ICT, a uniformed police officer not below the rank of Assistant Sub-Inspector can charge you on the spot for a listed motor-vehicle offence (Twelfth Schedule) that they saw you commit.",
+   "text_ur": "اسلام آباد میں اسسٹنٹ سب انسپکٹر یا اس سے اوپر کے عہدے کا باوردی پولیس افسر آپ کا موقع پر چالان کر سکتا ہے، اگر اس نے آپ کو بارہویں شیڈول میں درج موٹر وہیکل جرم کرتے دیکھا ہو۔",
+   "quotes": [
+    {
+     "text": "a police officer in uniform not below the rank of Assistant Sub-Inspector, may, notwithstanding anything to the contrary contained in this Ordinance, or any other law for the time being in force, charge on the sport any person committing in his view an offence mentioned in the Twelfth Schedule",
+     "page": 64,
+     "link": "https://pakistancode.gov.pk/pdffiles/administratorfcc61bd4cc647332fccbdffad801bab8.pdf#page=64"
+    }
+   ],
+   "act": "Provincial Motor Vehicles Ordinance, 1965",
+   "section": "116A",
+   "section_title": "Fine on spot",
+   "link": "https://pakistancode.gov.pk/pdffiles/administratorfcc61bd4cc647332fccbdffad801bab8.pdf#page=64",
+   "version_date": null,
+   "applies_in": [
+    "ict"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "mvo_1965:116A",
+   "text_en": "The officer must immediately give you three copies of the charge; you acknowledge receipt with your signature or thumb impression.",
+   "text_ur": "افسر آپ کو فوراً چالان کی تین کاپیاں دینے کا پابند ہے؛ آپ وصولی کی تصدیق دستخط یا انگوٹھے کے نشان سے کرتے ہیں۔",
+   "quotes": [
+    {
+     "text": "forthwith deliver three copies thereof to the offender, who shall acknowledge its receipt under his signature or, as the case may be: thumb impression;",
+     "page": 64,
+     "link": "https://pakistancode.gov.pk/pdffiles/administratorfcc61bd4cc647332fccbdffad801bab8.pdf#page=64"
+    }
+   ],
+   "act": "Provincial Motor Vehicles Ordinance, 1965",
+   "section": "116A",
+   "section_title": "Fine on spot",
+   "link": "https://pakistancode.gov.pk/pdffiles/administratorfcc61bd4cc647332fccbdffad801bab8.pdf#page=64",
+   "version_date": null,
+   "applies_in": [
+    "ict"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "mvo_1965:116A",
+   "text_en": "If you do not want to contest the charge, pay the penalty in cash at the designated bank within seven days of receiving it, then collect your vehicle documents from the Traffic Office.",
+   "text_ur": "اگر آپ چالان پر اعتراض نہیں کرنا چاہتے تو چالان ملنے کے سات دن کے اندر نامزد بینک میں نقد جرمانہ ادا کریں، پھر ٹریفک آفس سے گاڑی کے کاغذات حاصل کریں۔",
+   "quotes": [
+    {
+     "text": "if he does not want to contest the charge, pay, within seven days from the date of delivery of the charge under sub-section (2), the penalty specified for the offence in the Twelfth Schedule, as mentioned in the charge, through cash at the designated bank,",
+     "page": 64,
+     "link": "https://pakistancode.gov.pk/pdffiles/administratorfcc61bd4cc647332fccbdffad801bab8.pdf#page=64"
+    }
+   ],
+   "act": "Provincial Motor Vehicles Ordinance, 1965",
+   "section": "116A",
+   "section_title": "Fine on spot",
+   "link": "https://pakistancode.gov.pk/pdffiles/administratorfcc61bd4cc647332fccbdffad801bab8.pdf#page=64",
+   "version_date": null,
+   "applies_in": [
+    "ict"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "mvo_1965:116A",
+   "text_en": "If the penalty is not paid this way, the traffic police must lodge a complaint against you before the competent court, where the charge can be contested.",
+   "text_ur": "اگر جرمانہ اس طریقے سے ادا نہ ہو تو ٹریفک پولیس متعلقہ عدالت میں آپ کے خلاف شکایت درج کرائے گی، جہاں چالان پر اعتراض کیا جا سکتا ہے۔",
+   "quotes": [
+    {
+     "text": "If the penalty is not paid in the manner provided in sub-section (3), the police officer Incharge of Traffic Police Officer shall lodge a complaint against the offender before the court having jurisdiction to try the offence.]",
+     "page": 64,
+     "link": "https://pakistancode.gov.pk/pdffiles/administratorfcc61bd4cc647332fccbdffad801bab8.pdf#page=64"
+    }
+   ],
+   "act": "Provincial Motor Vehicles Ordinance, 1965",
+   "section": "116A",
+   "section_title": "Fine on spot",
+   "link": "https://pakistancode.gov.pk/pdffiles/administratorfcc61bd4cc647332fccbdffad801bab8.pdf#page=64",
+   "version_date": null,
+   "applies_in": [
+    "ict"
+   ]
+  },
+  {
+   "kind": "tip",
+   "text_en": "Keep your copy of the challan and respond to any court summons.",
+   "text_ur": "چالان کی اپنی کاپی سنبھال کر رکھیں اور عدالت کے کسی بھی سمن کا جواب دیں۔"
+  }
+ ],
+ "not_covered_en": "Camera (e-challan) notices and how to contest them are not covered by this card; check official Islamabad Traffic Police channels.",
+ "not_covered_ur": "کیمرہ (ای چالان) نوٹس اور ان پر اعتراض کا طریقہ اس کارڈ میں شامل نہیں؛ اسلام آباد ٹریفک پولیس کے سرکاری ذرائع سے معلوم کریں۔"
+}

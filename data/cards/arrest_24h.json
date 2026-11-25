@@ -1,0 +1,211 @@
+{
+ "id": "arrest_24h",
+ "region": "ict",
+ "title_en": "Arrested or held at a police station",
+ "title_ur": "گرفتاری یا تھانے میں حراست",
+ "steps": [
+  {
+   "kind": "law",
+   "source": "constitution:10",
+   "text_en": "If you are arrested and held in custody, you must be told the grounds of arrest as soon as possible, and you have the right to consult and be defended by a lawyer of your choice.",
+   "text_ur": "اگر آپ کو گرفتار کر کے حراست میں رکھا جائے تو آپ کو جلد از جلد گرفتاری کی وجہ بتانا لازم ہے۔ آپ کو اپنی پسند کے وکیل سے مشورہ کرنے اور اسی وکیل کے ذریعے اپنا دفاع کرانے کا حق ہے۔",
+   "quotes": [
+    {
+     "text": "No person who is arrested shall be detained in custody without being informed, as soon as may be, of the grounds for such arrest, nor shall he be denied the right to consult and be defended by a legal practitioner of his choice.",
+     "page": 21,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator9d8e2ecc414c6d3371ac41114b61a2c4.pdf#page=21"
+    }
+   ],
+   "act": "Constitution of the Islamic Republic of Pakistan",
+   "section": "10",
+   "section_title": "Safeguards as to arrest and detention",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator9d8e2ecc414c6d3371ac41114b61a2c4.pdf#page=21",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "constitution:10",
+   "text_en": "You must be brought before a magistrate within twenty-four hours of arrest, not counting the journey to the nearest magistrate's court. Holding you longer needs a magistrate's authority.",
+   "text_ur": "گرفتاری کے چوبیس گھنٹے کے اندر آپ کو مجسٹریٹ کے سامنے پیش کرنا لازم ہے، قریب ترین مجسٹریٹ کی عدالت تک سفر کا وقت اس میں شامل نہیں۔ اس سے زیادہ حراست کے لیے مجسٹریٹ کی اجازت ضروری ہے۔",
+   "quotes": [
+    {
+     "text": "Every person who is arrested and detained in custody shall be produced before a magistrate within a period of twenty-four hours of such arrest, excluding the time necessary for the journey from the place of arrest to the court of the nearest magistrate, and no such person shall be detained in custody beyond the said period without the authority of a magistrate.",
+     "page": 21,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator9d8e2ecc414c6d3371ac41114b61a2c4.pdf#page=21"
+    }
+   ],
+   "act": "Constitution of the Islamic Republic of Pakistan",
+   "section": "10",
+   "section_title": "Safeguards as to arrest and detention",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator9d8e2ecc414c6d3371ac41114b61a2c4.pdf#page=21",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "crpc:61",
+   "text_en": "After an arrest without a warrant, police may hold you only as long as is reasonable; without a Magistrate's special order this can never exceed twenty-four hours, not counting the journey to the Magistrate's Court.",
+   "text_ur": "وارنٹ کے بغیر گرفتاری کے بعد پولیس آپ کو صرف مناسب مدت تک رکھ سکتی ہے؛ مجسٹریٹ کے خصوصی حکم کے بغیر یہ مدت کبھی چوبیس گھنٹے سے زیادہ نہیں ہو سکتی، مجسٹریٹ کی عدالت تک سفر کا وقت شامل نہیں۔",
+   "quotes": [
+    {
+     "text": "No police-officer shall detain in custody a person arrested without warrant for a longer period than under all the circumstances of the case is reasonable, and such period shall not, in the absence of a special order of a Magistrate under section 167, exceed twenty-four hours exclusive of the time necessary for the journey from the place of arrest to the Magistrate’s",
+     "page": 45,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=45"
+    }
+   ],
+   "act": "Code of Criminal Procedure (CrPC), 1898 (Under Review)",
+   "section": "61",
+   "section_title": "Person arrested not to be detained more than twenty-four hours",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=45",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "police_order:4",
+   "text_en": "Police have a duty to make sure the information about your arrest is promptly given to a person of your choice.",
+   "text_ur": "پولیس کا فرض ہے کہ آپ کی گرفتاری کی اطلاع فوری طور پر آپ کی پسند کے کسی شخص تک پہنچائے۔",
+   "quotes": [
+    {
+     "text": "ensure that the information about the arrest of a person is promptly communicated to a person of his choice;",
+     "page": 13,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator91032d4ee5bd880388b96d54d5540865.pdf#page=13"
+    }
+   ],
+   "act": "Police Order, 2002",
+   "section": "4",
+   "section_title": "Duties of police",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator91032d4ee5bd880388b96d54d5540865.pdf#page=13",
+   "version_date": null,
+   "applies_in": [
+    "ict"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "crpc:496",
+   "text_en": "If you are not accused of a non-bailable offence and are ready to give bail, you must be released on bail.",
+   "text_ur": "اگر آپ پر ناقابلِ ضمانت جرم کا الزام نہیں اور آپ ضمانت دینے کو تیار ہیں تو آپ کو ضمانت پر رہا کرنا لازم ہے۔",
+   "quotes": [
+    {
+     "text": "When any person other than a person accused of a non-bailable offence is arrested or detained without warrant by an officer in charge of a police-station,",
+     "page": 166,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=166"
+    },
+    {
+     "text": "such person shall be released on bail",
+     "page": 166,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=166"
+    }
+   ],
+   "act": "Code of Criminal Procedure (CrPC), 1898 (Under Review)",
+   "section": "496",
+   "section_title": "In what cases bail to be taken",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=166",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "constitution:14",
+   "text_en": "No one may be tortured to extract evidence.",
+   "text_ur": "ثبوت حاصل کرنے کے لیے کسی پر تشدد نہیں کیا جا سکتا۔",
+   "quotes": [
+    {
+     "text": "No person shall be subjected to torture for the purpose of extracting evidence.",
+     "page": 23,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator9d8e2ecc414c6d3371ac41114b61a2c4.pdf#page=23"
+    }
+   ],
+   "act": "Constitution of the Islamic Republic of Pakistan",
+   "section": "14",
+   "section_title": "Inviolability of dignity of man, etc",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator9d8e2ecc414c6d3371ac41114b61a2c4.pdf#page=23",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "torture_custodial:5",
+   "text_en": "If you complain of torture in custody, the Magistrate must order a medical examination, and if it shows torture, notify the agency to investigate.",
+   "text_ur": "اگر آپ حراست میں تشدد کی شکایت کریں تو مجسٹریٹ طبی معائنے کا حکم دینے کا پابند ہے، اور تشدد ثابت ہونے پر تحقیقات کے لیے ایجنسی کو مطلع کرے گا۔",
+   "quotes": [
+    {
+     "text": "a complaint of torture is lodged by the person in custody, he shall order a medical examination and if the results of such examination reveal infliction of torture, he shall notify the Agency to investigate such offence.",
+     "page": 5,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator0d6e158c58fb2a0bb335bcf18d5c2930.pdf#page=5"
+    }
+   ],
+   "act": "Torture and Custodial Death (Prevention and Punishment) Act, 2022",
+   "section": "5",
+   "section_title": "Investigation of offences",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator0d6e158c58fb2a0bb335bcf18d5c2930.pdf#page=5",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "torture_custodial:3",
+   "text_en": "A statement or confession obtained through torture cannot be used as evidence against the person who made it.",
+   "text_ur": "تشدد کے ذریعے حاصل کیا گیا بیان یا اعتراف اسی شخص کے خلاف بطور ثبوت استعمال نہیں ہو سکتا۔",
+   "quotes": [
+    {
+     "text": "Any statement, information or confession obtained by a public official as a result of torture or cruel, inhuman or degrading treatment shall be inadmissible evidence in any proceedings against the person making it.",
+     "page": 5,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator0d6e158c58fb2a0bb335bcf18d5c2930.pdf#page=5"
+    }
+   ],
+   "act": "Torture and Custodial Death (Prevention and Punishment) Act, 2022",
+   "section": "3",
+   "section_title": "Inadmissibility of statement extracted through torture",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator0d6e158c58fb2a0bb335bcf18d5c2930.pdf#page=5",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  }
+ ],
+ "not_covered_en": "The 24-hour and grounds-of-arrest rules (Constitution Art. 10(1)-(2)) do not apply to arrest under a preventive-detention law (Art. 10(3)); different safeguards apply. For anyone under 18, the Juvenile Justice System Act gives extra protections. Contact a lawyer or legal aid quickly.",
+ "not_covered_ur": "چوبیس گھنٹے اور گرفتاری کی وجہ بتانے کے اصول (آئین آرٹیکل 10(1)-(2)) حفاظتی نظربندی کے قانون کے تحت گرفتاری پر لاگو نہیں ہوتے (آرٹیکل 10(3))؛ اس پر مختلف تحفظات لاگو ہیں۔ 18 سال سے کم عمر افراد کو جووینائل جسٹس سسٹم ایکٹ کے تحت اضافی تحفظ حاصل ہے۔ جلد وکیل یا قانونی امداد سے رابطہ کریں۔"
+}

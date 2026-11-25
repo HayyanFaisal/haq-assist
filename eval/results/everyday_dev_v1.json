@@ -1,0 +1,1516 @@
+{
+ "summary": {
+  "set": "everyday_dev.jsonl",
+  "baseline": false,
+  "questions": 38,
+  "answerable_answered": "30/33",
+  "answerable_clarify": 1,
+  "answerable_correct_law_cited": "21/33",
+  "answerable_gold_in_sources_considered": "27/33",
+  "unanswerable_correctly_not_answered": "4/5",
+  "latency_p50_s": 13.3,
+  "latency_p90_s": 15.7
+ },
+ "rows": [
+  {
+   "id": "e01",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "police_order:44"
+   ],
+   "considered": [
+    "crpc:154",
+    "crpc:523",
+    "police_order:44",
+    "police_order:56",
+    "police_order:68",
+    "crpc:schedules"
+   ],
+   "gold_cited": false,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 2,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "police refusal to register FIR for mobile phone theft and procedure for lodging a complaint against police inaction",
+   "issues": [
+    "right to register information of a cognizable offence",
+    "remedy for police refusal to register FIR",
+    "procedure for reporting stolen property and recovery"
+   ],
+   "summary": "You can request the District Public Safety Commission to intervene if the police station head refuses to register your FIR. The Commission can direct the police to conduct an inquiry and register the FIR if a cognizable case is made out. If the District Police Officer does not follow the Commission'",
+   "seconds": 14.1,
+   "error": null
+  },
+  {
+   "id": "e02",
+   "expect": "answer",
+   "region": "punjab",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "crpc:190",
+    "punjab_police:44"
+   ],
+   "considered": [
+    "crpc:190",
+    "punjab_police:35",
+    "crpc:4",
+    "punjab_police:44",
+    "punjab_police:56",
+    "punjab_police:34"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 2,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "procedure to report theft of vehicle when police refuse to register a case and hierarchy of complaints against police inaction",
+   "issues": [
+    "legal procedure for registering a report of theft when police refuse to act",
+    "complaint mechanism against police officer for non-registration of cognizable offence",
+    "rights of a citizen to report theft and seek assistance from higher police authorities"
+   ],
+   "summary": "If the police refuse to register your First Information Report (FIR) for a cognizable offence, you can approach the District Public Safety Commission. They have the authority to direct the police to conduct an inquiry and register the FIR. Alternatively, you can approach a Magistrate, who has the po",
+   "seconds": 13.1,
+   "error": null
+  },
+  {
+   "id": "e03",
+   "expect": "answer",
+   "region": "punjab",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "cpc:16",
+    "crpc:522",
+    "specific_relief:39"
+   ],
+   "considered": [
+    "cpc:16",
+    "crpc:522",
+    "ppc:215",
+    "ppc:207",
+    "specific_relief:39",
+    "succession_act:79"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "how to recover land from a relative who fraudulently transferred it from the grandfather's name and what is the procedure for filing a lawsuit for recovery of property",
+   "issues": [
+    "legal remedies for recovery of immovable property obtained through fraud and deception",
+    "procedure to challenge a fraudulent land transfer and seek restoration of ownership",
+    "rights of legal heirs in cases of fraudulent land mutation"
+   ],
+   "summary": "You can file a lawsuit to have a written document (like a land deed) cancelled if it is void or voidable and you believe it will cause you serious injury. If your uncle is convicted of a crime involving cheating, forgery, or criminal force to take the land, the court can order the land to be returne",
+   "seconds": 15.7,
+   "error": null
+  },
+  {
+   "id": "e04",
+   "expect": "answer",
+   "region": "punjab",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "punjab_police:125"
+   ],
+   "considered": [
+    "crpc:56",
+    "crpc:54",
+    "crpc:61",
+    "punjab_police:125",
+    "punjab_workplace_harassment_of_women:schedules",
+    "crpc:161"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "its quote was not found word-for-word in the official text"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal authority of police to stop a vehicle and question female passengers and the rights of citizens during such stops",
+   "issues": [
+    "police powers to stop and search vehicles and question passengers",
+    "rights of individuals during police interaction and procedures for reporting harassment",
+    "legal requirements for police to detain or question a person without a warrant"
+   ],
+   "summary": "Police can search a vehicle in a public place if they have reasonable grounds to suspect it is carrying items obtained unlawfully or items likely to be used in a crime. If the police find the explanation provided by the person in the vehicle to be suspicious, they may detain the items and report the",
+   "seconds": 13.9,
+   "error": null
+  },
+  {
+   "id": "e05",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "specific_relief:39",
+    "mflo:4"
+   ],
+   "considered": [
+    "ppc:498A",
+    "succession_act:5",
+    "ppc:423",
+    "specific_relief:39",
+    "cpc:53",
+    "mflo:4"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal rights of daughters in inheritance of immovable property and procedure to challenge illegal transfer of land by brothers",
+   "issues": [
+    "inheritance rights of daughters in immovable property",
+    "legal remedy for challenging fraudulent transfer of land by legal heirs",
+    "procedure for recovery of share in ancestral property"
+   ],
+   "summary": "If the brothers used a fraudulent document to transfer the property, your sister can sue to have that document declared void. The court has the power to cancel such instruments and order them to be delivered up if they cause serious injury. In case of a dispute regarding inheritance, the parties inv",
+   "seconds": 14.4,
+   "error": null
+  },
+  {
+   "id": "e06",
+   "expect": "answer",
+   "region": "ict",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "ict_rent:17",
+    "ict_rent:13",
+    "cpc:128",
+    "ict_rent:18",
+    "specific_relief:27",
+    "ict_rent:5"
+   ],
+   "gold_cited": false,
+   "gold_considered": true,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "checks": {
+      "steps_proposed": 2,
+      "dropped": [
+       {
+        "reason": "it stated a number that is not in its quote"
+       },
+       {
+        "reason": "the quote did not fully support the claim"
+       }
+      ],
+      "quotes_snapped": 0,
+      "steps_kept": 0
+     }
+    }
+   ],
+   "rewrite": "legal rights of a tenant when a landlord seeks eviction before the expiry of a fixed-term lease agreement and refuses to refund the security deposit",
+   "issues": [
+    "rights of a tenant to remain in possession of rented property until the expiry of a written lease agreement",
+    "legal procedure for recovery of security deposit from a landlord",
+    "illegal eviction and breach of contract by a landlord"
+   ],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 11.7,
+   "error": null
+  },
+  {
+   "id": "e07",
+   "expect": "answer",
+   "region": "punjab",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "punjab_rent:12"
+   ],
+   "considered": [
+    "punjab_rent:15",
+    "punjab_rent:19",
+    "punjab_rent:13",
+    "punjab_rent:24",
+    "punjab_rent:12",
+    "ppc:441"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "Is it legal for a landlord to disconnect electricity and water supply to a tenant to force them to vacate the premises, and what are the legal remedies for the tenant?",
+   "issues": [
+    "rights of a tenant regarding essential services like water and electricity",
+    "legal procedure for eviction of a tenant by a landlord",
+    "illegal dispossession and harassment of a tenant"
+   ],
+   "summary": "The landlord is not allowed to cut off your electricity or water without a valid reason. If they do, you can apply to the Rent Tribunal to have these services restored or to have the repair costs deducted from your rent.",
+   "seconds": 12.2,
+   "error": null
+  },
+  {
+   "id": "e08",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "domestic_violence:8",
+    "domestic_violence:5"
+   ],
+   "considered": [
+    "domestic_violence:8",
+    "domestic_violence:20",
+    "domestic_violence:5",
+    "domestic_violence:21",
+    "domestic_violence:9",
+    "domestic_violence:3"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 5,
+    "dropped": [
+     {
+      "reason": "its quote was not found word-for-word in the official text"
+     },
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 1,
+    "steps_kept": 3
+   },
+   "rewrite": "legal remedies and protection for a woman facing domestic violence and physical assault by husband in Islamabad while wishing to remain in the shared household",
+   "issues": [
+    "legal protection and safety measures for a woman subjected to physical violence and assault by a spouse",
+    "procedural options for reporting domestic abuse and seeking protection orders without vacating the residence",
+    "rights to maintenance and protection from domestic harassment"
+   ],
+   "summary": "You can file a petition in a court within your jurisdiction (where you live or where you last lived together) to seek a protection order against your husband. The court can issue a protection order that forbids your husband from committing further acts of violence, communicating with you in any form",
+   "seconds": 19.1,
+   "error": null
+  },
+  {
+   "id": "e09",
+   "expect": "answer",
+   "region": "punjab",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "punjab_domestic_violence:7"
+   ],
+   "considered": [
+    "cpc:83",
+    "punjab_domestic_violence:8",
+    "punjab_domestic_violence:7",
+    "punjab_domestic_violence:5",
+    "cpc:schedules",
+    "crpc:241A"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [
+     {
+      "reason": "its quote was not found word-for-word in the official text"
+     },
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal remedy for domestic violence and threats of eviction by in-laws in Pakistan and where to file a complaint",
+   "issues": [
+    "legal protection against physical assault and violence by family members",
+    "remedy for threats of illegal eviction from shared residence",
+    "procedure for filing a criminal complaint against in-laws for domestic abuse"
+   ],
+   "summary": "The Court has the power to direct the Women Protection Officer to provide you with protection or to assist you in making a complaint. The Court can also direct the police to help the Women Protection Officer carry out the protection or residence orders.",
+   "seconds": 14.5,
+   "error": null
+  },
+  {
+   "id": "e10",
+   "expect": "answer",
+   "region": "unknown",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "mflo:9",
+    "family_courts:9",
+    "family_courts:12A"
+   ],
+   "considered": [
+    "mflo:9",
+    "family_courts:9",
+    "family_courts:10",
+    "dmma:2",
+    "family_courts:7",
+    "family_courts:12A"
+   ],
+   "gold_cited": false,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 5,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim"
+     },
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "procedure for a wife to seek dissolution of marriage at her own request due to non-maintenance and desertion",
+   "issues": [
+    "rights of a wife to seek dissolution of marriage due to non-maintenance and desertion",
+    "procedure and court for filing for dissolution of marriage at the wife's request",
+    "legal remedies for non-payment of maintenance by husband"
+   ],
+   "summary": "If a maintenance case is already active, you can include your claim for khula in your written statement as a defendant. You can also apply to the Chairman to form an Arbitration Council to determine the specific amount of maintenance your husband must pay.",
+   "seconds": 15.5,
+   "error": null
+  },
+  {
+   "id": "e11",
+   "expect": "answer",
+   "region": "unknown",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "mflo:9"
+   ],
+   "considered": [
+    "family_courts:9",
+    "family_courts:17A",
+    "mflo:9",
+    "family_courts:7",
+    "family_courts:schedules",
+    "mflo:7"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "it stated a number that is not in its quote"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal procedure for a divorced woman to claim child maintenance from the father when children are in her custody",
+   "issues": [
+    "right to child maintenance and support after divorce",
+    "legal remedy for recovery of maintenance from father",
+    "procedure to file a maintenance claim in family court"
+   ],
+   "summary": "You can apply to the Chairman to set up an Arbitration Council, which will decide the specific amount of maintenance the husband must pay for the children. If the husband does not pay the maintenance amount decided by the Arbitration Council on time, you can recover it as arrears of land revenue.",
+   "seconds": 12.2,
+   "error": null
+  },
+  {
+   "id": "e12",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ppc:384",
+    "peca:21",
+    "ppc:386"
+   ],
+   "considered": [
+    "ppc:388",
+    "ppc:384",
+    "ppc:383",
+    "peca:21",
+    "ppc:386",
+    "peca:24A"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 4,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 4
+   },
+   "rewrite": "legal remedies and reporting procedure for online extortion and non-consensual distribution of private images in Pakistan",
+   "issues": [
+    "legal remedies for extortion and blackmail involving private images",
+    "procedure to report cybercrime and request removal of private content",
+    "criminal liability for unauthorized distribution of private photographs"
+   ],
+   "summary": "You can apply to the Authority to have the sexually explicit images removed, destroyed, or blocked from being accessed. The person threatening you can be punished with up to five years in prison and a fine of up to five million rupees for using such images to blackmail you or harm your reputation.",
+   "seconds": 15.6,
+   "error": null
+  },
+  {
+   "id": "e13",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "peca:2S"
+   ],
+   "considered": [
+    "peca:16",
+    "peca:24A",
+    "peca:22A",
+    "peca:2R",
+    "peca:2",
+    "peca:2S"
+   ],
+   "gold_cited": false,
+   "gold_considered": true,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "its quote was not found word-for-word in the official text"
+     },
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "legal procedure for reporting identity theft and online harassment on social media and how to file a complaint with cybercrime authorities",
+   "issues": [
+    "legal remedies for identity theft and unauthorized use of personal photographs on social media",
+    "procedure for reporting online harassment and obscene messaging to cybercrime authorities",
+    "criminal liability for impersonation and distribution of offensive content online"
+   ],
+   "summary": "Social media platforms must provide you with a clear and permanent way to submit complaints regarding unlawful or offensive online content.",
+   "seconds": 13.3,
+   "error": null
+  },
+  {
+   "id": "e14",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "workplace_harassment:11"
+   ],
+   "considered": [
+    "workplace_harassment:schedules",
+    "ppc:509",
+    "workplace_harassment:4",
+    "workplace_harassment:11",
+    "workplace_harassment:2",
+    "workplace_harassment:1"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal remedies for workplace sexual harassment and professional retaliation by a manager in a private company in Islamabad",
+   "issues": [
+    "rights of employee against sexual harassment and hostile work environment",
+    "remedies for professional retaliation and victimization for refusing inappropriate advances",
+    "procedure for filing a complaint against a supervisor in a private organization"
+   ],
+   "summary": "The law requires your employer to form an Inquiry Committee and designate a Competent Authority to handle such complaints. They must also display a Code of Conduct in your workplace. If your company fails to follow these rules and does not set up the required committee or authority, you can file a p",
+   "seconds": 14.2,
+   "error": null
+  },
+  {
+   "id": "e15",
+   "expect": "answer",
+   "region": "unknown",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ppc:489F"
+   ],
+   "considered": [
+    "ppc:489F",
+    "contract_act:176",
+    "contract_act:140",
+    "kp_consumer:14",
+    "crpc:schedules",
+    "specific_relief:10"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "its quote was not found word-for-word in the official text"
+     },
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "legal consequences of a dishonoured cheque for payment of goods and procedure for recovery of money",
+   "issues": [
+    "criminal liability for issuing a cheque without sufficient funds",
+    "legal procedure for recovery of payment for goods sold",
+    "rights of a merchant against a defaulting debtor"
+   ],
+   "summary": "The person who issued the cheque is only exempt from punishment if they can prove that they had arranged with their bank to ensure the cheque would be honoured and that the bank was at fault.",
+   "seconds": 12.1,
+   "error": null
+  },
+  {
+   "id": "e16",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ict_consumer:5",
+    "ict_consumer:9",
+    "ict_consumer:8"
+   ],
+   "considered": [
+    "ict_consumer:5",
+    "ict_consumer:9",
+    "ict_consumer:8",
+    "cpc:schedules",
+    "ict_consumer:8A",
+    "peca:53"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "how to recover money from online shopping fraud and report a blocked social media seller for non-delivery of goods",
+   "issues": [
+    "legal remedies for non-delivery of goods after advance payment",
+    "procedure to report online commercial fraud and cybercrime",
+    "rights of a consumer against deceptive trade practices"
+   ],
+   "summary": "You can file a formal complaint with the Authority regarding the unfair trade practice. The Authority can then order the seller to pay you compensation for your loss. You also have the right to be protected against such exploitation.",
+   "seconds": 10.8,
+   "error": null
+  },
+  {
+   "id": "e17",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 1,
+   "cited": [
+    "police_order:156"
+   ],
+   "considered": [
+    "police_order:100",
+    "police_order:106",
+    "crpc:171",
+    "police_order:156",
+    "police_order:152",
+    "crpc:174A"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim"
+     },
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "legal remedies for police custodial torture and physical assault during detention, how to file a complaint against police officers and seek compensation",
+   "issues": [
+    "rights of a person in police custody against physical assault and torture",
+    "procedure to file a complaint against police officers for custodial violence",
+    "legal remedies for obtaining medical examination and compensation for injuries sustained in police station"
+   ],
+   "summary": "The police officer who inflicted torture or violence on your brother in custody can be punished with imprisonment for up to five years and a fine upon conviction.",
+   "seconds": 13.4,
+   "error": null
+  },
+  {
+   "id": "e18",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ict_corporal_punishment:3",
+    "ict_corporal_punishment:6",
+    "ict_corporal_punishment:5"
+   ],
+   "considered": [
+    "ict_corporal_punishment:3",
+    "ict_corporal_punishment:6",
+    "ict_corporal_punishment:8",
+    "ict_corporal_punishment:2",
+    "ppc:328A",
+    "ict_corporal_punishment:5"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "legal action against school teacher for physical assault and corporal punishment of a minor child in a private school in Islamabad",
+   "issues": [
+    "legal consequences for physical assault and corporal punishment of a minor by a teacher",
+    "procedure to file a complaint against a private school and its staff for physical abuse",
+    "rights of parents to seek compensation and protection for a child injured in school"
+   ],
+   "summary": "The law strictly prohibits any form of corporal punishment against children in all types of schools, including private and religious institutions. Because this is a private school, the institution is required to have a complaint system to address cases of corporal punishment.",
+   "seconds": 14.2,
+   "error": null
+  },
+  {
+   "id": "e19",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "specific_relief:9",
+    "ict_senior_citizens:13"
+   ],
+   "considered": [
+    "crpc:522",
+    "cpc:schedules",
+    "ppc:421",
+    "specific_relief:9",
+    "domestic_violence:6",
+    "ict_senior_citizens:13"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal remedy for elderly parent evicted from house by son after fraudulent transfer of property title in Islamabad",
+   "issues": [
+    "right of elderly parent to residence and protection against eviction",
+    "legal remedy for fraudulent transfer of immovable property by family member",
+    "recovery of possession of property from illegal occupant"
+   ],
+   "summary": "Since your father is a senior citizen, if the property was transferred on the condition that he would be provided with basic necessities (like maintenance) and the son is now refusing to provide them, the transfer can be declared void by a court of competent jurisdiction. If your father was disposse",
+   "seconds": 14.4,
+   "error": null
+  },
+  {
+   "id": "e20",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ict_domestic_workers:4",
+    "ict_domestic_workers:19"
+   ],
+   "considered": [
+    "ict_domestic_workers:4",
+    "ict_domestic_workers:19",
+    "ict_domestic_workers:8",
+    "ict_domestic_workers:18",
+    "ict_domestic_workers:14",
+    "domestic_violence:9"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [
+     {
+      "reason": "it stated a number that is not in its quote"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "legal rights of a domestic worker regarding unpaid wages and wrongful termination due to illness in Islamabad",
+   "issues": [
+    "rights of domestic worker to receive unpaid wages",
+    "remedy for wrongful termination of domestic employment",
+    "legal recourse for non-payment of salary by employer"
+   ],
+   "summary": "You have the right to receive medical care and benefits if you are sick or injured while working. The employer must pay you at least the minimum wage rate set by the government and cannot pay less than that amount.",
+   "seconds": 13.3,
+   "error": null
+  },
+  {
+   "id": "e21",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ict_child_marriage:7",
+    "ict_child_marriage:9"
+   ],
+   "considered": [
+    "ict_child_marriage:4",
+    "ict_child_marriage:3",
+    "ict_child_marriage:2",
+    "ict_child_marriage:7",
+    "ict_child_marriage:9",
+    "guardians_wards:10"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal procedure to stop child marriage of a 14 year old girl in Islamabad and age of consent for marriage in Pakistan",
+   "issues": [
+    "legal age of marriage for girls and penalties for child marriage",
+    "procedure to report and prevent child marriage to authorities",
+    "rights of a minor to be protected from forced marriage"
+   ],
+   "summary": "The Court will generally give the other party a chance to explain their side before issuing the order, unless the Court decides it is necessary to skip that step. Be aware that any parent or guardian who promotes a child marriage or fails to prevent it can be punished with rigorous imprisonment for ",
+   "seconds": 13.4,
+   "error": null
+  },
+  {
+   "id": "e22",
+   "expect": "answer",
+   "region": "unknown",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "rti:13",
+    "rti:12"
+   ],
+   "considered": [
+    "rti:24",
+    "rti:1",
+    "rti:13",
+    "rti:3",
+    "rti:12",
+    "rti:20"
+   ],
+   "gold_cited": false,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [
+     {
+      "reason": "its quote was not found word-for-word in the official text"
+     },
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal right to access merit list and individual marks for government job recruitment and procedure to request information from a federal ministry",
+   "issues": [
+    "right of access to information regarding public recruitment processes",
+    "procedure for requesting official records from a government department",
+    "legal remedies for non-disclosure of examination results by a public authority"
+   ],
+   "summary": "In the event of a refusal based on exempt information, the official is required to specify the exact exception used and provide details on your right to appeal that decision. If the public body does not actually hold the merit list or your marks, they are required to inform you of this fact within t",
+   "seconds": 13.9,
+   "error": null
+  },
+  {
+   "id": "e23",
+   "expect": "answer",
+   "region": "unknown",
+   "status": "clarify",
+   "level": null,
+   "cited": [],
+   "considered": [],
+   "gold_cited": false,
+   "gold_considered": null,
+   "steps": 0,
+   "checks": null,
+   "rewrite": "how to file a complaint against a gas company for incorrect billing and lack of response from the office",
+   "issues": [
+    "consumer rights regarding incorrect utility billing and redressal mechanism",
+    "procedure to escalate a complaint against a public utility provider for non-responsiveness",
+    "legal remedies for overcharging by a utility company"
+   ],
+   "summary": "This depends on where you are. Which province or city?",
+   "seconds": 2.4,
+   "error": null
+  },
+  {
+   "id": "e24",
+   "expect": "answer",
+   "region": "unknown",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "crpc:161A"
+   ],
+   "considered": [
+    "ppc:205",
+    "ppc:496C",
+    "crpc:250",
+    "guardians_wards:11",
+    "crpc:161A",
+    "succession_act:373"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 2,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "how to obtain a free legal aid lawyer for a false criminal case in Pakistan",
+   "issues": [
+    "right to free legal aid for indigent persons",
+    "procedure to apply for a court-appointed lawyer",
+    "remedies for false accusations and malicious prosecution"
+   ],
+   "summary": "In cases involving these specific serious crimes, if you require free legal aid, the police officer is required to provide you with a list of lawyers maintained by the Provincial Bar Councils for this purpose.",
+   "seconds": 10.7,
+   "error": null
+  },
+  {
+   "id": "e25",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "juvenile_justice:5",
+    "constitution:10"
+   ],
+   "considered": [
+    "peca:30A",
+    "crpc:514B",
+    "guardians_wards:12",
+    "guardians_wards:10",
+    "juvenile_justice:5",
+    "constitution:10"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "legal rights of a minor detained by police and procedures for production before a magistrate",
+   "issues": [
+    "rights of a minor in police custody",
+    "time limit for production of a minor before a magistrate",
+    "procedure for seeking bail for a minor"
+   ],
+   "summary": "Because your son is a juvenile, the law requires that he be kept in an observation home instead of a standard police cell. The police officer in charge must immediately inform you (his guardian) about his arrest and provide the details of the court where he will be produced.",
+   "seconds": 12.5,
+   "error": null
+  },
+  {
+   "id": "e26",
+   "expect": "answer",
+   "region": "punjab",
+   "status": "answered",
+   "level": 1,
+   "cited": [
+    "punjab_consumer:28"
+   ],
+   "considered": [
+    "punjab_consumer:4",
+    "punjab_consumer:8",
+    "punjab_consumer:28",
+    "contract_act:73",
+    "punjab_consumer:30",
+    "punjab_consumer:23"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 5,
+    "dropped": [
+     {
+      "reason": "it stated a number that is not in its quote"
+     },
+     {
+      "reason": "the quote did not fully support the claim"
+     },
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "where to file a consumer complaint for a defective air conditioner and how to get a replacement or refund under warranty",
+   "issues": [
+    "consumer rights regarding defective goods and warranty fulfillment",
+    "procedure for filing a complaint against a merchant for refusal to replace faulty product",
+    "remedies for breach of contract and deficiency in service"
+   ],
+   "summary": "You must first send a written notice to the manufacturer or service provider demanding they fix the defect or provide compensation for the damage. The manufacturer or service provider is required to reply to your written notice within fifteen days of receiving it.",
+   "seconds": 17.4,
+   "error": null
+  },
+  {
+   "id": "e27",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "crpc:497",
+    "crpc:496"
+   ],
+   "considered": [
+    "crpc:497",
+    "crpc:496",
+    "crpc:schedules",
+    "qso:39",
+    "peca:30A",
+    "crpc:500"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 5,
+   "checks": {
+    "steps_proposed": 5,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 5
+   },
+   "rewrite": "conditions and timeline for obtaining bail in a criminal case involving a physical fight",
+   "issues": [
+    "grounds and procedure for granting bail in a non-bailable offence",
+    "judicial authority and process for seeking release from custody",
+    "legal rights of an accused person during police detention"
+   ],
+   "summary": "If the offense is non-bailable, the court can deny bail if there are reasonable grounds to believe the accused committed a crime punishable by death, life imprisonment, or ten years of imprisonment. The court may still grant bail for such serious offenses if the accused is a woman, a person under si",
+   "seconds": 18.7,
+   "error": null
+  },
+  {
+   "id": "e28",
+   "expect": "answer",
+   "region": "ict",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "ppc:162",
+    "crpc:schedules",
+    "ppc:161",
+    "ppc:165B",
+    "ppc:163",
+    "cpc:58"
+   ],
+   "gold_cited": false,
+   "gold_considered": true,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "checks": {
+      "steps_proposed": 2,
+      "dropped": [
+       {
+        "reason": "its quote was not found word-for-word in the official text"
+       },
+       {
+        "reason": "its quote was not found word-for-word in the official text"
+       }
+      ],
+      "quotes_snapped": 0,
+      "steps_kept": 0
+     }
+    }
+   ],
+   "rewrite": "legal consequences of police demanding money for release of a person and procedure to report police corruption or extortion",
+   "issues": [
+    "legal rights of a person detained by police and procedure for release",
+    "remedy for police demanding gratification or bribe for release of a person",
+    "offence of public servant demanding illegal gratification"
+   ],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 12.5,
+   "error": null
+  },
+  {
+   "id": "e29",
+   "expect": "answer",
+   "region": "punjab",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "specific_relief:9",
+    "specific_relief:54"
+   ],
+   "considered": [
+    "specific_relief:8",
+    "specific_relief:9",
+    "specific_relief:10",
+    "specific_relief:54",
+    "crpc:schedules",
+    "cpc:schedules"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 2,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal remedy for neighbor illegally removing and encroaching upon boundary wall of a plot in Gujranwala",
+   "issues": [
+    "legal remedy for illegal encroachment and destruction of property boundary",
+    "procedure to recover possession and seek damages for property damage",
+    "criminal liability for unauthorized construction and property damage"
+   ],
+   "summary": "You have the right to seek a court order (injunction) to stop your neighbor from continuing to damage your property or commit acts of trespass. If you have been forcibly removed from your property without your consent, you can file a suit to recover possession of that land.",
+   "seconds": 10.6,
+   "error": null
+  },
+  {
+   "id": "e30",
+   "expect": "answer",
+   "region": "unknown",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "family_courts:7",
+    "guardians_wards:12"
+   ],
+   "considered": [
+    "family_courts:schedules",
+    "family_courts:7",
+    "guardians_wards:19",
+    "guardians_wards:12",
+    "mflo:7",
+    "guardians_wards:8"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "child custody rights for a 5-year-old child after divorce and legal remedies against mother-in-law interfering with access",
+   "issues": [
+    "custody rights of a minor child after dissolution of marriage",
+    "legal remedies for interference with access to a child by relatives",
+    "maintenance and visitation rights of a father"
+   ],
+   "summary": "You can file a legal suit (plaint) in the Family Court to resolve this dispute. A suit for dissolution of marriage can also include claims for the custody of children. The Court has the power to issue an order for the temporary custody and protection of a minor's person and property as it deems prop",
+   "seconds": 11.5,
+   "error": null
+  },
+  {
+   "id": "e31",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 1,
+   "cited": [
+    "constitution:10"
+   ],
+   "considered": [
+    "crpc:86A",
+    "crpc:60",
+    "constitution:10",
+    "crpc:56",
+    "crpc:174",
+    "ppc:222"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal procedure for police detention without warrant and right to information regarding whereabouts of arrested person",
+   "issues": [
+    "rights of an arrested person to be produced before a magistrate",
+    "procedure for reporting missing person held by police",
+    "illegal detention and kidnapping by public servants"
+   ],
+   "summary": "You have the right to be informed of the reasons for your father's arrest and to consult a lawyer. Furthermore, the police must produce him before a magistrate within 24 hours of the arrest (excluding travel time).",
+   "seconds": 12.3,
+   "error": null
+  },
+  {
+   "id": "e32",
+   "expect": "answer",
+   "region": "sindh",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "sindh_rent:9"
+   ],
+   "considered": [
+    "sindh_rent:9",
+    "sindh_rent:15",
+    "sindh_rent:17",
+    "sindh_rent:14",
+    "sindh_rent:21",
+    "cpc:schedules"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal limit on annual rent increase for residential property in Karachi and procedure for eviction by landlord",
+   "issues": [
+    "legal limits on annual rent increase for residential premises",
+    "grounds for eviction of a tenant by a landlord",
+    "rights of a tenant against arbitrary rent hikes"
+   ],
+   "summary": "The law limits the amount by which a landlord can increase the rent each year to a maximum of ten percent of the current rent. If the rent has already been fixed, the landlord is not allowed to increase it again until at least three years have passed since the date it was fixed or since the Ordinanc",
+   "seconds": 12.7,
+   "error": null
+  },
+  {
+   "id": "e33",
+   "expect": "answer",
+   "region": "kp",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "kp_domestic_violence:14"
+   ],
+   "considered": [
+    "kp_domestic_violence:9",
+    "ppc:460",
+    "ppc:459",
+    "kp_domestic_violence:10",
+    "kp_domestic_violence:14",
+    "kp_domestic_violence:2"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [
+     {
+      "reason": "its quote was not found word-for-word in the official text"
+     },
+     {
+      "reason": "the quote did not fully support the claim"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal protection for a woman facing domestic violence and physical assault by husband and in-laws in Pakistan and how to report the crime",
+   "issues": [
+    "legal rights of a woman subjected to physical violence and harassment by family members",
+    "procedure for reporting domestic abuse and seeking protection orders",
+    "criminal liability of husband and in-laws for causing hurt and harassment"
+   ],
+   "summary": "Your sister can seek a court order to stop the violence. If the Court is satisfied that domestic violence occurred, it can prohibit the husband or mother-in-law from committing further violence, contacting her, or entering her workplace. The Court can also order the husband or mother-in-law to retur",
+   "seconds": 16.9,
+   "error": null
+  },
+  {
+   "id": "e34",
+   "expect": "abstain",
+   "region": "ict",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "constitution:schedules",
+    "constitution:165",
+    "ict_domestic_workers:28",
+    "cpc:29",
+    "constitution:260",
+    "workplace_harassment:2"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "income tax rates and exemptions for freelancers earning from international platforms in Pakistan",
+   "issues": [
+    "tax liability and exemptions for export of services",
+    "registration requirements for online freelancers",
+    "procedure to file annual income tax return for foreign earnings"
+   ],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 5.3,
+   "error": null
+  },
+  {
+   "id": "e35",
+   "expect": "abstain",
+   "region": "ict",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "peca:17",
+    "peca:51",
+    "mvo_1965:43",
+    "ict_child_marriage:3",
+    "peca:16",
+    "cpc:schedules"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "procedure and fees for online renewal of national identity card",
+   "issues": [
+    "procedure for online renewal of national identity card",
+    "fees for identity card renewal"
+   ],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 4.6,
+   "error": null
+  },
+  {
+   "id": "e36",
+   "expect": "abstain",
+   "region": "ict",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "ppc:462L",
+    "ppc:462J",
+    "mvo_1965:52",
+    "ppc:462K",
+    "mvo_1965:47",
+    "peca:2B"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "where to apply for net metering for residential solar power system and the procedure for registration",
+   "issues": [
+    "procedure for registration of net metering for residential solar power",
+    "authority responsible for approving net metering applications"
+   ],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 5.2,
+   "error": null
+  },
+  {
+   "id": "e37",
+   "expect": "abstain",
+   "region": "unknown",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "succession_act:372",
+    "cpc:schedules",
+    "punjab_mvo:39",
+    "succession_act:375",
+    "legal_aid:13",
+    "succession_act:379"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "procedure and fees for obtaining a protector certificate for travel to Saudi Arabia",
+   "issues": [
+    "legal requirements and procedure for obtaining a protector certificate",
+    "government fees and official charges for travel documentation",
+    "authority responsible for issuing travel protection certificates"
+   ],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 5.5,
+   "error": null
+  },
+  {
+   "id": "e38",
+   "expect": "abstain",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ict_consumer:8",
+    "ict_consumer:5"
+   ],
+   "considered": [
+    "ict_consumer:8",
+    "crpc:71",
+    "ict_consumer:5",
+    "family_courts:8",
+    "ppc:489F",
+    "cpc:schedules"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 4,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 4
+   },
+   "rewrite": "legal remedies for arbitrary rejection of car loan application by a bank and right to explanation",
+   "issues": [
+    "rights of a consumer against arbitrary refusal of service by a financial institution",
+    "remedy for unfair banking practices and lack of transparency in loan processing",
+    "legal procedure to file a complaint against a bank for deficiency in service"
+   ],
+   "summary": "You have a legal right to seek redressal against unfair trade practices or exploitation by service providers. You can file a formal complaint with the Authority regarding any service provided or any unfair trade practice.",
+   "seconds": 13.8,
+   "error": null
+  }
+ ]
+}

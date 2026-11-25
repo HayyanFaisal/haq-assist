@@ -1,0 +1,165 @@
+{
+ "id": "fir_refused",
+ "region": "ict",
+ "title_en": "Police won't register my FIR",
+ "title_ur": "پولیس ایف آئی آر درج نہیں کر رہی",
+ "steps": [
+  {
+   "kind": "law",
+   "source": "crpc:4",
+   "text_en": "A cognizable offence is one for which the police may arrest without a warrant.",
+   "text_ur": "قابلِ دست اندازی جرم وہ ہے جس میں پولیس وارنٹ کے بغیر گرفتار کر سکتی ہے۔",
+   "quotes": [
+    {
+     "text": "“cognizable offence” means an offence for, and “cognizable case” means a case in, which a police-officer,",
+     "page": 28,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=28"
+    },
+    {
+     "text": "may, in accordance with the second schedule, or under any law for the time being in force, arrest without warrant:",
+     "page": 28,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=28"
+    }
+   ],
+   "act": "Code of Criminal Procedure (CrPC), 1898 (Under Review)",
+   "section": "4",
+   "section_title": "Definitions",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=28",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "crpc:154",
+   "text_en": "If you report a cognizable offence orally to the officer in charge of the police station, it must be written down by or under that officer's direction and read back to you.",
+   "text_ur": "اگر آپ تھانے کے انچارج کو قابلِ دست اندازی جرم کی زبانی اطلاع دیں تو اسے انچارج خود یا اس کی ہدایت پر تحریر کیا جائے گا اور آپ کو پڑھ کر سنایا جائے گا۔",
+   "quotes": [
+    {
+     "text": "Every information relating to the commission of a cognizable offence if given orally to an officer in charge of a police-station, shall be reduced to writing by him or under his direction, and be read over to the informant",
+     "page": 79,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=79"
+    }
+   ],
+   "act": "Code of Criminal Procedure (CrPC), 1898 (Under Review)",
+   "section": "154",
+   "section_title": "Information in cognizable cases",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=79",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "crpc:154",
+   "text_en": "Whether given in writing or written down, the person giving the information must sign it, and its substance must be entered in the book kept by the officer.",
+   "text_ur": "اطلاع تحریری ہو یا لکھی گئی ہو، دینے والا اس پر دستخط کرے گا، اور اس کا خلاصہ افسر کے رجسٹر میں درج کیا جائے گا۔",
+   "quotes": [
+    {
+     "text": "every such information, whether given in writing or reduced to writing as aforesaid, shall be signed by the person giving it, and the substance thereof shall be entered in a book to be kept by such officer",
+     "page": 79,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=79"
+    }
+   ],
+   "act": "Code of Criminal Procedure (CrPC), 1898 (Under Review)",
+   "section": "154",
+   "section_title": "Information in cognizable cases",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=79",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "crpc:22A",
+   "text_en": "If the police do not register the case, you can complain to an ex-officio Justice of the Peace, who may direct the police about the non-registration.",
+   "text_ur": "اگر پولیس مقدمہ درج نہ کرے تو آپ ایکس آفیشیو جسٹس آف پیس کو شکایت کر سکتے ہیں، جو مقدمہ درج نہ کرنے پر پولیس کو ہدایت دے سکتا ہے۔",
+   "quotes": [
+    {
+     "text": "An ex-officio Justice of the Peace may issue appropriate directions to the police authorities concerned on a complaint regarding- (i) nonregistration of a criminal case;",
+     "page": 34,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=34"
+    }
+   ],
+   "act": "Code of Criminal Procedure (CrPC), 1898 (Under Review)",
+   "section": "22A",
+   "section_title": "Powers of Justices of the Peace",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=34",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "crpc:25",
+   "text_en": "The Sessions Judge (and Additional Sessions Judges they nominate) are ex-officio Justices of the Peace for the district.",
+   "text_ur": "سیشن جج (اور ان کے نامزد کردہ ایڈیشنل سیشن جج) ضلع کے ایکس آفیشیو جسٹس آف پیس ہوتے ہیں۔",
+   "quotes": [
+    {
+     "text": "the Sessions Judges and on nomination by them, the Additional Sessions Judges, are Justices of the Peace",
+     "page": 35,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=35"
+    }
+   ],
+   "act": "Code of Criminal Procedure (CrPC), 1898 (Under Review)",
+   "section": "25",
+   "section_title": "Ex-officio Justices of the Peace",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=35",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "crpc:155",
+   "text_en": "For a non-cognizable offence within the station's limits, the officer in charge enters the substance in the book and refers you to the Magistrate.",
+   "text_ur": "تھانے کی حدود میں ناقابلِ دست اندازی جرم کی صورت میں انچارج خلاصہ رجسٹر میں درج کر کے آپ کو مجسٹریٹ کے پاس بھیجے گا۔",
+   "quotes": [
+    {
+     "text": "When information is given to an officer incharge of a police-station of the commission within the limits of such station of a non-cognizable offence, he shall enter in a book to be kept as aforesaid the substance of such information and refer the informant to the Magistrate.",
+     "page": 79,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=79"
+    }
+   ],
+   "act": "Code of Criminal Procedure (CrPC), 1898 (Under Review)",
+   "section": "155",
+   "section_title": "Information in non-cognizable cases",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=79",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  }
+ ],
+ "not_covered_en": "Whether your matter is cognizable depends on the offence (CrPC Second Schedule). Women reporting certain offences have extra recording safeguards under CrPC section 154. A lawyer can confirm the right route.",
+ "not_covered_ur": "آپ کا معاملہ قابلِ دست اندازی ہے یا نہیں، یہ جرم پر منحصر ہے (ضابطہ فوجداری کا دوسرا شیڈول)۔ بعض جرائم کی رپورٹ کرنے والی خواتین کے لیے دفعہ 154 کے تحت اضافی تحفظات ہیں۔ درست راستے کے لیے وکیل سے مشورہ کریں۔"
+}

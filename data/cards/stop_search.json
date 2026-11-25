@@ -1,0 +1,146 @@
+{
+ "id": "stop_search",
+ "region": "ict",
+ "title_en": "Stopped or searched without reason",
+ "title_ur": "بلا وجہ روکا گیا یا تلاشی لی گئی",
+ "steps": [
+  {
+   "kind": "tip",
+   "text_en": "Stay calm, keep your hands visible and do not resist physically. If it is safe, politely ask the officer's name and the legal reason. Once safe, write down the time, place and any identifying details.",
+   "text_ur": "پرسکون رہیں، ہاتھ نظر آتے رہیں اور جسمانی مزاحمت نہ کریں۔ اگر محفوظ ہو تو شائستگی سے افسر کا نام اور قانونی وجہ پوچھیں۔ محفوظ ہونے پر وقت، جگہ اور شناختی تفصیلات لکھ لیں۔"
+  },
+  {
+   "kind": "law",
+   "source": "police_order:156",
+   "text_en": "A police officer who vexatiously and unnecessarily detains, searches or arrests a person commits an offence; on conviction the officer can be punished with imprisonment of up to five years and a fine.",
+   "text_ur": "جو پولیس افسر زیادتی کرتے ہوئے اور بلا ضرورت کسی شخص کو حراست میں لے، تلاشی لے یا گرفتار کرے، وہ جرم کرتا ہے؛ جرم ثابت ہونے پر اسے پانچ سال تک قید اور جرمانے کی سزا ہو سکتی ہے۔",
+   "quotes": [
+    {
+     "text": "vexatiously and unnecessarily detains, searches or arrests any person;",
+     "page": 59,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator91032d4ee5bd880388b96d54d5540865.pdf#page=59"
+    },
+    {
+     "text": "shall, for every such offence, on conviction, be punished with imprisonment for a term, which may extend to five years and with fine.",
+     "page": 59,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator91032d4ee5bd880388b96d54d5540865.pdf#page=59"
+    }
+   ],
+   "act": "Police Order, 2002",
+   "section": "156",
+   "section_title": "Penalty for vexatious entry, search, arrest, seizure of property, torture, etc",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator91032d4ee5bd880388b96d54d5540865.pdf#page=59",
+   "version_date": null,
+   "applies_in": [
+    "ict"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "crpc:52",
+   "text_en": "If a woman has to be searched, the search must be made by another woman, with strict regard to decency.",
+   "text_ur": "اگر کسی خاتون کی تلاشی ضروری ہو تو تلاشی صرف دوسری خاتون ہی لے گی، اور شائستگی کا پورا خیال رکھا جائے گا۔",
+   "quotes": [
+    {
+     "text": "Whenever it is necessary to cause a woman to be searched, the search shall be made by another woman, with strict regard to decency.",
+     "page": 42,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=42"
+    }
+   ],
+   "act": "Code of Criminal Procedure (CrPC), 1898 (Under Review)",
+   "section": "52",
+   "section_title": "Mode of searching women",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=42",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "constitution:14",
+   "text_en": "The Constitution protects your dignity and, subject to law, the privacy of your home.",
+   "text_ur": "آئین آپ کی عزت اور، قانون کے تابع، آپ کے گھر کی پرائیویسی کا تحفظ کرتا ہے۔",
+   "quotes": [
+    {
+     "text": "The dignity of man and, subject to law, the privacy of home, shall be inviolable.",
+     "page": 23,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator9d8e2ecc414c6d3371ac41114b61a2c4.pdf#page=23"
+    }
+   ],
+   "act": "Constitution of the Islamic Republic of Pakistan",
+   "section": "14",
+   "section_title": "Inviolability of dignity of man, etc",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator9d8e2ecc414c6d3371ac41114b61a2c4.pdf#page=23",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "crpc:22A",
+   "text_en": "Afterwards you can complain to an ex-officio Justice of the Peace, who may issue directions to the police on a complaint about neglect, failure or excess by a police authority in its functions and duties.",
+   "text_ur": "بعد میں آپ ایکس آفیشیو جسٹس آف پیس کو شکایت کر سکتے ہیں، جو پولیس کے فرائض میں غفلت، ناکامی یا زیادتی کی شکایت پر پولیس کو مناسب ہدایات دے سکتا ہے۔",
+   "quotes": [
+    {
+     "text": "An ex-officio Justice of the Peace may issue appropriate directions to the police authorities concerned on a complaint regarding-",
+     "page": 34,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=34"
+    },
+    {
+     "text": "neglect, failure or excess committed by a police authority in relation to its functions and duties.]",
+     "page": 35,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=35"
+    }
+   ],
+   "act": "Code of Criminal Procedure (CrPC), 1898 (Under Review)",
+   "section": "22A",
+   "section_title": "Powers of Justices of the Peace",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=34",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  },
+  {
+   "kind": "law",
+   "source": "crpc:25",
+   "text_en": "In your district, the Sessions Judge (and Additional Sessions Judges nominated by them) act as ex-officio Justices of the Peace.",
+   "text_ur": "آپ کے ضلع میں سیشن جج (اور ان کی نامزدگی پر ایڈیشنل سیشن جج) ایکس آفیشیو جسٹس آف پیس ہوتے ہیں۔",
+   "quotes": [
+    {
+     "text": "the Sessions Judges and on nomination by them, the Additional Sessions Judges, are Justices of the Peace",
+     "page": 35,
+     "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=35"
+    }
+   ],
+   "act": "Code of Criminal Procedure (CrPC), 1898 (Under Review)",
+   "section": "25",
+   "section_title": "Ex-officio Justices of the Peace",
+   "link": "https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=35",
+   "version_date": null,
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ]
+  }
+ ],
+ "not_covered_en": "Whether police can make you unlock your phone at a routine stop is not settled in our library. If it happens: if safe, ask for the legal basis, do not resist physically, and get legal help promptly.",
+ "not_covered_ur": "معمول کی چیکنگ پر فون ان لاک کروانے کے بارے میں ہماری لائبریری میں واضح قانون نہیں ملا۔ ایسی صورت میں: اگر محفوظ ہو تو قانونی بنیاد پوچھیں، جسمانی مزاحمت نہ کریں، اور جلد قانونی مدد لیں۔"
+}

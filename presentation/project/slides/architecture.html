@@ -1,0 +1,20 @@
+<section id="architecture" class="tint">
+<p class="eyebrow">Architecture</p>
+<h2>Five stages, with checks before anything is shown</h2>
+<div class="row" style="gap: 0; align-items: center;">
+<div class="node in" style="--i:0"><h3>1 · Understand</h3><p class="body">Gemma 4 12B finds topic and province, rewrites in legal English, writes 3 statute-style search sentences</p></div>
+<x-connector head="end" style="width: 64px; height: 4px;"></x-connector>
+<div class="node in" style="--i:1"><h3>2 · Retrieve</h3><p class="body">54 acts, 4,716 sections; that region’s law; each angle searched; fused search + reranker</p></div>
+<x-connector head="end" style="width: 64px; height: 4px;"></x-connector>
+<div class="node in" style="--i:2"><h3>3 · Answer</h3><p class="body">Steps in Urdu and English, each citing one source and one excerpt</p></div>
+<x-connector head="end" style="width: 64px; height: 4px;"></x-connector>
+<div class="node key in" style="--i:3"><h3>4 · Check</h3><p class="body">Excerpt matched to the official text; numbers in both languages; a support pass</p></div>
+<x-connector head="end" style="width: 64px; height: 4px;"></x-connector>
+<div class="node key in" style="--i:4"><h3>5 · Show</h3><p class="body">Trust level, excerpts, PDF page links, the live trace; read aloud on request</p></div>
+</div>
+<div class="row in" style="--i:5">
+<div class="card"><p class="badge">Nothing passes the checks?</p><p class="body">Online search on: official .gov.pk / .gob.pk pages, labelled “not yet reviewed”. Off, or nothing found: “Not found” and a suggestion to see a lawyer.</p></div>
+<div class="card"><p class="badge">Runs on one PC</p><p class="body">Three local services: llama.cpp (Gemma), the FastAPI app, VoiceStudio (Whisper in, OmniVoice out). 13.4 of 16 GB on GPU 1.</p></div>
+</div>
+<aside>Stage 4 is where safety lives: the excerpt must match the official text (a close paraphrase is replaced by the official words and checked again), every number must appear in it in English and Urdu, and a second pass of the same model confirms support and fails closed. For FIR, arrest, stop and search, online harm and traffic, the reviewed rights-card law is always among the sources. The live trace shows each stage as it happens and can be turned off in Settings.</aside>
+</section>

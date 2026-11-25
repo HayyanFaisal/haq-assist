@@ -1,0 +1,28 @@
+<section id="data" class="has-source">
+<p class="eyebrow">Data plan and metrics</p>
+<h2>We don’t train on laws — the app looks them up</h2>
+<div class="row" style="gap: 56px; align-items: flex-start;">
+<div class="col" style="width: 560px; flex: none; gap: 20px;">
+<p class="mid">54 acts</p>
+<p class="label" style="margin-top:-8px">4,716 sections from Pakistan Code and provincial .gov.pk / .gob.pk portals</p>
+<p class="small"><b>Provenance:</b> 57/57 PDFs — official host, SHA-256, title checked</p>
+<p class="small"><b>Completeness:</b> 3,330/3,346 federal and ICT, 1,373/1,400 provincial contents entries extracted</p>
+<p class="small"><b>Review:</b> an independent older copy; four sampled Codex passes; 3 documents and the Limitation Act’s deadline table excluded</p>
+<p class="small"><b>Test sets:</b> 57 labelled questions, plus 78 everyday stories — 40 written by Codex and held out</p>
+</div>
+<div class="col grow">
+<h3>Ablation on the 57 questions</h3>
+<table style="font-size: 26px; width: 1048px;">
+<tr><th style="width:44%">Measure</th><th style="width:18%">A: LLM alone</th><th style="width:20%">B: + search</th><th style="width:18%">C: Haq Assist</th></tr>
+<tr><td>Citations with a verifiable quote</td><td>0 of 77</td><td>135 of 152</td><td>121 of 121</td></tr>
+<tr><td>Unverifiable citations shown</td><td>77</td><td>17</td><td>0</td></tr>
+<tr><td>Correct law cited (49)</td><td>0</td><td>42</td><td>41</td></tr>
+<tr><td>Trick questions declined (8)</td><td>6</td><td>8</td><td>8</td></tr>
+<tr><td>Median time (s)</td><td>6.5</td><td>12.3</td><td>13.8</td></tr>
+</table>
+<p class="small muted">C keeps 41 of B’s 42 correct answers and shows no unverifiable citation: the checks rejected 28 unsupported steps. Held-out stories: correct law 16/32 → 19/32 with the story-aware search.</p>
+</div>
+</div>
+<p class="source">A = Gemma 4 12B from memory; B = same retrieval and prompt, no checks; C = full system, local library only. Verifiable = quote found in the cited official section.</p>
+<aside>Answer to the instructor’s question: our data is the official statute text, not a training set; our labelled data is the test sets. The ablation shows what each layer buys: the model alone wrote 77 citations and not one quote was in the official text. Be upfront: these are single runs, and LLM output varies by a few questions between runs.</aside>
+</section>

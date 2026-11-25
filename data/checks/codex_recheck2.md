@@ -1,0 +1,20 @@
+**Summary:** 35 checked. **9/15** previously failing sections now pass, and **14/20** new random sections pass. The two excerpts capped at 3,000 characters were checked against their full library records.
+
+| id | check | what is wrong |
+|---|---|---|
+| `balochistan_rent:5` | Scope | The note quotes the Tribal Areas exception but omits the source footnote recording the 27 January 2014 notification that extended the ordinance to Balochistan’s Provincially Administered Tribal Areas. [PDF p. 3](https://balochistancode.gob.pk/lawdir/eb5c474b-ca72-4aae-8d7f-8dd8f441282c.pdf#page=3) |
+| `kp_mvo:72` | Boundary, title, scope | The `title` still uses the contents wording. The enacted marginal heading includes “Khyber Pakhtunkhwa” and ends “by it.” Those last two words remain in the body between subsections (2) and (3). The extent quote also absorbs the next section number, `2.`. [PDF pp. 8, 71](https://kpcode.kp.gov.pk/uploads/THE_PROVINCIAL_MOTOR_VEHICLES_ORDINANCE_1965.pdf#page=71) |
+| `kp_rent:18` | Scope | The note omits §1(2), which limits the ordinance to urban areas and excepts the Tribal Areas. [PDF p. 3](https://kpcode.kp.gov.pk/uploads/1959_06_THE_WEST_PAKISTAN_URBAN_RENT_RESTRICTION_ORDINANCE_1959.pdf#page=3) |
+| `mvo_1965:64` | Content | Subsection (1) loses “service vehicle.” The extract ends the sentence at “as a public” and jumps to subsection (2). [PDF p. 44](https://pakistancode.gov.pk/pdffiles/administratorfcc61bd4cc647332fccbdffad801bab8.pdf#page=44) |
+| `sindh_mvo:69` | Content | The full record still inserts the amendment footnote between clauses (xxvii) and (xxviii), beyond the sample cutoff. [PDF pp. 71–72](https://www.sindhlaws.gov.pk/setup/Publications/PUB-22-000021.pdf#page=72) |
+| `workplace_harassment:13` | Content | A 2022 amendment footnote remains after the section’s sole sentence. [PDF p. 9](https://pakistancode.gov.pk/pdffiles/administratorc22e81f4add9ea3dc023086953ca2b4f.pdf#page=9) |
+| `crpc:508A`, `crpc:546A`, `crpc:147` | Scope | The shared extent quote cuts off §1(2)’s saving clause mid-word at “for the ti”, omitting the rest of “for the time being in force”. [PDF p. 27](https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=27) |
+| `sindh_mvo:57` | Boundary | Two fragments of the section’s marginal heading, `of` and `in`, remain after the final proviso. [PDF p. 57](https://www.sindhlaws.gov.pk/setup/Publications/PUB-22-000021.pdf#page=57) |
+| `crpc:25` | Boundary, scope | The record absorbs the repeal entry for §§26–27 and the headings leading into §28. It also carries the truncated §1(2) quote. [PDF pp. 27, 35](https://pakistancode.gov.pk/pdffiles/administrator7db1e56f0f1d39a6e67573ec6b0944e2.pdf#page=35) |
+| `ict_rent:21` | Content | The 2021 amendment footnote remains after subsection (8). [PDF p. 12](https://pakistancode.gov.pk/pdffiles/administratorf55c8364472e13dc098d52c71def1f58.pdf#page=12) |
+
+**Systemic issues**
+
+- The margin rule can delete short enacted lines while retaining short heading fragments. The footnote rule also lets small-print notes survive when a trailing space is rendered at body font size, as in `workplace_harassment:13` and `ict_rent:21`. [Layout rules](/C:/Users/User/Documents/UNI/GenAI/Project/scripts/split_sections.py:65)
+- Extent extraction depends on the split opening section and caps quotations at 300 characters. The library omits §1 for both KP Rent and Sindh Motor Vehicles, misses the Penal Code’s “throughout” wording, and folds the Balochistan workplace Act’s commencement subsection into its extent quote. [Extent extraction](/C:/Users/User/Documents/UNI/GenAI/Project/scripts/split_sections.py:398)
+- `punjab_police:70` is absent, but Articles 61–69 and 71–72 still carry the `punjab` tag. They belong to the same Islamabad District Public Safety Commission chapter. [Punjab compilation, PDF pp. 42–47](https://punjabcode.punjab.gov.pk/uploads/articles/police_order-_2002-doc-doc-pdf.pdf#page=42)

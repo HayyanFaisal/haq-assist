@@ -1,0 +1,592 @@
+[
+ {
+  "id": "L01",
+  "name": "Ayesha G.",
+  "demo": true,
+  "city": "Islamabad",
+  "practice_areas": [
+   "Criminal",
+   "Police matters"
+  ],
+  "standing": "Advocate (lower courts)",
+  "years": 6,
+  "qualifications": "LL.B (Hons)",
+  "languages": [
+   "Urdu",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   8000,
+   15000
+  ],
+  "rating": 4.8,
+  "reviews": 43,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L02",
+  "name": "Bilal Y.",
+  "demo": true,
+  "city": "Islamabad",
+  "practice_areas": [
+   "Consumer",
+   "Civil"
+  ],
+  "standing": "Advocate Supreme Court",
+  "years": 20,
+  "qualifications": "LL.B",
+  "languages": [
+   "Urdu",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   10000,
+   25000
+  ],
+  "rating": 4.3,
+  "reviews": 4,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L03",
+  "name": "Sana G.",
+  "demo": true,
+  "city": "Islamabad",
+  "practice_areas": [
+   "Tenancy",
+   "Property"
+  ],
+  "standing": "Advocate Supreme Court",
+  "years": 22,
+  "qualifications": "LL.B, LL.M",
+  "languages": [
+   "Urdu",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   3000,
+   6000
+  ],
+  "rating": 4.7,
+  "reviews": 32,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L04",
+  "name": "Hamza Q.",
+  "demo": true,
+  "city": "Islamabad",
+  "practice_areas": [
+   "Family",
+   "Maintenance"
+  ],
+  "standing": "Advocate (lower courts)",
+  "years": 3,
+  "qualifications": "LL.B (Hons)",
+  "languages": [
+   "Urdu",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   10000,
+   25000
+  ],
+  "rating": 4.2,
+  "reviews": 26,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L05",
+  "name": "Mehwish D.",
+  "demo": true,
+  "city": "Islamabad",
+  "practice_areas": [
+   "Cyber crime (PECA)",
+   "Criminal"
+  ],
+  "standing": "Advocate High Court",
+  "years": 14,
+  "qualifications": "LL.B",
+  "languages": [
+   "Urdu",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   10000,
+   25000
+  ],
+  "rating": 4.2,
+  "reviews": 39,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L06",
+  "name": "Usman N.",
+  "demo": true,
+  "city": "Islamabad",
+  "practice_areas": [
+   "Workplace harassment",
+   "Labour"
+  ],
+  "standing": "Advocate Supreme Court",
+  "years": 20,
+  "qualifications": "LL.B, LL.M",
+  "languages": [
+   "Urdu",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   8000,
+   15000
+  ],
+  "rating": 4.0,
+  "reviews": 45,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L07",
+  "name": "Rabia A.",
+  "demo": true,
+  "city": "Islamabad",
+  "practice_areas": [
+   "Consumer",
+   "Contract"
+  ],
+  "standing": "Advocate Supreme Court",
+  "years": 21,
+  "qualifications": "LL.B",
+  "languages": [
+   "Urdu",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   8000,
+   15000
+  ],
+  "rating": 4.2,
+  "reviews": 33,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L08",
+  "name": "Faisal S.",
+  "demo": true,
+  "city": "Islamabad",
+  "practice_areas": [
+   "Family",
+   "Domestic violence"
+  ],
+  "standing": "Advocate Supreme Court",
+  "years": 16,
+  "qualifications": "LL.B",
+  "languages": [
+   "Urdu",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   3000,
+   6000
+  ],
+  "rating": 4.4,
+  "reviews": 59,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L09",
+  "name": "Nida Y.",
+  "demo": true,
+  "city": "Islamabad",
+  "practice_areas": [
+   "Property",
+   "Civil"
+  ],
+  "standing": "Advocate (lower courts)",
+  "years": 6,
+  "qualifications": "LL.B, LL.M",
+  "languages": [
+   "Urdu",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   10000,
+   25000
+  ],
+  "rating": 4.8,
+  "reviews": 20,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L10",
+  "name": "Zain A.",
+  "demo": true,
+  "city": "Islamabad",
+  "practice_areas": [
+   "Criminal",
+   "Bail"
+  ],
+  "standing": "Advocate Supreme Court",
+  "years": 16,
+  "qualifications": "LL.B",
+  "languages": [
+   "Urdu",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   10000,
+   25000
+  ],
+  "rating": 4.0,
+  "reviews": 12,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L11",
+  "name": "Hira T.",
+  "demo": true,
+  "city": "Rawalpindi",
+  "practice_areas": [
+   "Criminal",
+   "Police matters"
+  ],
+  "standing": "Advocate (lower courts)",
+  "years": 4,
+  "qualifications": "LL.B, LL.M",
+  "languages": [
+   "Urdu",
+   "Punjabi",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   3000,
+   6000
+  ],
+  "rating": 4.0,
+  "reviews": 60,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L12",
+  "name": "Kamran W.",
+  "demo": true,
+  "city": "Rawalpindi",
+  "practice_areas": [
+   "Consumer",
+   "Civil"
+  ],
+  "standing": "Advocate High Court",
+  "years": 10,
+  "qualifications": "LL.B",
+  "languages": [
+   "Urdu",
+   "Punjabi",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   3000,
+   6000
+  ],
+  "rating": 4.3,
+  "reviews": 38,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L13",
+  "name": "Maryam N.",
+  "demo": true,
+  "city": "Rawalpindi",
+  "practice_areas": [
+   "Tenancy",
+   "Property"
+  ],
+  "standing": "Advocate High Court",
+  "years": 11,
+  "qualifications": "LL.B",
+  "languages": [
+   "Urdu",
+   "Punjabi",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   10000,
+   25000
+  ],
+  "rating": 4.7,
+  "reviews": 36,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L14",
+  "name": "Taimoor T.",
+  "demo": true,
+  "city": "Lahore",
+  "practice_areas": [
+   "Family",
+   "Maintenance"
+  ],
+  "standing": "Advocate Supreme Court",
+  "years": 18,
+  "qualifications": "LL.B (Hons)",
+  "languages": [
+   "Urdu",
+   "Punjabi",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   10000,
+   25000
+  ],
+  "rating": 4.1,
+  "reviews": 21,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L15",
+  "name": "Saba H.",
+  "demo": true,
+  "city": "Lahore",
+  "practice_areas": [
+   "Cyber crime (PECA)",
+   "Criminal"
+  ],
+  "standing": "Advocate (lower courts)",
+  "years": 3,
+  "qualifications": "LL.B",
+  "languages": [
+   "Urdu",
+   "Punjabi",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   3000,
+   6000
+  ],
+  "rating": 4.8,
+  "reviews": 33,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L16",
+  "name": "Asad R.",
+  "demo": true,
+  "city": "Lahore",
+  "practice_areas": [
+   "Workplace harassment",
+   "Labour"
+  ],
+  "standing": "Advocate Supreme Court",
+  "years": 19,
+  "qualifications": "LL.B (Hons)",
+  "languages": [
+   "Urdu",
+   "Punjabi",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   10000,
+   25000
+  ],
+  "rating": 4.1,
+  "reviews": 35,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L17",
+  "name": "Iqra T.",
+  "demo": true,
+  "city": "Lahore",
+  "practice_areas": [
+   "Consumer",
+   "Contract"
+  ],
+  "standing": "Advocate Supreme Court",
+  "years": 17,
+  "qualifications": "LL.B",
+  "languages": [
+   "Urdu",
+   "Punjabi",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   10000,
+   25000
+  ],
+  "rating": 4.5,
+  "reviews": 6,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L18",
+  "name": "Danish W.",
+  "demo": true,
+  "city": "Lahore",
+  "practice_areas": [
+   "Family",
+   "Domestic violence"
+  ],
+  "standing": "Advocate High Court",
+  "years": 12,
+  "qualifications": "LL.B (Hons)",
+  "languages": [
+   "Urdu",
+   "Punjabi",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   8000,
+   15000
+  ],
+  "rating": 4.3,
+  "reviews": 49,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L19",
+  "name": "Fatima W.",
+  "demo": true,
+  "city": "Karachi",
+  "practice_areas": [
+   "Property",
+   "Civil"
+  ],
+  "standing": "Advocate Supreme Court",
+  "years": 19,
+  "qualifications": "LL.B (Hons)",
+  "languages": [
+   "Urdu",
+   "Sindhi",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   8000,
+   15000
+  ],
+  "rating": 4.9,
+  "reviews": 57,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L20",
+  "name": "Omer M.",
+  "demo": true,
+  "city": "Karachi",
+  "practice_areas": [
+   "Criminal",
+   "Bail"
+  ],
+  "standing": "Advocate Supreme Court",
+  "years": 18,
+  "qualifications": "LL.B, LL.M",
+  "languages": [
+   "Urdu",
+   "Sindhi",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   3000,
+   6000
+  ],
+  "rating": 4.2,
+  "reviews": 16,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L21",
+  "name": "Zara W.",
+  "demo": true,
+  "city": "Karachi",
+  "practice_areas": [
+   "Criminal",
+   "Police matters"
+  ],
+  "standing": "Advocate Supreme Court",
+  "years": 16,
+  "qualifications": "LL.B (Hons)",
+  "languages": [
+   "Urdu",
+   "Sindhi",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   5000,
+   10000
+  ],
+  "rating": 3.9,
+  "reviews": 32,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L22",
+  "name": "Haris K.",
+  "demo": true,
+  "city": "Karachi",
+  "practice_areas": [
+   "Consumer",
+   "Civil"
+  ],
+  "standing": "Advocate Supreme Court",
+  "years": 21,
+  "qualifications": "LL.B (Hons)",
+  "languages": [
+   "Urdu",
+   "Sindhi",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   3000,
+   6000
+  ],
+  "rating": 3.9,
+  "reviews": 6,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L23",
+  "name": "Amna R.",
+  "demo": true,
+  "city": "Peshawar",
+  "practice_areas": [
+   "Tenancy",
+   "Property"
+  ],
+  "standing": "Advocate Supreme Court",
+  "years": 20,
+  "qualifications": "LL.B (Hons)",
+  "languages": [
+   "Urdu",
+   "Pashto",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   8000,
+   15000
+  ],
+  "rating": 3.8,
+  "reviews": 46,
+  "verified_licence": "demo"
+ },
+ {
+  "id": "L24",
+  "name": "Saad H.",
+  "demo": true,
+  "city": "Peshawar",
+  "practice_areas": [
+   "Family",
+   "Maintenance"
+  ],
+  "standing": "Advocate Supreme Court",
+  "years": 21,
+  "qualifications": "LL.B",
+  "languages": [
+   "Urdu",
+   "Pashto",
+   "English"
+  ],
+  "consultation_fee_pkr": [
+   10000,
+   25000
+  ],
+  "rating": 4.0,
+  "reviews": 41,
+  "verified_licence": "demo"
+ }
+]

@@ -1,0 +1,2136 @@
+[
+ {
+  "id": "balochistan_consumer",
+  "title": "Balochistan Consumer Protection Act, 2003",
+  "updated_till": null,
+  "toc_entries": 27,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "9-A",
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "17",
+   "18",
+   "19",
+   "20",
+   "21",
+   "22",
+   "22-A",
+   "23",
+   "24",
+   "25"
+  ],
+  "found": 27,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 29597,
+  "footnote_blocks": 6,
+  "extent_clause": "It shall extend to the whole of the Province of Balochistan.",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "balochistan"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "balochistan_domestic_violence",
+  "title": "Balochistan Domestic Violence (Prevention and Protection) Act, 2014",
+  "updated_till": null,
+  "toc_entries": 28,
+  "mode": "number-order fallback (titles in margin) - review",
+  "accepted_by_bounds": [
+   "1",
+   "2",
+   "3",
+   "26",
+   "27",
+   "28"
+  ],
+  "found": 28,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 24386,
+  "footnote_blocks": 1,
+  "extent_clause": "It extends to the whole of Balochistan, except Tribal Areas.",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "balochistan"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "balochistan_mvo",
+  "title": "Provincial Motor Vehicles Ordinance, 1965",
+  "updated_till": null,
+  "toc_entries": 150,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 147,
+  "missing": [
+   "30 [Omitted]",
+   "73-F Interpretation",
+   "73-G Power to make rules"
+  ],
+  "completeness": 0.98,
+  "very_short": [],
+  "very_long": [
+   "Schedules"
+  ],
+  "total_chars": 231256,
+  "footnote_blocks": 27,
+  "extent_clause": "It extends to the whole of [Pakistan].",
+  "scope": {
+   "status": "excluded",
+   "reason": "Triple check failed: Codex found this PDF incorporates Punjab-specific provisions, so it is not verified as Balochistan's version."
+  }
+ },
+ {
+  "id": "balochistan_police",
+  "title": "Balochistan Police Act, 2011",
+  "updated_till": null,
+  "toc_entries": 46,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "17",
+   "18",
+   "19",
+   "20",
+   "21",
+   "24",
+   "25",
+   "26",
+   "27",
+   "29",
+   "30",
+   "32",
+   "33",
+   "35",
+   "36",
+   "37",
+   "38",
+   "39",
+   "40",
+   "41",
+   "42",
+   "43",
+   "44",
+   "45",
+   "46",
+   "47",
+   "48"
+  ],
+  "found": 45,
+  "missing": [
+   "31 Powers of the District Magistrate to make rules re"
+  ],
+  "completeness": 0.978,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 31989,
+  "footnote_blocks": 4,
+  "extent_clause": "It extends to the whole of Balochistan.",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "balochistan"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "balochistan_rent",
+  "title": "Balochistan Urban Rent Restriction Ordinance, 1959",
+  "updated_till": null,
+  "toc_entries": 25,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "12",
+   "12-A",
+   "13",
+   "13-A",
+   "13-B",
+   "14",
+   "15",
+   "16",
+   "17",
+   "18",
+   "19",
+   "20",
+   "21",
+   "22"
+  ],
+  "found": 25,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 32198,
+  "footnote_blocks": 17,
+  "extent_clause": "It extends to all the urban areas in [Balochistan] [except {* * * * * * *} {the Tribal Areas.}]",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "balochistan"
+   ],
+   "scope_note": "Provincial code portal version. A footnote in the official PDF (p. 3) records an extension under Article 247(3) by Government of Balochistan notification dated 27 January 2014."
+  }
+ },
+ {
+  "id": "balochistan_workplace_harassment_of_women",
+  "title": "Balochistan Protection Against Harassment of Women at the Workplace Act, 2016",
+  "updated_till": null,
+  "toc_entries": 16,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "1",
+   "2",
+   "6",
+   "8",
+   "9",
+   "10",
+   "12",
+   "13",
+   "14",
+   "15"
+  ],
+  "found": 14,
+  "missing": [
+   "4 Procedure for holding Inquiry",
+   "5 Powers of Inquiry Committee"
+  ],
+  "completeness": 0.875,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 25275,
+  "footnote_blocks": 6,
+  "extent_clause": "It shall extend to the whole of Balochistan, [****************]",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "balochistan"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "anti_rape",
+  "title": "Anti-Rape (Investigation and Trial) Act, 2021",
+  "updated_till": null,
+  "toc_entries": 31,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 31,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 27216,
+  "footnote_blocks": 1,
+  "extent_clause": "It extends to the whole of Pakistan.",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "constitution",
+  "title": "Constitution of the Islamic Republic of Pakistan",
+  "updated_till": null,
+  "toc_entries": 328,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 326,
+  "missing": [
+   "175G Review of judgements or orders by the Federal Cons",
+   "187 Issue and execution of processes of Federal Consti"
+  ],
+  "completeness": 0.994,
+  "very_short": [
+   "71",
+   "96",
+   "184",
+   "186",
+   "191A",
+   "247",
+   "270C"
+  ],
+  "very_long": [
+   "Schedules"
+  ],
+  "total_chars": 365005,
+  "footnote_blocks": 146,
+  "extent_clause": null,
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "contract_act",
+  "title": "Contract Act, 1872",
+  "updated_till": null,
+  "toc_entries": 194,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 194,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 140944,
+  "footnote_blocks": 30,
+  "extent_clause": "It extends to [the whole of Pakistan];",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "cpc",
+  "title": "Code of Civil Procedure (CPC) , 1908 (Under Review)",
+  "updated_till": null,
+  "toc_entries": 170,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 169,
+  "missing": [
+   "135A Exemption of members of Legislative bodies from ar"
+  ],
+  "completeness": 0.994,
+  "very_short": [
+   "7",
+   "45",
+   "75A",
+   "110",
+   "111A",
+   "125",
+   "130",
+   "154",
+   "155",
+   "156"
+  ],
+  "very_long": [
+   "Schedules"
+  ],
+  "total_chars": 712124,
+  "footnote_blocks": 164,
+  "extent_clause": "It extends to the whole of Pakistan.] [(4) The primary objective of this Code is to enable the Courts to- (a) deal the cases justly and fairly;",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "crpc",
+  "title": "Code of Criminal Procedure (CrPC), 1898 (Under Review)",
+  "updated_till": null,
+  "toc_entries": 520,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "14",
+   "191",
+   "195",
+   "203B"
+  ],
+  "found": 518,
+  "missing": [
+   "126A Security for unexpired period of bond",
+   "417 Appeal in case of acquittal"
+  ],
+  "completeness": 0.996,
+  "very_short": [
+   "10",
+   "11",
+   "13",
+   "407",
+   "438"
+  ],
+  "very_long": [
+   "Schedules"
+  ],
+  "total_chars": 604447,
+  "footnote_blocks": 264,
+  "extent_clause": "It extends to [the whole of Pakistan] ; but, in the absence of any specific provision to the contrary, nothing herein contained shall affect any special or local law now in force, or any special jurisdiction or power conferred, or any special form of procedure prescribed, by any other law for the time being in force, [* * *].",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "dmma",
+  "title": "Dissolution of Muslim Marriages Act, 1939",
+  "updated_till": null,
+  "toc_entries": 0,
+  "mode": "sequential (no contents list)",
+  "accepted_by_bounds": [],
+  "found": 6,
+  "missing": [],
+  "completeness": 0.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 4349,
+  "footnote_blocks": 3,
+  "extent_clause": "It extends to the whole of Pakistan.]",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "family_courts",
+  "title": "The Family Courts Act, 1964",
+  "updated_till": null,
+  "toc_entries": 31,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 31,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 25382,
+  "footnote_blocks": 11,
+  "extent_clause": "It extends to the whole of [Pakistan].",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "guardians_wards",
+  "title": "Guardians and Wards Act, 1890",
+  "updated_till": null,
+  "toc_entries": 55,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 55,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 40559,
+  "footnote_blocks": 14,
+  "extent_clause": "It extends to the whole of Pakistan;",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "juvenile_justice",
+  "title": "Juvenile Justice System Act, 2018",
+  "updated_till": null,
+  "toc_entries": 25,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "21"
+  ],
+  "found": 25,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 24626,
+  "footnote_blocks": 4,
+  "extent_clause": "It extends to the whole of Pakistan.",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "legal_aid",
+  "title": "Legal Aid and Justice Authority Act, 2020",
+  "updated_till": null,
+  "toc_entries": 26,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 26,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 18018,
+  "footnote_blocks": 3,
+  "extent_clause": "It extends to the whole of Pakistan.",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "limitation_act",
+  "title": "Limitation Act, 1908",
+  "updated_till": null,
+  "toc_entries": 30,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 28,
+  "missing": [
+   "2 Definitions",
+   "30 [Repealed.]"
+  ],
+  "completeness": 0.933,
+  "very_short": [
+   "28"
+  ],
+  "very_long": [
+   "Schedules"
+  ],
+  "total_chars": 60508,
+  "footnote_blocks": 44,
+  "extent_clause": null,
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "mflo",
+  "title": "Muslim Family Laws Ordinance, 1961",
+  "updated_till": "10-3-2022",
+  "toc_entries": 13,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 13,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 13282,
+  "footnote_blocks": 5,
+  "extent_clause": "It extends to the whole of Pakistan, and applies to all Muslim citizens of Pakistan, wherever they may be.",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "peca",
+  "title": "Prevention of Electronic Crimes Act, 2016",
+  "updated_till": null,
+  "toc_entries": 91,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 91,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 93729,
+  "footnote_blocks": 19,
+  "extent_clause": "It extends to the whole of Pakistan.",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "ppc",
+  "title": "Pakistan Penal Code (PPC),1860 (Under Review)",
+  "updated_till": null,
+  "toc_entries": 636,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "212",
+   "292C"
+  ],
+  "found": 629,
+  "missing": [
+   "263A Prohibition of fictitious stamps",
+   "369A Trafficking of human beings [omitted]",
+   "371A Selling person for purposes of prostitution, etc",
+   "376B Exceptional first offenders or repeat offenders [o",
+   "462I Abstraction or tampering etc., with distribution o",
+   "362N Recovery of outstanding amounts from persons invol",
+   "489A Counterfeiting currency-notes or bank-notes"
+  ],
+  "completeness": 0.989,
+  "very_short": [
+   "292B",
+   "292C",
+   "325"
+  ],
+  "very_long": [],
+  "total_chars": 416527,
+  "footnote_blocks": 113,
+  "extent_clause": "This Act shall be called the [Pakistan] Penal Code, and shall take effect * * * throughout [Pakistan].",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "qso",
+  "title": "Qanun-e-Shahadat Order, 1984 (QSO)",
+  "updated_till": null,
+  "toc_entries": 168,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 168,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 136169,
+  "footnote_blocks": 10,
+  "extent_clause": "It extends to the whole of Pakistan and applies to all judicial proceedings in or before any Court, including a court martial, a tribunal or other authority exercising judicial or quasi judicial powers or jurisdiction, but does not apply to proceedings before an arbitrator.",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "specific_relief",
+  "title": "Specific Relief Act, 1877",
+  "updated_till": null,
+  "toc_entries": 50,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "1",
+   "3"
+  ],
+  "found": 50,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 70897,
+  "footnote_blocks": 19,
+  "extent_clause": "It extends to the whole of Pakistan.] Commencement.",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "succession_act",
+  "title": "Succession Act, 1925",
+  "updated_till": null,
+  "toc_entries": 386,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 386,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 288156,
+  "footnote_blocks": 61,
+  "extent_clause": null,
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "torture_custodial",
+  "title": "Torture and Custodial Death (Prevention and Punishment) Act, 2022",
+  "updated_till": null,
+  "toc_entries": 20,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 20,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 13586,
+  "footnote_blocks": 0,
+  "extent_clause": "It extends to the whole of Pakistan.",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "wafaqi_mohtasib",
+  "title": "Establishment of the Office of Wafaqi Mohtasib (Ombudsman) Order, 1983",
+  "updated_till": null,
+  "toc_entries": 38,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 38,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 32475,
+  "footnote_blocks": 4,
+  "extent_clause": "It extends to the whole of Pakistan.",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Extends to the whole of Pakistan. Provinces may have made local amendments (not in the library)."
+  }
+ },
+ {
+  "id": "domestic_violence",
+  "title": "Domestic Violence (Prevention and Protection) Act, 2026",
+  "updated_till": null,
+  "toc_entries": 25,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 25,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 21522,
+  "footnote_blocks": 0,
+  "extent_clause": "It extends to the Islamabad Capital Territory.",
+  "scope": {
+   "status": "included",
+   "level": "federal (ICT law)",
+   "applies_in": [
+    "ict"
+   ],
+   "scope_note": "Extent clause: Islamabad Capital Territory."
+  }
+ },
+ {
+  "id": "ict_child_marriage",
+  "title": "Islamabad Capital Territory Child Marriage Restraint Act, 2025",
+  "updated_till": null,
+  "toc_entries": 13,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 13,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 7480,
+  "footnote_blocks": 1,
+  "extent_clause": "It shall extend to the Islamabad Capital Territory.",
+  "scope": {
+   "status": "included",
+   "level": "federal (ICT law)",
+   "applies_in": [
+    "ict"
+   ],
+   "scope_note": "Extent clause: Islamabad Capital Territory."
+  }
+ },
+ {
+  "id": "ict_consumer",
+  "title": "Islamabad Consumers Protection Act, 1995",
+  "updated_till": "3.8.2022",
+  "toc_entries": 13,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 13,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 13520,
+  "footnote_blocks": 1,
+  "extent_clause": "It extends to the Islamabad Capital Territory.",
+  "scope": {
+   "status": "included",
+   "level": "federal (ICT law)",
+   "applies_in": [
+    "ict"
+   ],
+   "scope_note": "Extent clause: Islamabad Capital Territory."
+  }
+ },
+ {
+  "id": "ict_corporal_punishment",
+  "title": "Islamabad Capital Territory Prohibition of Corporal Punishment Act, 2021",
+  "updated_till": null,
+  "toc_entries": 8,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 8,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 7242,
+  "footnote_blocks": 0,
+  "extent_clause": "It extends to the Islamabad Capital Territory.",
+  "scope": {
+   "status": "included",
+   "level": "federal (ICT law)",
+   "applies_in": [
+    "ict"
+   ],
+   "scope_note": "Extent clause: Islamabad Capital Territory."
+  }
+ },
+ {
+  "id": "ict_domestic_workers",
+  "title": "Islamabad Capital Territory Domestic Workers Act, 2022",
+  "updated_till": null,
+  "toc_entries": 36,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 36,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 22131,
+  "footnote_blocks": 0,
+  "extent_clause": "It extends to whole of the Islamabad Capital Territory.",
+  "scope": {
+   "status": "included",
+   "level": "federal (ICT law)",
+   "applies_in": [
+    "ict"
+   ],
+   "scope_note": "Extent clause: Islamabad Capital Territory."
+  }
+ },
+ {
+  "id": "ict_rent",
+  "title": "Islamabad Rent Restriction Ordinance, 2001",
+  "updated_till": "18-4-2022",
+  "toc_entries": 33,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 33,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 33229,
+  "footnote_blocks": 7,
+  "extent_clause": "It shall extend to *such urban area of Islamabad Capital Territory and apply to such buildings and rented lands as the Federal Government may, by notification in the official Gazette, specify.",
+  "scope": {
+   "status": "included",
+   "level": "federal (ICT law)",
+   "applies_in": [
+    "ict"
+   ],
+   "scope_note": "Extent clause: Islamabad Capital Territory."
+  }
+ },
+ {
+  "id": "ict_senior_citizens",
+  "title": "Islamabad Capital Territory Senior Citizens Act, 2021",
+  "updated_till": null,
+  "toc_entries": 28,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 26,
+  "missing": [
+   "22 Authorities for implementing provisions of this Ac",
+   "28 Power to remove difficulties"
+  ],
+  "completeness": 0.929,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 20098,
+  "footnote_blocks": 2,
+  "extent_clause": "It shall extend to the Islamabad Capital Territory.",
+  "scope": {
+   "status": "included",
+   "level": "federal (ICT law)",
+   "applies_in": [
+    "ict"
+   ],
+   "scope_note": "Extent clause: Islamabad Capital Territory."
+  }
+ },
+ {
+  "id": "mvo_1965",
+  "title": "Provincial Motor Vehicles Ordinance, 1965",
+  "updated_till": null,
+  "toc_entries": 137,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 137,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [
+   "65"
+  ],
+  "very_long": [
+   "Schedules"
+  ],
+  "total_chars": 205830,
+  "footnote_blocks": 50,
+  "extent_clause": "It extends to the whole of [Pakistan].",
+  "scope": {
+   "status": "included",
+   "level": "West Pakistan ordinance (Pakistan Code edition, as applied in ICT)",
+   "applies_in": [
+    "ict"
+   ],
+   "scope_note": "Promulgated as a West Pakistan ordinance; this Pakistan Code edition carries ICT amendments. Each province applies its own amended version."
+  }
+ },
+ {
+  "id": "police_order",
+  "title": "Police Order, 2002",
+  "updated_till": null,
+  "toc_entries": 187,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 187,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 139562,
+  "footnote_blocks": 2,
+  "extent_clause": "It extends to the whole of Pakistan.",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict"
+   ],
+   "scope_note": "General (federal) text of the Police Order 2002; extent: whole of Pakistan. Article 1(3) made its commencement in ICT conditional. The Islamabad High Court recorded on 17 Sep 2020 (W.P. 2407/2020) that 'The Police Order, 2002 has been enforced' in ICT. Provinces apply their own amended versions or police laws."
+  }
+ },
+ {
+  "id": "rti",
+  "title": "Right of Access to Information Act, 2017",
+  "updated_till": null,
+  "toc_entries": 29,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 29,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 28096,
+  "footnote_blocks": 0,
+  "extent_clause": "It shall apply to all public bodies of the Federal Government.",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Applies to federal public bodies anywhere in Pakistan; provincial bodies fall under provincial RTI laws (not in the library)."
+  }
+ },
+ {
+  "id": "women_property",
+  "title": "Enforcement of Women's Property Rights Act, 2020",
+  "updated_till": "17.04.2023",
+  "toc_entries": 12,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 12,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 8307,
+  "footnote_blocks": 1,
+  "extent_clause": "It shall extend to the whole of the Islamabad Capital Territory.",
+  "scope": {
+   "status": "included",
+   "level": "federal (ICT law)",
+   "applies_in": [
+    "ict"
+   ],
+   "scope_note": "Extent clause: Islamabad Capital Territory."
+  }
+ },
+ {
+  "id": "workplace_harassment",
+  "title": "Protection Against Harassment of Women at the Work Place Act, 2010",
+  "updated_till": null,
+  "toc_entries": 13,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 13,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 23682,
+  "footnote_blocks": 9,
+  "extent_clause": "It extends to the whole of Pakistan.",
+  "scope": {
+   "status": "included",
+   "level": "federal",
+   "applies_in": [
+    "ict",
+    "punjab",
+    "sindh",
+    "kp",
+    "balochistan"
+   ],
+   "scope_note": "Federal Act (amended 2022); extent: whole of Pakistan. Punjab, KP and Balochistan have also enacted their own versions, which the app shows first for those provinces; Sindh operates under this Act."
+  }
+ },
+ {
+  "id": "kp_consumer",
+  "title": "Khyber Pakhtunkhwa Consumers Protection Act, 1997",
+  "updated_till": null,
+  "toc_entries": 24,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 24,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 28165,
+  "footnote_blocks": 16,
+  "extent_clause": "It shall extend to whole of the [Province of the Khyber Pakhtunkhwa].",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "kp"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "kp_domestic_violence",
+  "title": "Khyber Pakhtunkhwa Domestic Violence Against Women (Prevention and Protection) Act, 2021",
+  "updated_till": null,
+  "toc_entries": 19,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 19,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 17533,
+  "footnote_blocks": 10,
+  "extent_clause": "It extends to the whole Province of Khyber Pakhtunkhwa.",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "kp"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "kp_mvo",
+  "title": "Provincial Motor Vehicles Ordinance, 1965",
+  "updated_till": null,
+  "toc_entries": 126,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "1",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "18",
+   "20",
+   "21",
+   "22",
+   "23",
+   "24",
+   "26",
+   "27",
+   "28",
+   "29",
+   "30",
+   "31",
+   "33",
+   "34",
+   "35",
+   "36",
+   "37",
+   "38",
+   "39",
+   "40",
+   "41",
+   "42",
+   "43",
+   "44",
+   "45",
+   "46",
+   "47",
+   "49",
+   "50",
+   "51",
+   "53",
+   "54",
+   "55",
+   "56",
+   "57",
+   "58",
+   "59",
+   "60",
+   "61",
+   "62",
+   "63",
+   "64",
+   "65",
+   "67",
+   "67-C",
+   "67-D",
+   "67-F",
+   "67-G",
+   "68",
+   "70",
+   "71",
+   "72",
+   "73",
+   "74",
+   "75",
+   "76",
+   "77",
+   "78",
+   "79",
+   "80",
+   "81",
+   "82",
+   "83",
+   "84",
+   "85",
+   "86",
+   "87",
+   "88",
+   "90",
+   "91",
+   "92",
+   "93",
+   "94",
+   "95",
+   "96",
+   "97",
+   "98",
+   "99",
+   "100",
+   "101",
+   "102",
+   "103",
+   "104",
+   "105",
+   "106",
+   "107",
+   "108",
+   "109",
+   "110",
+   "111",
+   "112",
+   "114",
+   "115",
+   "116",
+   "117",
+   "118",
+   "119",
+   "120",
+   "121",
+   "122"
+  ],
+  "found": 122,
+  "missing": [
+   "2 Definitions",
+   "67-E Appeal",
+   "89 Pillion riding",
+   "11 Eleventh Schedule"
+  ],
+  "completeness": 0.968,
+  "very_short": [
+   "65"
+  ],
+  "very_long": [
+   "Schedules"
+  ],
+  "total_chars": 221635,
+  "footnote_blocks": 90,
+  "extent_clause": "It extends to the Whole of the [Pakistan] 2.",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "kp"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "kp_police",
+  "title": "Khyber Pakhtunkhwa Police Act, 2017",
+  "updated_till": null,
+  "toc_entries": 133,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 133,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [
+   "58"
+  ],
+  "very_long": [],
+  "total_chars": 120942,
+  "footnote_blocks": 25,
+  "extent_clause": "It extends to the whole of the Province of the Khyber Pakhtunkhwa.",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "kp"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "kp_rent",
+  "title": "West Pakistan Urban Rent Restriction Ordinance, 1959",
+  "updated_till": null,
+  "toc_entries": 22,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "2",
+   "3",
+   "4",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "12",
+   "13",
+   "14",
+   "16",
+   "17",
+   "18",
+   "19",
+   "20",
+   "21",
+   "22"
+  ],
+  "found": 20,
+  "missing": [
+   "1 Short title, extent, exception and commencement",
+   "5 Case in which further increase in fair rent admiss"
+  ],
+  "completeness": 0.909,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 32917,
+  "footnote_blocks": 18,
+  "extent_clause": "It extends to all the urban areas in the [Province of Khyber Pakhtunkhwa] except [* * * * *] [the Tribal Areas].",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "kp"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "kp_workplace_harassment_of_women",
+  "title": "Protection Against Harassment of Women at the Workplace Act, 2010",
+  "updated_till": null,
+  "toc_entries": 14,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 14,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 25440,
+  "footnote_blocks": 11,
+  "extent_clause": "It extends to the whole of [the Province of the Khyber Pakhtunkhwa].",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "kp"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "punjab_consumer",
+  "title": "Punjab Consumer Protection Act 2005",
+  "updated_till": null,
+  "toc_entries": 40,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 39,
+  "missing": [
+   "1 Short title, and commencement"
+  ],
+  "completeness": 0.975,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 29617,
+  "footnote_blocks": 4,
+  "extent_clause": "It shall extend to the whole of the Province of the Punjab.",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "punjab"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "punjab_domestic_violence",
+  "title": "Punjab Protection of Women Against Violence Act 2016",
+  "updated_till": null,
+  "toc_entries": 31,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 31,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 33723,
+  "footnote_blocks": 10,
+  "extent_clause": "It extends to the whole of the Punjab.",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "punjab"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "punjab_land_revenue",
+  "title": "Punjab Land Revenue Act, 1967",
+  "updated_till": null,
+  "toc_entries": 202,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "70-A"
+  ],
+  "found": 202,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 159009,
+  "footnote_blocks": 62,
+  "extent_clause": "It extends to the whole of the Province of [the Punjab] [* * * * *].",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "punjab"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "punjab_mvo",
+  "title": "Provincial Motor Vehicles Ordinance, 1965",
+  "updated_till": null,
+  "toc_entries": 167,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 166,
+  "missing": [
+   "89-C Tinted glasses"
+  ],
+  "completeness": 0.994,
+  "very_short": [
+   "30"
+  ],
+  "very_long": [
+   "Schedules"
+  ],
+  "total_chars": 240727,
+  "footnote_blocks": 87,
+  "extent_clause": "It extends to the whole of [Pakistan].",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "punjab"
+   ],
+   "scope_note": "Provincial code portal version. Its extent clause still reads 'Pakistan' from the original text; the portal publishes it as the provincial version."
+  }
+ },
+ {
+  "id": "punjab_police",
+  "title": "Police Order, 2002",
+  "updated_till": null,
+  "toc_entries": 192,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 192,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 160602,
+  "footnote_blocks": 33,
+  "extent_clause": "It extends to the whole of Pakistan.",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "punjab"
+   ],
+   "scope_note": "Provincial code portal version. Its extent clause still reads 'Pakistan' from the original text; the portal publishes it as the provincial version."
+  }
+ },
+ {
+  "id": "punjab_rent",
+  "title": "Punjab Rented Premises Act 2009",
+  "updated_till": null,
+  "toc_entries": 36,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 36,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 24634,
+  "footnote_blocks": 1,
+  "extent_clause": "It shall extend to the whole of the Punjab.",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "punjab"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "punjab_women_property",
+  "title": "Punjab Enforcement Of Women's Property Rights Act 2021",
+  "updated_till": null,
+  "toc_entries": 13,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 13,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 8093,
+  "footnote_blocks": 1,
+  "extent_clause": "It extends to whole of the Punjab.",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "punjab"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "punjab_workplace_harassment_of_women",
+  "title": "Protection Against Harassment of Women at the Workplace Act, 2010",
+  "updated_till": null,
+  "toc_entries": 13,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [],
+  "found": 13,
+  "missing": [],
+  "completeness": 1.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 21199,
+  "footnote_blocks": 10,
+  "extent_clause": "It extends to whole of the Punjab.]",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "punjab"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "sindh_consumer",
+  "title": "Sindh Consumer Protection Act, 2014",
+  "updated_till": null,
+  "toc_entries": 40,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "2",
+   "3",
+   "4",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13",
+   "15",
+   "16",
+   "17",
+   "18",
+   "19",
+   "22",
+   "23",
+   "24",
+   "26",
+   "27",
+   "28",
+   "29",
+   "30",
+   "31",
+   "32",
+   "33",
+   "34",
+   "35",
+   "36",
+   "37",
+   "38",
+   "39",
+   "40"
+  ],
+  "found": 39,
+  "missing": [
+   "1 Short title, extent and commencement"
+  ],
+  "completeness": 0.975,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 32397,
+  "footnote_blocks": 1,
+  "extent_clause": "It shall extend to whole of the Province of Sindh.",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "sindh"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "sindh_domestic_violence",
+  "title": "Domestic Violence (Prevention and Protection) Act, 2013",
+  "updated_till": null,
+  "toc_entries": 30,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "3",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "17",
+   "18",
+   "24",
+   "25",
+   "26",
+   "27",
+   "28",
+   "29",
+   "30"
+  ],
+  "found": 24,
+  "missing": [
+   "1 Short title, extent and commencement",
+   "2 Definitions",
+   "19 Powers, privileges and immunities of Protection Co",
+   "20 Delegation of functions and powers",
+   "21 Protection Officer",
+   "23 Assistance of service provider"
+  ],
+  "completeness": 0.8,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 20908,
+  "footnote_blocks": 0,
+  "extent_clause": "It extends to the whole of the Province of Sindh.",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "sindh"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "sindh_mvo",
+  "title": "Provincial Motor Vehicles Ordinance, 1965",
+  "updated_till": null,
+  "toc_entries": 129,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "2",
+   "3",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "18",
+   "20",
+   "21",
+   "22",
+   "23",
+   "24",
+   "25",
+   "26",
+   "27",
+   "28",
+   "29",
+   "30",
+   "31",
+   "33",
+   "34",
+   "35",
+   "36",
+   "37",
+   "38",
+   "39",
+   "40",
+   "41",
+   "42",
+   "43",
+   "44",
+   "45",
+   "46",
+   "47",
+   "48",
+   "49",
+   "50",
+   "51",
+   "53",
+   "54",
+   "55",
+   "56",
+   "57",
+   "58",
+   "59",
+   "60",
+   "61",
+   "62",
+   "63",
+   "64",
+   "65",
+   "66",
+   "67",
+   "67-A",
+   "67-C",
+   "67-D",
+   "67-E",
+   "67-F",
+   "67-G",
+   "68",
+   "73",
+   "74",
+   "75",
+   "76",
+   "77",
+   "78",
+   "79",
+   "80",
+   "81",
+   "82",
+   "83",
+   "84",
+   "85",
+   "86",
+   "87",
+   "88",
+   "89",
+   "90",
+   "91",
+   "92",
+   "93",
+   "94",
+   "95",
+   "96",
+   "97",
+   "98",
+   "99",
+   "100",
+   "101",
+   "102",
+   "103",
+   "104",
+   "105",
+   "106",
+   "107",
+   "108",
+   "109",
+   "110",
+   "111",
+   "112",
+   "113",
+   "114",
+   "115",
+   "116",
+   "117",
+   "118",
+   "119",
+   "120",
+   "121",
+   "122"
+  ],
+  "found": 123,
+  "missing": [
+   "1 Short title and extent",
+   "4 Age limit in connection with driving of motor vehi",
+   "89-A Rider to wear helmet",
+   "97-A Penality for fabrication of registration plate. (A",
+   "123 Repeals and savings",
+   "301 Substituted for the words “West Pakistan” by Baloc"
+  ],
+  "completeness": 0.953,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 179153,
+  "footnote_blocks": 0,
+  "extent_clause": "It extends to the whole of the Province of Balochistan, Khyber Pakhtunkhwa, Punjab, and Sindh except the Tribal Areas.",
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "sindh"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "sindh_police",
+  "title": "Police Order, 2002, as revived and amended by the Sindh (Repeal of the Police Act, 1861 and Revival of Police Order, 2002) (Amendment) Act, 2019",
+  "updated_till": null,
+  "toc_entries": 114,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "1",
+   "2"
+  ],
+  "found": 2,
+  "missing": [
+   "1A The Police Order 2002 shall stand revived on and f",
+   "3 Attitude and responsibilities of police towards th",
+   "4 Duties of police.- (1) Subject to law, it shall be",
+   "5 Emergency duties of police with regard to essentia",
+   "6 Separate Police establishment for each general pol",
+   "7 Constitution of police. - (1) The police establish",
+   "8 Police to be organized on functional basis. - (1) ",
+   "9 Superintendence of police. - (1) The superintenden",
+   "10 Administration of the police. - (1) Administration",
+   "11 Posting of I n s p e c t o r G e n e r a l o f P o",
+   "12 Term of office of Inspector General of Police. - (",
+   "13 Posting of Additional Inspectors General of Police",
+   "14 Appointment of experts. – (1) The Government may, ",
+   "15 Posting of",
+   "16 Administration of police in a district.- (1) Subje",
+   "17 Posting of Superintendent, Assistant Superintenden",
+   "18 Posting of head of investigation. - (1) The head o",
+   "19 P o s t i n g of Director of Police Communications",
+   "20 Posting   of   heads   of   police   training   in",
+   "21 Constitution of regions and divisions etc. - (1) T",
+   "22 Transfer to other police establishment. –",
+   "23 Appointment of junior ranks. - The junior ranks of",
+   "24 Oath or affirmation by members of police. –Every m",
+   "25 Certificate of appointment. - (1) Officers of juni",
+   "26 Suspension of police officer. - (1) Subject to rul",
+   "27 General powers of I n s p e c t o r G e n e r a l ",
+   "28 Powers of I n s pe c t o r G e n e r a l of P o l ",
+   "29 Appointment of   special police officers.    -    ",
+   "30 Appointment of additional police. -   (1) The Addi",
+   "31 Ministerial staff etc. - (1) Subject to rules, In ",
+   "32 District Annual Policing Plan. - (1) S e n i o r S",
+   "33 Relationship       of     S e n i o r     S u p e ",
+   "34 Police a s s i s t a n c e to Government functiona",
+   "35 Responsibility on complaints of neglect and excess",
+   "36 Reference    to P u b l i c   S a f e t y   a n d ",
+   "37 Establishment of District Public Safety and Police",
+   "38 Composition.- (1) The composition of the District ",
+   "39 Appointment of Chairperson.- (1) The Chairperson o",
+   "40 Meeting in the absence of the Chairperson. - In th",
+   "41 Selection of independent members. - (1) There shal",
+   "42 Functions of the Selection Panel.- The Selection P",
+   "43 Selection criteria of independent members. - A per",
+   "44 Powers and Functions of the District Public Safety",
+   "45 Terms of members of the District Public Safety and",
+   "46 Removal of members. - The G o v e r n m e n t on t",
+   "47 Meetings and conduct of business of the District P",
+   "48 Secretariat. - (1) The Government shall establish ",
+   "73 Establishment. - There shall be a Provincial Publi",
+   "74 Composition. - (1) Half of the members of the Prov",
+   "75 Appointment of Chairperson. - (1) The Home  Minist",
+   "76 Meeting in the absence of the Chairperson. - In th",
+   "77 Selection of independent members. – (1)There shall",
+   "78 Functions of the Selection Panel.- The Selection P",
+   "79 Selection criteria of independent members. - A per",
+   "80 Functions of the Provincial Public Safety and Poli",
+   "81 Terms of members of the Provincial Public Safety a",
+   "82 Removal of members. – The Government on the recomm",
+   "83 Meetings and conduct of business of the Provincial",
+   "84 Secretariat. - (1) The Government shall establish ",
+   "109 Establishment. – There shall be a Criminal Justice",
+   "110 Composition. - The Criminal Justice Coordination C",
+   "111 Functions of the Criminal Justice Coordination Com",
+   "112 Framing of Rules. – Inspector General of Police in",
+   "113 Punishments. - Subject to the rules, a member of t",
+   "114 Code of Conduct. - (1) Inspector General of Police",
+   "115 Police officer at   any   time   liable   to   be ",
+   "116 Withdrawal from duty and resignation, etc. – (1) N",
+   "117 Police officer not to engage in any other employme",
+   "118 Power to issue orders. - The Deputy Commissioner o",
+   "119 Power to give direction to the public. - Subject t",
+   "120 Regulation   of public   assemblies   and processi",
+   "121 Powers with regard to assemblies and processions v",
+   "122 Power to prohibit certain acts for prevention of d",
+   "123 Power   to   give   directions   against   serious",
+   "124 Erecting of barriers in streets, etc. – Any police",
+   "125 Power to search suspected persons or vehicles in s",
+   "126 Employment of additional police to keep peace. -  ",
+   "131 Banning of use of dress resembling uniform, Logo &",
+   "132 Control of camps, parades, etc. On the report of S",
+   "133 Authority of S e n i o r S u p e r i n t e n d e n",
+   "134 Police to make inventory of unclaimed property, et",
+   "135 Procedure for disposal of unclaimed property. - (1",
+   "137 (3)",
+   "136 Delivery of property to person entitled. – (1) Sen",
+   "155 Penalty for certain types of misconduct by police ",
+   "156 Penalty for vexatious entry, search, arrest, seizu",
+   "157 Penalty for unnecessary delay in producing arreste",
+   "163 Provision of advice and assistance to Internationa",
+   "165 Constitution of Promotion Committees and Boards et",
+   "166 Criminal Statistics and reports. - (1) The H o m e",
+   "167 Maintenance of Daily Diary at a police station. – ",
+   "168 Citizen Police Liaison Committees. – The Governmen",
+   "169 Public Safety Fund. - (1) The Government may, by n",
+   "170 Officers holding charge of or succeeding to vacanc",
+   "171 No police officer to be liable to any penalty or p",
+   "172 Suits or prosecutions in respect of acts done unde",
+   "173 Notice   of   suit   to   be   given   with   suff",
+   "174 Licences and written permissions to specify condit",
+   "175 Revocation of licence or permission. - Any licence",
+   "176 When licence or permission is revoked, the grantee",
+   "177 Grantee to produce licence and written permission ",
+   "178 Public notices how to be given. - Any public notic",
+   "179 Consent of competent authority how to be proved. -",
+   "180 Signature on notices may be stamped. - Every licen",
+   "181 Persons   interested   may apply   to annul, rever",
+   "182 Notification of rules and regulations in the Offic",
+   "183 Powers to prosecute under any other law not affect",
+   "184 Power to amend. – [ D   E   L   E   T   E   D ]",
+   "185 Repeal and savings. - (1) The Police Act, 1861, (V",
+   "186 Existing police deemed to be constituted   under t",
+   "186-A Power to amend the Schedules. The Government may, ",
+   "187 Power to remove difficulties. - (1) If any difficu"
+  ],
+  "completeness": 0.018,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 2062,
+  "footnote_blocks": 1,
+  "extent_clause": null,
+  "scope": {
+   "status": "excluded",
+   "reason": "Triple check failed: the official PDF is an amending act with a broken text layer, and a schedule item collided with Article 2. Questions go to the online fallback."
+  }
+ },
+ {
+  "id": "sindh_rent",
+  "title": "Sind Rented Premises Ordinance, 1979",
+  "updated_till": null,
+  "toc_entries": 27,
+  "mode": "contents-guided",
+  "accepted_by_bounds": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "7",
+   "8",
+   "9",
+   "10",
+   "11",
+   "12",
+   "13",
+   "14",
+   "15",
+   "16",
+   "17",
+   "18",
+   "19",
+   "20",
+   "21",
+   "23",
+   "25"
+  ],
+  "found": 24,
+  "missing": [
+   "1 Short Title and Commencement",
+   "6 Tenure of Tenancy",
+   "22 Execution of orders"
+  ],
+  "completeness": 0.889,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 24207,
+  "footnote_blocks": 0,
+  "extent_clause": null,
+  "scope": {
+   "status": "included",
+   "level": "provincial",
+   "applies_in": [
+    "sindh"
+   ],
+   "scope_note": "Provincial code portal version."
+  }
+ },
+ {
+  "id": "sindh_workplace_harassment_of_women",
+  "title": "Protection Against Harassment of Women at the Workplace Act, 2010",
+  "updated_till": null,
+  "toc_entries": 0,
+  "mode": "sequential (no contents list)",
+  "accepted_by_bounds": [],
+  "found": 9,
+  "missing": [],
+  "completeness": 0.0,
+  "very_short": [],
+  "very_long": [],
+  "total_chars": 23228,
+  "footnote_blocks": 12,
+  "extent_clause": "It extends to the whole of Pakistan.",
+  "scope": {
+   "status": "excluded",
+   "reason": "Version unverified: this is the federal Act hosted by the federal ombudsperson (fospah.gov.pk), not a Sindh text."
+  }
+ }
+]

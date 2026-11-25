@@ -1,0 +1,21 @@
+<section id="wrong" class="compact" style="gap: 32px;">
+<h2>Safety when the AI is wrong</h2>
+<div class="col" style="gap: 24px;">
+<div class="row" style="gap: 24px;">
+<div class="card in" style="--i:0"><h3>Prevent</h3><p class="body">Five prewritten Islamabad rights cards, reviewed by Claude and Codex, open without the AI</p></div>
+<div class="card in" style="--i:1"><h3>Constrain</h3><p class="body">Answers use only retrieved official text, never the model’s memory</p></div>
+<div class="card in" style="--i:2"><h3>Detect</h3><p class="body">Excerpt matched to the source; numbers in Urdu and English; region; support pass</p></div>
+</div>
+<div class="row" style="gap: 24px;">
+<div class="card in" style="--i:3"><h3>Label</h3><p class="body">Reviewed · Official text · Found online · Not found, plus a retrieval match signal</p></div>
+<div class="card in" style="--i:4"><h3>Recover</h3><p class="body">“Not found” suggests a lawyer or legal-aid service instead of guessing</p></div>
+<div class="card in" style="--i:5"><h3>Learn</h3><p class="body">Audits by a second model and held-out tests led to fixes; remaining limits are documented</p></div>
+</div>
+</div>
+<div class="row in" style="--i:6; gap: 24px;">
+<div class="card accent"><p class="body"><b>Phone unlock at a checkpoint</b> → no verified answer: “Not found”</p></div>
+<div class="card accent"><p class="body"><b>Injected “section 999”</b> → “Not found”, nothing cited</p></div>
+<div class="card accent"><p class="body"><b>FIR quote 98% right</b> → was rejected; now replaced by the official words and re-checked</p></div>
+</div>
+<aside>Three real test outcomes. The third is a lesson in both directions: the checker once rejected a quote with three words left out, so a correct FIR answer became “Not found”. Now a close paraphrase of one passage is replaced by the official wording, and must pass the number and support checks again; 100 of 100 quotes matched against an unrelated section are still rejected. An earlier lesson: a removed 30-day step survived in the summary, so summaries are checked too.</aside>
+</section>

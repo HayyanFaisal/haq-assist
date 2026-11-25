@@ -1,0 +1,1353 @@
+{
+ "summary": {
+  "set": "everyday_holdout.jsonl",
+  "baseline": true,
+  "questions": 40,
+  "answerable_answered": "26/32",
+  "answerable_clarify": 0,
+  "answerable_correct_law_cited": "16/32",
+  "answerable_gold_in_sources_considered": "19/32",
+  "unanswerable_correctly_not_answered": "8/8",
+  "latency_p50_s": 9.8,
+  "latency_p90_s": 13.1
+ },
+ "rows": [
+  {
+   "id": "h01",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "police_order:125"
+   ],
+   "considered": [
+    "crpc:54",
+    "crpc:98",
+    "police_order:125",
+    "crpc:157",
+    "crpc:165"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "legal requirements and authority for police to search a person's bag and belongings during a routine traffic stop without specific suspicion",
+   "issues": [],
+   "summary": "Police officers can search a person or vehicle in a public place if they have reasonable grounds to suspect that the person is carrying items that are illegally obtained or likely to be used in a crime. If the person's explanation is suspicious, the officer can seize the items and report the matter ",
+   "seconds": 13.1,
+   "error": null
+  },
+  {
+   "id": "h02",
+   "expect": "answer",
+   "region": "punjab",
+   "status": "answered",
+   "level": 1,
+   "cited": [
+    "punjab_consumer:28"
+   ],
+   "considered": [
+    "punjab_consumer:30",
+    "punjab_consumer:31",
+    "punjab_consumer:23",
+    "punjab_consumer:20",
+    "punjab_consumer:28"
+   ],
+   "gold_cited": false,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [
+     {
+      "reason": "its quote was not found word-for-word in the official text",
+      "source": "punjab_consumer:31"
+     },
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "punjab_consumer:31"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "consumer rights for defective electronic goods refund or replacement for non-functional washing machine and procedure to file complaint against seller",
+   "issues": [],
+   "summary": "Before going to court, you must send a written notice to the seller asking them to fix the defect or provide damages. The court will only hear your case if you can prove that you gave the seller notice and they failed to respond to it.",
+   "seconds": 12.6,
+   "error": null
+  },
+  {
+   "id": "h03",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "domestic_violence:8",
+    "domestic_violence:7",
+    "domestic_violence:5"
+   ],
+   "considered": [
+    "domestic_violence:8",
+    "domestic_violence:7",
+    "domestic_violence:11",
+    "domestic_violence:16",
+    "domestic_violence:5"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 5,
+   "checks": {
+    "steps_proposed": 5,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 5
+   },
+   "rewrite": "domestic violence protection order and recovery of personal belongings and children's belongings from husband's house",
+   "issues": [],
+   "summary": "You can file a petition in the court where you live or where you last lived with your husband. The court can issue a protection order to stop your husband from contacting you, staying near you, or committing more violence. It can also order him to return your belongings and provide police assistance",
+   "seconds": 15.7,
+   "error": null
+  },
+  {
+   "id": "h04",
+   "expect": "abstain",
+   "region": "punjab",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "ppc:310",
+    "punjab_land_revenue:118",
+    "ppc:419",
+    "crpc:schedules",
+    "cpc:schedules"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "BISP Kafaalat program eligibility criteria and score requirements for payment, procedure for name not appearing in machine despite previous payments, and how to rectify survey score issues",
+   "issues": [],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 4.4,
+   "error": null
+  },
+  {
+   "id": "h05",
+   "expect": "answer",
+   "region": "unknown",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ppc:489F"
+   ],
+   "considered": [
+    "ppc:489F",
+    "ppc:67",
+    "ppc:66",
+    "ppc:65",
+    "ppc:64"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 2,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "ppc:489F"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "legal action for dishonoured cheque due to insufficient funds and non-payment of debt including where to file complaint and penalty",
+   "issues": [],
+   "summary": "The person who issued the cheque can avoid this punishment if they can prove that they had made arrangements with their bank to ensure the cheque would be paid and that the bank was responsible for not honouring it.",
+   "seconds": 8.7,
+   "error": null
+  },
+  {
+   "id": "h06",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ict_rent:17"
+   ],
+   "considered": [
+    "ict_rent:18",
+    "ict_rent:17",
+    "ict_rent:5",
+    "ict_rent:14",
+    "ict_rent:8"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "ict_rent:17"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "legal consequences of landlord changing locks and evicting tenant without notice despite valid lease agreement and paid rent",
+   "issues": [],
+   "summary": "A landlord is not allowed to evict a tenant unless they follow the specific legal procedures laid out in the law. To evict a tenant, the landlord must submit an application to the Controller. The Controller will then give the tenant a fair chance to explain their side before making a decision.",
+   "seconds": 13.4,
+   "error": null
+  },
+  {
+   "id": "h07",
+   "expect": "answer",
+   "region": "kp",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "kp_workplace_harassment_of_women:13",
+    "kp_workplace_harassment_of_women:2"
+   ],
+   "considered": [
+    "workplace_harassment:schedules",
+    "ppc:509",
+    "kp_workplace_harassment_of_women:13",
+    "kp_workplace_harassment_of_women:2",
+    "workplace_harassment:2"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "workplace_harassment:schedules"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "legal procedure for reporting workplace sexual harassment and intimidation by manager and owner without internal reporting, including rights of employee and police complaint process",
+   "issues": [],
+   "summary": "The law defines harassment as any unwelcome sexual advance or communication that interferes with your work performance or creates an intimidating or hostile work environment. You have the right to launch a formal complaint at any time without using the informal channels.",
+   "seconds": 13.3,
+   "error": null
+  },
+  {
+   "id": "h08",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 1,
+   "cited": [
+    "crpc:154"
+   ],
+   "considered": [
+    "crpc:schedules",
+    "crpc:172",
+    "crpc:512",
+    "mvo_1965:116A",
+    "crpc:154"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 2,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "police refusal to register FIR for motorcycle theft with CCTV evidence and procedure for complaining against police inaction",
+   "issues": [],
+   "summary": "The law states that any information regarding a cognizable offence (serious crimes) given to a police officer must be written down and read back to the person giving the information. Once the information is written down, the person providing the information must sign it, and the police officer must ",
+   "seconds": 9.5,
+   "error": null
+  },
+  {
+   "id": "h09",
+   "expect": "answer",
+   "region": "sindh",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "crpc:schedules",
+    "contract_act:154",
+    "ppc:462D",
+    "ppc:462E",
+    "sindh_rent:11"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "liability of service technician for property damage during repair and consumer rights for compensation",
+   "issues": [],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 4.3,
+   "error": null
+  },
+  {
+   "id": "h10",
+   "expect": "abstain",
+   "region": "ict",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "ppc:462L",
+    "ppc:462J",
+    "cpc:34A",
+    "ppc:462K",
+    "specific_relief:21"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "net metering buyback rate for solar energy exported to grid and procedure to dispute incorrect billing rate by electricity company",
+   "issues": [],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 4.5,
+   "error": null
+  },
+  {
+   "id": "h11",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ict_senior_citizens:14"
+   ],
+   "considered": [
+    "ict_senior_citizens:14",
+    "cpc:schedules",
+    "succession_act:schedules",
+    "succession_act:191",
+    "succession_act:76"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 2,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "ict_senior_citizens:14"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "legal rights of elderly parent to stay in house and receive maintenance from child when property is in child's name despite written agreement for care and medical expenses",
+   "issues": [],
+   "summary": "A senior citizen who is unable to support themselves from their own earnings or property can apply for maintenance against a legal heir who is not a minor and has possession of or will inherit the property.",
+   "seconds": 9.9,
+   "error": null
+  },
+  {
+   "id": "h12",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 1,
+   "cited": [
+    "torture_custodial:5"
+   ],
+   "considered": [
+    "torture_custodial:5",
+    "crpc:156",
+    "crpc:168",
+    "crpc:157",
+    "police_order:106"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "torture_custodial:5"
+     },
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "torture_custodial:5"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "police brutality and custodial torture procedure for filing a complaint against police officers and identifying the investigating authority",
+   "issues": [],
+   "summary": "This investigation by the Agency must be conducted under the supervision of the National Commission for Human Rights.",
+   "seconds": 9.7,
+   "error": null
+  },
+  {
+   "id": "h13",
+   "expect": "answer",
+   "region": "punjab",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "crpc:145"
+   ],
+   "considered": [
+    "crpc:schedules",
+    "crpc:145",
+    "specific_relief:54",
+    "cpc:schedules",
+    "succession_act:192"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "crpc:145"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "procedure to recover possession of land from illegal encroachment and forcible takeover by relatives without court order",
+   "issues": [],
+   "summary": "The Magistrate will look at the statements and evidence provided by both sides to decide who was holding the property at the time the order was made. If the Magistrate decides you were in possession, he will issue an order declaring you entitled to keep the land until you are legally evicted.",
+   "seconds": 13.1,
+   "error": null
+  },
+  {
+   "id": "h14",
+   "expect": "answer",
+   "region": "balochistan",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "ppc:477A",
+    "limitation_act:18",
+    "crpc:schedules",
+    "peca:14",
+    "ppc:489"
+   ],
+   "gold_cited": false,
+   "gold_considered": true,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "checks": {
+      "steps_proposed": 2,
+      "dropped": [
+       {
+        "reason": "it stated a number that is not in its quote",
+        "source": "peca:14"
+       },
+       {
+        "reason": "its quote was not found word-for-word in the official text",
+        "source": "crpc:schedules"
+       }
+      ],
+      "quotes_snapped": 0,
+      "steps_kept": 0
+     }
+    }
+   ],
+   "rewrite": "reporting online banking fraud and impersonation scam where money was transferred to a fake account, how to file a complaint and recover funds",
+   "issues": [],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 9.5,
+   "error": null
+  },
+  {
+   "id": "h15",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ict_child_marriage:9"
+   ],
+   "considered": [
+    "succession_act:22",
+    "ppc:498B",
+    "ict_child_marriage:9",
+    "ict_child_marriage:7",
+    "constitution:22"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "legal rights of a minor girl regarding education and consent for marriage in Pakistan and whether marriage prevents school attendance",
+   "issues": [],
+   "summary": "The law allows a court to issue an order to stop a child marriage if it is about to happen. If you or someone else informs the court that a child marriage is being arranged, the court can issue an injunction to prevent it. However, the court usually gives the person involved a chance to explain thei",
+   "seconds": 11.6,
+   "error": null
+  },
+  {
+   "id": "h16",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "mflo:7"
+   ],
+   "considered": [
+    "mflo:7",
+    "family_courts:24",
+    "specific_relief:43",
+    "family_courts:9",
+    "mflo:5"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "legal validity of verbal divorce by husband without registration or notice to union council and rights of wife",
+   "issues": [],
+   "summary": "A man who wants to divorce his wife must give a written notice to the Chairman and provide a copy to the wife. The divorce is not effective until 90 days after the notice is delivered to the Chairman, unless it is revoked earlier. Failure to provide this notice can lead to imprisonment or a fine.",
+   "seconds": 11.5,
+   "error": null
+  },
+  {
+   "id": "h17",
+   "expect": "abstain",
+   "region": "kp",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "succession_act:191",
+    "limitation_act:21",
+    "ppc:92",
+    "crpc:244",
+    "kp_domestic_violence:15"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "eligibility of mother for knee replacement surgery under Sehat Card including whether implant costs are covered or if additional payment is required",
+   "issues": [],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 3.8,
+   "error": null
+  },
+  {
+   "id": "h18",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ict_rent:10"
+   ],
+   "considered": [
+    "ict_rent:10",
+    "ict_rent:9",
+    "ict_rent:2",
+    "ict_rent:5",
+    "ict_rent:18"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 2,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal limit on rent increase for commercial shop without written agreement on escalation clause",
+   "issues": [],
+   "summary": "The rent for a non-residential building like a shop automatically increases by 10% every year. However, if the landlord and tenant have a written agreement regarding rent increases, that agreement takes precedence.",
+   "seconds": 8.4,
+   "error": null
+  },
+  {
+   "id": "h19",
+   "expect": "answer",
+   "region": "unknown",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "peca:16",
+    "peca:2C"
+   ],
+   "considered": [
+    "peca:26A",
+    "peca:16",
+    "peca:2C",
+    "peca:2R",
+    "peca:2U"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "how to report and close a fake social media account created using my identity and CNIC photo and legal remedies for identity theft",
+   "issues": [],
+   "summary": "If someone uses your identity information without your permission, they can face up to three years in prison or a fine of up to five million rupees. You have the right to apply to the Authority to have your identity information secured, destroyed, blocked, or prevented from being transmitted.",
+   "seconds": 10.9,
+   "error": null
+  },
+  {
+   "id": "h20",
+   "expect": "answer",
+   "region": "kp",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "juvenile_justice:3",
+    "constitution:10"
+   ],
+   "considered": [
+    "juvenile_justice:3",
+    "crpc:550",
+    "cpc:schedules",
+    "crpc:523",
+    "constitution:10"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "it stated a number that is not in its quote",
+      "source": "juvenile_justice:3"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal rights of a minor detained by police for theft, procedure for informing parents of detention, rights of children in police custody, and how to seek legal aid for free representation",
+   "issues": [],
+   "summary": "Every juvenile or child who is a victim of a crime has the right to receive legal assistance paid for by the State. Any person who is arrested must be brought before a magistrate within 24 hours of the arrest, excluding travel time.",
+   "seconds": 10.2,
+   "error": null
+  },
+  {
+   "id": "h21",
+   "expect": "abstain",
+   "region": "ict",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "constitution:165A",
+    "constitution:260",
+    "constitution:165",
+    "constitution:250",
+    "constitution:160"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "how to calculate tax slab for combined income from salary and freelance work and how to file tax return for multiple income sources",
+   "issues": [],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 4.8,
+   "error": null
+  },
+  {
+   "id": "h22",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ict_domestic_workers:18"
+   ],
+   "considered": [
+    "ict_domestic_workers:14",
+    "ict_domestic_workers:19",
+    "ict_domestic_workers:18",
+    "ict_domestic_workers:8",
+    "ict_domestic_workers:5"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "it stated a number that is not in its quote",
+      "source": "ict_domestic_workers:18"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal time limit for payment of unpaid wages and salary after termination of domestic worker employment",
+   "issues": [],
+   "summary": "All wage payments must be made on a working day. Your wages must be paid in current coins or currency notes, or both.",
+   "seconds": 8.1,
+   "error": null
+  },
+  {
+   "id": "h23",
+   "expect": "answer",
+   "region": "sindh",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "guardians_wards:17"
+   ],
+   "considered": [
+    "guardians_wards:11",
+    "guardians_wards:17",
+    "cpc:schedules",
+    "mflo:4",
+    "ppc:328"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "child custody rights of mother vs father for minor son, factors considered by court in determining custody including child's preference and current living arrangements, legal procedure for custody dispute in Pakistan",
+   "issues": [],
+   "summary": "The court does not look at age alone; it considers the child's welfare, including their age, sex, religion, and the child's own preferences if they are old enough to express them.",
+   "seconds": 10.3,
+   "error": null
+  },
+  {
+   "id": "h24",
+   "expect": "answer",
+   "region": "ict",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "mvo_1965:89A",
+    "ppc:140",
+    "ppc:287",
+    "ppc:67",
+    "ppc:216A"
+   ],
+   "gold_cited": false,
+   "gold_considered": true,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "checks": {
+      "steps_proposed": 1,
+      "dropped": [
+       {
+        "reason": "its quote was not found word-for-word in the official text",
+        "source": "mvo_1965:89A"
+       }
+      ],
+      "quotes_snapped": 0,
+      "steps_kept": 0
+     }
+    }
+   ],
+   "rewrite": "legal requirement for pillion rider to wear helmet on motorcycle in Pakistan and penalties for non-compliance",
+   "issues": [],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 4.7,
+   "error": null
+  },
+  {
+   "id": "h25",
+   "expect": "abstain",
+   "region": "unknown",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "ppc:82",
+    "constitution:25A",
+    "ppc:366A",
+    "ppc:364A",
+    "ppc:83"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "passport validity for minors and eligibility for ten year passport for children under 18",
+   "issues": [],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 3.0,
+   "error": null
+  },
+  {
+   "id": "h26",
+   "expect": "answer",
+   "region": "ict",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "succession_act:34",
+    "succession_act:56",
+    "succession_act:47",
+    "succession_act:169",
+    "succession_act:93"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "legal procedure to claim inheritance share of father's property from siblings who excluded daughters from ownership records and are collecting rent",
+   "issues": [],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 4.2,
+   "error": null
+  },
+  {
+   "id": "h27",
+   "expect": "answer",
+   "region": "punjab",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "contract_act:30B",
+    "punjab_land_revenue:168",
+    "contract_act:140",
+    "cpc:schedules",
+    "punjab_rent:20"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "recovery of security deposit for vacated apartment from landlord where agreement specifies refund and landlord refuses to pay",
+   "issues": [],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 4.4,
+   "error": null
+  },
+  {
+   "id": "h28",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "rti:13"
+   ],
+   "considered": [
+    "rti:13",
+    "rti:2",
+    "ict_senior_citizens:18",
+    "rti:11",
+    "ict_consumer:8"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [
+     {
+      "reason": "its quote was not found word-for-word in the official text",
+      "source": "rti:13"
+     },
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "rti:13"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "procedure to complain about delayed response to information request from a federal ministry and legal remedies for non-compliance",
+   "issues": [],
+   "summary": "If your request is accepted, you will be notified that you can get the record once you pay the required fee. Before the official can refuse your request, they must first get written approval from the principal officer of the public body.",
+   "seconds": 12.9,
+   "error": null
+  },
+  {
+   "id": "h29",
+   "expect": "answer",
+   "region": "unknown",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "punjab_workplace_harassment_of_women:schedules"
+   ],
+   "considered": [
+    "punjab_workplace_harassment_of_women:schedules",
+    "kp_workplace_harassment_of_women:13",
+    "workplace_harassment:schedules",
+    "balochistan_workplace_harassment_of_women:schedules",
+    "workplace_harassment:2"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "workplace_harassment:2"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "stalking and harassment by creating multiple accounts to contact someone after being told to stop and monitoring movements",
+   "issues": [],
+   "summary": "The law recommends that you report offensive behavior to someone you trust as soon as it happens, even if you are not ready to file a formal complaint right away. If you did not report the behavior immediately, it will not negatively impact the merits or the validity of your case.",
+   "seconds": 12.0,
+   "error": null
+  },
+  {
+   "id": "h30",
+   "expect": "abstain",
+   "region": "balochistan",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "cpc:61",
+    "succession_act:79",
+    "constitution:62",
+    "succession_act:schedules",
+    "guardians_wards:10"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "eligibility for solar pump subsidy for agricultural land owned by father and applied for by tenant or son",
+   "issues": [],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 3.9,
+   "error": null
+  },
+  {
+   "id": "h31",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "crpc:54"
+   ],
+   "considered": [
+    "crpc:54",
+    "crpc:86",
+    "crpc:56",
+    "crpc:85",
+    "mvo_1965:113"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "crpc:56"
+     },
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "crpc:85"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "police detention without warrant time limit before production before magistrate and rights of arrested person",
+   "issues": [],
+   "summary": "Police officers have the authority to arrest individuals without a warrant if there is a reasonable suspicion that the person was involved in a cognizable offense.",
+   "seconds": 12.6,
+   "error": null
+  },
+  {
+   "id": "h32",
+   "expect": "answer",
+   "region": "sindh",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "family_courts:9"
+   ],
+   "considered": [
+    "family_courts:9",
+    "family_courts:schedules",
+    "cpc:schedules",
+    "cpc:60",
+    "succession_act:192"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 2,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "can a woman claim return of personal belongings and household items like furniture and appliances in the same petition as a divorce by Khula",
+   "issues": [],
+   "summary": "A wife can include a claim for dissolution of marriage, which includes khula, within her written statement if she is responding to a suit for restitution of conjugal rights. The law specifies that if such a claim is made in the written statement, it is treated as a main lawsuit (plaint), meaning you",
+   "seconds": 10.1,
+   "error": null
+  },
+  {
+   "id": "h33",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ppc:162"
+   ],
+   "considered": [
+    "ppc:171E",
+    "police_order:112",
+    "police_order:143",
+    "ppc:162",
+    "ppc:171B"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 1,
+   "checks": {
+    "steps_proposed": 2,
+    "dropped": [
+     {
+      "reason": "the quote did not fully support the claim",
+      "source": "ppc:162"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 1
+   },
+   "rewrite": "legal consequences of traffic police demanding cash bribe without receipt and procedure to report corruption by traffic police in Islamabad",
+   "issues": [],
+   "summary": "The punishment for attempting to obtain such a bribe or gratification is imprisonment for up to three years, a fine, or both.",
+   "seconds": 8.4,
+   "error": null
+  },
+  {
+   "id": "h34",
+   "expect": "answer",
+   "region": "punjab",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "legal_aid:9"
+   ],
+   "considered": [
+    "legal_aid:8",
+    "legal_aid:9",
+    "constitution:203E",
+    "crpc:161A",
+    "punjab_police:163"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [
+     {
+      "reason": "its quote was not found word-for-word in the official text",
+      "source": "legal_aid:9"
+     },
+     {
+      "reason": "its quote was not found word-for-word in the official text",
+      "source": "legal_aid:9"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal aid for criminal defense and free legal representation for indigent persons in Pakistan",
+   "issues": [],
+   "summary": "The Legal Aid and Justice Authority is responsible for providing legal aid and other assistance to individuals who are charged with a criminal offense but are unable to afford representation or access to justice. Once you submit your application, the Authority is required to make a decision on it wi",
+   "seconds": 12.9,
+   "error": null
+  },
+  {
+   "id": "h35",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "ict_corporal_punishment:2",
+    "ict_corporal_punishment:3"
+   ],
+   "considered": [
+    "ppc:377A",
+    "ict_corporal_punishment:2",
+    "crpc:199A",
+    "domestic_violence:3",
+    "ict_corporal_punishment:3"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 4,
+   "checks": {
+    "steps_proposed": 4,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 4
+   },
+   "rewrite": "legal action against private school teacher for corporal punishment and physical abuse of a student, rights of parents, and complaint procedure",
+   "issues": [],
+   "summary": "The law prohibits corporal punishment in schools, which includes hitting a child with an object like a stick or belt. It also defines a child as anyone under eighteen years old and states that children have a right to respect and must not be subjected to humiliating or degrading treatment.",
+   "seconds": 11.9,
+   "error": null
+  },
+  {
+   "id": "h36",
+   "expect": "abstain",
+   "region": "sindh",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "constitution:270AA",
+    "constitution:schedules",
+    "ppc:331",
+    "ppc:337X",
+    "constitution:216"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "eligibility for monthly pension vs lump sum payment from Employees Old-Age Benefits Institution (EOBI) after 12 years of service at age 60",
+   "issues": [],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 4.6,
+   "error": null
+  },
+  {
+   "id": "h37",
+   "expect": "answer",
+   "region": "unknown",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "peca:21"
+   ],
+   "considered": [
+    "peca:21",
+    "peca:22A",
+    "peca:2R",
+    "ppc:509",
+    "workplace_harassment:2"
+   ],
+   "gold_cited": true,
+   "gold_considered": true,
+   "steps": 2,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [
+     {
+      "reason": "its quote was not found word-for-word in the official text",
+      "source": "peca:21"
+     }
+    ],
+    "quotes_snapped": 0,
+    "steps_kept": 2
+   },
+   "rewrite": "legal action against blackmail and threat to distribute private intimate videos in a group chat and reporting procedure for online harassment",
+   "issues": [],
+   "summary": "If the victim is a minor, the punishment for such an offense is more severe, with a prison term of up to seven years and a fine of up to five million rupees. An aggrieved person or a guardian of a minor can apply to the Authority to block access to or remove such information.",
+   "seconds": 11.1,
+   "error": null
+  },
+  {
+   "id": "h38",
+   "expect": "answer",
+   "region": "ict",
+   "status": "answered",
+   "level": 2,
+   "cited": [
+    "wafaqi_mohtasib:10"
+   ],
+   "considered": [
+    "ict_consumer:8",
+    "crpc:schedules",
+    "police_order:100",
+    "wafaqi_mohtasib:10",
+    "cpc:schedules"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 3,
+   "checks": {
+    "steps_proposed": 3,
+    "dropped": [],
+    "quotes_snapped": 0,
+    "steps_kept": 3
+   },
+   "rewrite": "how to file a formal complaint against Pakistan Post for lost parcel and lack of transparency in complaint resolution process",
+   "issues": [],
+   "summary": "You can submit a written complaint to the Mohtasib by the person who was affected or their legal representative. The complaint must be submitted within three months of the date you first noticed the issue, though the Mohtasib can investigate later if there are special circumstances.",
+   "seconds": 11.4,
+   "error": null
+  },
+  {
+   "id": "h39",
+   "expect": "abstain",
+   "region": "balochistan",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "balochistan_police:33",
+    "balochistan_police:26",
+    "constitution:106",
+    "balochistan_consumer:17",
+    "constitution:62"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "minimum age requirement for obtaining a learner license for a 70cc motorcycle in Balochistan and procedure for application",
+   "issues": [],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 3.5,
+   "error": null
+  },
+  {
+   "id": "h40",
+   "expect": "answer",
+   "region": "ict",
+   "status": "not_found",
+   "level": 4,
+   "cited": [],
+   "considered": [
+    "ict_child_marriage:11",
+    "constitution:203H",
+    "crpc:204",
+    "cpc:schedules",
+    "constitution:199"
+   ],
+   "gold_cited": false,
+   "gold_considered": false,
+   "steps": 0,
+   "checks": [
+    {
+     "stage": "library",
+     "result": "the retrieved sections do not answer this"
+    }
+   ],
+   "rewrite": "interim maintenance for children during pending child support case procedure to request immediate payment of school fees",
+   "issues": [],
+   "summary": "We could not find a verified answer in our library. Rather than guess, we suggest speaking to a lawyer or legal-aid service.",
+   "seconds": 4.6,
+   "error": null
+  }
+ ]
+}

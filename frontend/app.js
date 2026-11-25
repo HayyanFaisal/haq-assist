@@ -872,16 +872,29 @@ $("#region").onchange = (e) => { state.region = e.target.value; store.set("regio
 applyMotion();
 paintMeter();
 route();
-Promise.allSettled([api("/api/health"), api("/api/library")]).then(([h, l]) => {
-  if (h.status === "fulfilled") state.health = h.value;
-  if (l.status === "fulfilled") state.library = l.value;
-  const L = state.library, H = state.health;
-  $("#libraryLine").textContent = L ? `Library: ${L.sections.toLocaleString()} sections from ${L.acts} official acts, from Pakistan Code and provincial .gov.pk portals. AI ${H && H.llm === "ok" ? "online" : "offline"}, voice input ${H && H.voice === "ok" ? "online" : "offline"}.` : $("#libraryLine").textContent;
-  // once voice is known to be available, add the Listen buttons to a card that was already rendered (no page transition)
-  if (/^#\/card\//.test(location.hash) && state.health?.voice_reply && !$(".listen")) cardView(location.hash.split("/")[2]);
-  if (location.hash === "" || location.hash === "#/") {
-    if (state.lastAnswer && state.health?.voice_reply) renderAnswer(state.lastAnswer);
-    renderLibrary();
-    const stage = $("#stage"); if (stage && !state.busy && !state.lastAnswer) stage.innerHTML = stageRest(num(L ? L.sections : 4716));
-  }
-});
+// The services start at different speeds (VoiceStudio takes ~20 s), so keep checking until the AI and voice are both up.
+let healthTries = 0, firstHealth = true;
+function checkHealth() {
+  Promise.allSettled([api("/api/health"), state.library ? Promise.resolve(state.library) : api("/api/library")]).then(([h, l]) => {
+    const hadVoice = !!state.health?.voice_reply;
+    if (h.status === "fulfilled") state.health = h.value;
+    if (l.status === "fulfilled") state.library = l.value;
+    const L = state.library, H = state.health;
+    $("#libraryLine").textContent = L ? `Library: ${L.sections.toLocaleString()} sections from ${L.acts} official acts, from Pakistan Code and provincial .gov.pk portals. AI ${H && H.llm === "ok" ? "online" : "starting or offline"}, voice ${H && H.voice === "ok" ? "online" : "starting or offline"}.` : $("#libraryLine").textContent;
+    const voiceNow = !!H?.voice_reply;
+    // voice just became available: add the Listen buttons to what is already on screen (no page transition)
+    if (voiceNow && !hadVoice) {
+      if (/^#\/card\//.test(location.hash) && !$(".listen")) cardView(location.hash.split("/")[2]);
+      if ((location.hash === "" || location.hash === "#/") && state.lastAnswer && !state.busy) renderAnswer(state.lastAnswer);
+      if (!firstHealth) toast("Voice is ready: you can now listen to answers.");
+    }
+    if (firstHealth && (location.hash === "" || location.hash === "#/")) {
+      renderLibrary();
+      const stage = $("#stage"); if (stage && !state.busy && !state.lastAnswer) stage.innerHTML = stageRest(num(L ? L.sections : 4716));
+    }
+    firstHealth = false;
+    const ready = H && H.llm === "ok" && H.voice === "ok" && voiceNow;
+    if (!ready && ++healthTries < 60) setTimeout(checkHealth, 5000);  // up to 5 minutes
+  });
+}
+checkHealth();

@@ -9,4 +9,7 @@ foreach ($p in $targets) {
   Stop-Process -Id $p.ProcessId -Force -ErrorAction SilentlyContinue
   Write-Host "Stopped $($p.Name) (process $($p.ProcessId))"
 }
+# Wait until the ports are really free, so an immediate start_haq.ps1 can bind them again.
+$deadline = (Get-Date).AddSeconds(20)
+while ((Get-Date) -lt $deadline -and (Get-NetTCPConnection -State Listen -LocalPort 8000, 3900, 8091 -ErrorAction SilentlyContinue)) { Start-Sleep -Milliseconds 500 }
 Write-Host "Haq Assist stopped."

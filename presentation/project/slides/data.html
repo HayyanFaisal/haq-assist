@@ -2,12 +2,12 @@
 <p class="eyebrow">Data plan and metrics</p>
 <h2>We don’t train on laws — the app looks them up</h2>
 <div class="row" style="gap: 56px; align-items: flex-start;">
-<div class="col" style="width: 560px; flex: none; gap: 20px;">
+<div class="col" style="width: 560px; flex: none; gap: 16px;">
 <p class="mid">54 acts</p>
-<p class="label" style="margin-top:-8px">4,716 sections from Pakistan Code and provincial .gov.pk / .gob.pk portals</p>
+<p class="label" style="margin-top:-8px">4,716 sections from five official portals: Pakistan Code, Punjab Code, Sindh Laws, KP Code (all .gov.pk) and Balochistan Code (.gob.pk)</p>
 <p class="small"><b>Provenance:</b> 57/57 PDFs — official host, SHA-256, title checked</p>
 <p class="small"><b>Completeness:</b> 3,330/3,346 federal and ICT, 1,373/1,400 provincial contents entries extracted</p>
-<p class="small"><b>Review:</b> an independent older copy; four sampled Codex passes; 3 documents and the Limitation Act’s deadline table excluded</p>
+<p class="small"><b>Review:</b> an older independent copy and four Codex passes; failures excluded</p>
 <p class="small"><b>Test sets:</b> 57 labelled questions, plus 78 everyday stories — 40 written by Codex and held out</p>
 </div>
 <div class="col grow">
@@ -24,5 +24,5 @@
 </div>
 </div>
 <p class="source">A = Gemma 4 12B from memory; B = same retrieval and prompt, no checks; C = full system, local library only. Verifiable = quote found in the cited official section.</p>
-<aside>Answer to the instructor’s question: our data is the official statute text, not a training set; our labelled data is the test sets. The ablation shows what each layer buys: the model alone wrote 77 citations and not one quote was in the official text. Be upfront: these are single runs, and LLM output varies by a few questions between runs.</aside>
+<aside>Answer to the instructor’s question: our data is the official statute text, not a training set; our labelled data is the test sets. The ablation shows what each layer buys: the model alone wrote 77 citations and not one quote was in the official text. Be upfront: these are single runs, and LLM output varies by a few questions between runs. Excluded: 3 documents (broken text or the wrong law behind the title) and the Limitation Act’s deadline table, whose columns extract out of order. Punjab, Sindh and KP portals are all .gov.pk; only Balochistan uses .gob.pk.</aside>
 </section>

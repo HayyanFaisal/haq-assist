@@ -68,7 +68,17 @@ The slide also mentions **retrieval model choice** (BERT, RoBERTa, BGE) and **ge
 
 ### 4.1 Where the data comes from (the instructor's "data plan" question)
 
-Only **official statute text**: Pakistan Code (federal and Islamabad) and the provincial .gov.pk / .gob.pk code portals. The rule is enforced in code. There is no scraped Q&A and no training set.
+Only **official statute text**, from five government portals. The rule is enforced in code.
+
+| Portal | Host | Acts in the library |
+|---|---|---|
+| Pakistan Code (federal and Islamabad) | pakistancode.gov.pk | 31 |
+| Punjab Code | punjabcode.punjab.gov.pk | 8 |
+| Sindh Laws | sindhlaws.gov.pk | 4 |
+| KP Code | kpcode.kp.gov.pk | 6 |
+| Balochistan Code | balochistancode.gob.pk | 5 |
+
+Punjab, Sindh and KP all sit under **.gov.pk**; only Balochistan uses **.gob.pk**. The three excluded PDFs came from sindhlaws.gov.pk, fospah.gov.pk and excise.balochistan.gov.pk. There is no scraped Q&A and no training set.
 
 **Library: 54 acts, 4,716 sections, from 57 PDFs.**
 

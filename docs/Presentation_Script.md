@@ -1,8 +1,6 @@
 # Haq Assist: presentation script
 
-The words to say for each slide, in order. The same text is in each slide's speaker notes. Then a 4–5 minute live demo (steps in Demo_Script.md). The longest scripts are Technique, Data and System; trim those first if your slot is short.
-Total: 1,914 words, roughly 14 minutes at a calm speaking pace.
-
+The words to say for each slide, in order; the same text is in each slide's speaker notes. Main deck: 10 slides, 1,644 words, roughly 12 minutes at a calm pace, then the 4–5 minute live demo (steps in Demo_Script.md). If your slot is short, trim the Technique, Data and System parts first.
 
 ## 1. Haq Assist
 
@@ -28,26 +26,34 @@ Why this technique? A plain language model answers from memory, and memory inven
 
 Our data plan. We don’t train a model on law; the app looks the law up. The library is 54 acts, 4,716 sections, downloaded only from the five official government portals: Pakistan Code, and the Punjab, Sindh, KP and Balochistan codes. Every PDF passed a provenance check, with its official host, a SHA-256 hash and its title recorded. We compared each act’s own contents list with what we extracted, and got 99.5 percent federal and 98 percent provincial. Codex, a different AI system, checked samples four times, and anything that failed was excluded rather than trusted. Our labelled data is the test sets: 57 short questions and 78 everyday stories, 40 of which Codex wrote and we never saw until the final run. Now the key result, the ablation. A is Gemma alone, from memory: it wrote 77 citations, and not one quote is in the official text. B adds our search but no checks: it still shows 17 citations we can’t back. C is Haq Assist: 121 of 121 citations verifiable, zero unverifiable, and it keeps 41 of B’s 42 correct answers. The checks rejected 28 unsupported steps. One honest note: these are single runs.
 
-## 7. Key acts behind everyday problems
-
-What is actually in the library? These are the acts behind the problems people ask about most. For arrest, the Constitution’s Article 10. For the police and FIRs, the Criminal Procedure Code: section 154 is the FIR, and under 22-A a Justice of the Peace can order the police to register it. The Police Order covers police misconduct, and PECA covers online harassment and blackmail. For a faulty product, the Islamabad and Punjab consumer laws: in Islamabad you complain directly, while in Punjab you must send the seller a notice first. That difference is exactly why the app asks for your province. Then family law, the Islamabad rent law, and for land and inheritance the Specific Relief Act and the women’s property laws. In total there are 54 acts, deepest for Islamabad and federal law, plus each province’s consumer, rent, police, traffic and harassment laws. The full list is in our repository.
-
-## 8. Abstain, never invent, serve every language
+## 7. Abstain, never invent, serve every language
 
 These are the requirements that matter because the system is generative. Abstention: it must decline rather than guess. It declined 8 of 8 trick questions, and 8 of 8 on Codex’s held-out stories. Hallucination tolerance: zero for citations. 121 of 121 were verifiable, and none unverifiable was shown. Fairness across languages: here we fall short, and we want to say it plainly. English questions got the correct law 27 of 27 times, Roman Urdu only 12 of 17, likely because people write “parcha” or “thanedar” while the law uses formal terms. On the held-out stories the gap is smaller. Retrieval: the right section was in the top five for 48 of 49 questions in our selection experiment, and 46 of 49 in the deployed app, where the three misses are questions with no province. Consistency: temperature zero everywhere, so the same question gives the same answer. Latency: 13.8 seconds median, which misses our 12-second target, because each angle of a story is searched separately. It all runs on one 16-gigabyte GPU, with Gemma 4 chosen over Qwen because Qwen invented law names.
 
-## 9. Five stages, with checks before anything is shown
+## 8. Five stages, with checks before anything is shown
 
 Here is how one question flows through the system. First, understand: Gemma works out the topic and the province, rewrites the question in legal English, and writes up to three statute-style search sentences. Second, retrieve: we search only the law that applies in that province, with two embedding models and a reranker, one search per angle, keeping up to six sections. Third, answer: Gemma writes steps in Urdu and English, and each step must cite one source and copy one exact quote. Fourth, the important one, check: code matches every quote against the official text, checks that every number in the English and the Urdu appears in the quote, and a second model pass confirms the quote supports the claim. If that pass errors, the step is rejected. Fifth, show: the trust level, the quotes, links to the PDF page, and a live trace of each stage. If nothing passes, the answer is “Not found”. With online search switched on, it can also try official government websites, and those answers go through the same checks. Everything runs as three services on one PC.
 
-## 10. Safety when the AI is wrong
+## 9. Safety when the AI is wrong
 
 What happens when the AI is wrong? We plan for it at six levels. Prevent: for the five most urgent situations, like arrest or a refused FIR, there are prewritten rights cards that open without the AI at all. Constrain: answers use only retrieved official text. Detect: the checks you just saw. Label: every answer says how much to trust it. Recover: when nothing passes, “Not found” sends the person to a lawyer or legal aid instead of guessing. Learn: audits and held-out tests led to fixes. Three real cases from testing. Asked whether you must unlock your phone at a checkpoint, it said “Not found”, because no section settles that. When we tried to inject “section 999 lets police hold anyone for 30 days”, it said “Not found” and cited nothing. And a lesson from the other direction: the checker once rejected an FIR quote that was 98 percent correct, with three words left out, so a right answer became “Not found”. Now a close paraphrase is replaced by the official wording and checked again, so the user still only ever sees the law’s own words.
 
-## 11. Same verified answers on every plan; you pay for more questions
-
-How could this be sustained? Our rule is that accuracy is never a paid feature: every plan gets the same checked answers, and the rights cards are free. Free gives 8 questions a month. Haq Go is 149 rupees for 40, Haq Plus 599 for 80, and Haq Ultra 899 for 150. Organisations such as legal-aid societies, NGOs and university legal clinics could license it to run on their own server. Our proposal had a 10 to 15 percent referral fee from lawyers. We dropped it, because Bar Council rule 136 restricts sharing fees with someone who is not a lawyer, so lawyers are listed free. These prices are proposals: the prototype counts questions but takes no payment.
-
-## 12. The law’s own words, in your language
+## 10. The law’s own words, in your language
 
 Now let us show you the working app. It is running on our PC right now. First, an arrest in Islamabad: we ask in Urdu by voice and watch it read the question, search the law and check each quote, then open the official PDF page and press Listen to hear the answer. Second, an honest limit: the phone-unlocking question, which gives “Not found”. Third, a real story, written the way people actually write: a stolen phone, and a police clerk telling the brother to find it himself first. It finds CrPC 22-A and links to the FIR rights card. Fourth, a faulty phone: the app turns the story into a complaint draft for Islamabad, and when we switch to Punjab it becomes the legal notice Punjab requires first. [Run the demo; see docs/Demo_Script.md.] To close: Haq Assist explains the law, it is not a lawyer, and every answer shows exactly where it came from. When we can’t prove it, we say so. Thank you; we are happy to take questions.
+
+---
+
+## Appendix: backup slides (only if asked)
+
+### Key acts behind everyday problems
+
+*Show it if you are asked which laws are in the library.*
+
+What is actually in the library? These are the acts behind the problems people ask about most. For arrest, the Constitution’s Article 10. For the police and FIRs, the Criminal Procedure Code: section 154 is the FIR, and under 22-A a Justice of the Peace can order the police to register it. The Police Order covers police misconduct, and PECA covers online harassment and blackmail. For a faulty product, the Islamabad and Punjab consumer laws: in Islamabad you complain directly, while in Punjab you must send the seller a notice first. That difference is exactly why the app asks for your province. Then family law, the Islamabad rent law, and for land and inheritance the Specific Relief Act and the women’s property laws. In total there are 54 acts, deepest for Islamabad and federal law, plus each province’s consumer, rent, police, traffic and harassment laws. The full list is in our repository.
+
+### Same verified answers on every plan; you pay for more questions
+
+*Show it if you are asked how this would be sustained.*
+
+How could this be sustained? Our rule is that accuracy is never a paid feature: every plan gets the same checked answers, and the rights cards are free. Free gives 8 questions a month. Haq Go is 149 rupees for 40, Haq Plus 599 for 80, and Haq Ultra 899 for 150. Organisations such as legal-aid societies, NGOs and university legal clinics could license it to run on their own server. Our proposal had a 10 to 15 percent referral fee from lawyers. We dropped it, because Bar Council rule 136 restricts sharing fees with someone who is not a lawyer, so lawyers are listed free. These prices are proposals: the prototype counts questions but takes no payment.

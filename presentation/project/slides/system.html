@@ -5,7 +5,7 @@
 <tr><th style="width:24%">Requirement</th><th style="width:30%">Target</th><th style="width:46%">Measured</th></tr>
 <tr><td>Abstention</td><td>≥ 7 of 8 trick questions declined</td><td>8 of 8; 8 of 8 on the held-out stories</td></tr>
 <tr><td>Hallucination tolerance</td><td>≥ 95% verifiable; 0 unverifiable shown</td><td>121 of 121 verifiable; 0 shown</td></tr>
-<tr><td>Fairness across languages</td><td>No large gap</td><td>English 27/27, Roman Urdu 12/17: a gap. Held-out stories: English 5/8, Roman Urdu 8/15</td></tr>
+<tr><td>Fairness across languages</td><td>Within 10 points</td><td>English 27/27, Roman Urdu 12/17: not met. Held-out stories: English 5/8, Roman Urdu 8/15</td></tr>
 <tr><td>Grounded retrieval</td><td>Right section in the top 5, ≥ 85%</td><td>48 of 49 in selection; 46 of 49 deployed</td></tr>
 <tr><td>Consistency</td><td>Same question, same answer</td><td>Temperature 0 at every step</td></tr>
 <tr><td>Latency</td><td>Median &lt; 12 s</td><td>13.8 s (p90 17.9 s): missed, because each angle of a story is searched</td></tr>
@@ -15,5 +15,5 @@
 <div class="card"><h3>Models</h3><p class="body">Gemma 4 12B (Apache-2.0), chosen over Qwen3.5-9B; BGE-M3 + Qwen3-Embedding; bge-reranker-v2-m3; Whisper; OmniVoice.</p></div>
 <div class="card"><h3>Privacy</h3><p class="body">Runs locally. Online search is off by default; when on, a rewritten query goes to search providers.</p></div>
 </div>
-<aside>Targets come from our proposal. Fairness is the honest weak spot: Roman Urdu questions were cited correctly less often than English ones, likely because everyday words differ from legal wording; the glossary and statute-style search sentences target this. Urdu-script samples are too small to claim parity. Every plan gets the same verified answers. The online fallback adds 18–40 seconds.</aside>
+<aside>SCRIPT: These are the requirements that matter because the system is generative. Abstention: it must decline rather than guess. It declined 8 of 8 trick questions, and 8 of 8 on Codex’s held-out stories. Hallucination tolerance: zero for citations. 121 of 121 were verifiable, and none unverifiable was shown. Fairness across languages: here we fall short, and we want to say it plainly. English questions got the correct law 27 of 27 times, Roman Urdu only 12 of 17, likely because people write “parcha” or “thanedar” while the law uses formal terms. On the held-out stories the gap is smaller. Retrieval: the right section was in the top five for 48 of 49 questions in our selection experiment, and 46 of 49 in the deployed app, where the three misses are questions with no province. Consistency: temperature zero everywhere, so the same question gives the same answer. Latency: 13.8 seconds median, which misses our 12-second target, because each angle of a story is searched separately. It all runs on one 16-gigabyte GPU, with Gemma 4 chosen over Qwen because Qwen invented law names.</aside>
 </section>

@@ -72,7 +72,7 @@ The look comes from the logo: deep navy, emerald for the AI and search, and gold
 | `scripts/` | Rebuilds the library: `pc_index` → `fetch_acts` → `split_sections` → `triple_check`; then `build_cards` |
 | `eval/` | `testset.jsonl`: 57 labelled questions. `everyday_dev.jsonl`: 38 everyday stories used for tuning. `holdout/everyday_holdout.jsonl`: 40 stories written and labelled by Codex, not seen during tuning. `everyday_eval.py`: story evaluation, with `--baseline` replaying the earlier system. `retrieval_experiments.py`: 69 search configurations. `ablation.py`: A/B/C comparison. `llm_urdu_test.py`: model choice. Results are in `eval/results/`. |
 | `models/` | GGUF LLMs, the Hugging Face cache and search indexes. Not in the repository (too large); see "Rebuilding from a fresh clone" |
-| `docs/` | `Haq_Assist_Explained.md`: the team explainer (every design choice, its numbers, and how it maps to the RAG lecture). `Haq_Assist_Requirements_Architecture_Security.docx`/`.pdf`: the submission document, built by `scripts/make_doc.js`. `Demo_Script.md`: the 4–5 minute demo. |
+| `docs/` | `Haq_Assist_Explained.md`: the team explainer (every design choice, its numbers, and how it maps to the RAG lecture). `Haq_Assist_Requirements_Architecture_Security.docx`/`.pdf`: the submission document, built by `scripts/make_doc.js`. `Demo_Script.md`: the 4–5 minute demo. `Presentation_Script.md`: what to say on each slide. `Library_Acts.md`: all 54 acts, with section counts and source portals. |
 | `presentation/` | Source files of the slide deck |
 
 ## Rebuilding from a fresh clone

@@ -21,9 +21,9 @@ section.dark { background: var(--dark); color: var(--on-dark); }
 section.has-source { padding: 128px 128px 160px; }
 
 h1 { font-family: 'EB Garamond', Georgia, serif; font-size: 120px; font-weight: 600; line-height: 1.0; color: var(--on-dark); }
-h2 { font-family: 'EB Garamond', Georgia, serif; font-size: 72px; font-weight: 600; line-height: 1.06; color: var(--dark); }
+h2 { font-family: 'EB Garamond', Georgia, serif; font-size: 80px; font-weight: 600; line-height: 1.06; color: var(--dark); }
 section.dark h2 { color: var(--on-dark); }
-h3 { font-size: 32px; font-weight: 700; line-height: 1.2; color: var(--dark); }
+h3 { font-size: 40px; font-weight: 700; line-height: 1.2; color: var(--dark); }
 section.dark h3 { color: var(--on-dark); }
 p { font-size: 32px; line-height: 1.4; }
 
@@ -50,8 +50,18 @@ section.dark .card .body { color: var(--on-dark-muted); }
 section.compact .card { padding: 24px 28px; gap: 8px; }
 section.compact .card .body { font-size: 24px; }
 
-.big { font-family: 'EB Garamond', Georgia, serif; font-size: 120px; font-weight: 600; line-height: 1; color: var(--green); }
-.mid { font-family: 'EB Garamond', Georgia, serif; font-size: 72px; font-weight: 600; line-height: 1; color: var(--green); }
+.big { font-family: 'EB Garamond', Georgia, serif; font-size: 76px; font-weight: 600; line-height: 1; color: var(--green); }
+.mid { font-family: 'EB Garamond', Georgia, serif; font-size: 60px; font-weight: 600; line-height: 1; color: var(--green); }
+.price { font-size: 36px; font-weight: 700; line-height: 1.1; color: var(--green); }
+.card.accent .price { color: #F2F8F4; }
+
+/* cover: the web app's navy, so the logo tile blends in */
+section.navy { background: #0E1724; color: var(--on-dark); }
+section.navy .eyebrow { color: #D9B45A; }
+section.navy .muted { color: #A9B8CC; }
+.logo-tile { width: 520px; height: 520px; border-radius: 48px; object-fit: cover; flex: none; box-shadow: 0 24px 80px rgba(0,0,0,0.45); }
+
+.tbl-sm { font-size: 24px; color: var(--ink); width: 1664px; }
 .label { font-size: 28px; line-height: 1.35; color: var(--muted); }
 
 .badge { display: inline-block; font-size: 24px; font-weight: 700; padding: 8px 20px; border-radius: 999px; background: var(--green-soft); color: var(--green); }

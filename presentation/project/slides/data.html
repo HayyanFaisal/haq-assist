@@ -1,6 +1,6 @@
 <section id="data" class="has-source">
 <p class="eyebrow">Our data and how we measured it</p>
-<h2>The data is the law itself, tested on questions we had never seen</h2>
+<h2>The data is the law, tested on unseen questions</h2>
 <div class="row" style="gap: 56px; align-items: flex-start;">
 <div class="col" style="width: 600px; flex: none; gap: 18px;">
 <p class="mid">54 laws</p>
@@ -8,18 +8,14 @@
 <h3>Our tests</h3>
 <p class="small">57 questions with known answers, including 8 the app should refuse.</p>
 <p class="small">40 long, messy real-life stories written by another AI (Codex), unseen until the final test.</p>
+<div class="col in" style="--i:2; gap: 10px;"><p class="small" style="font-weight:700">Where the 54 laws come from</p><div class="stack"><div style="flex:31; background:#0B6B45; color:#F2F8F4">31</div><div style="flex:8; background:#2E8A62; color:#F2F8F4">8</div><div style="flex:6; background:#5AA483; color:#F2F8F4">6</div><div style="flex:5; background:#86BFA3; color:#10211A">5</div><div style="flex:4; background:#A9D2BD; color:#10211A">4</div></div><div class="stack-key"><span><i style="background:#0B6B45"></i>Federal</span><span><i style="background:#2E8A62"></i>Punjab</span><span><i style="background:#5AA483"></i>KP</span><span><i style="background:#86BFA3"></i>Balochistan</span><span><i style="background:#A9D2BD"></i>Sindh</span></div></div>
 </div>
 <div class="col grow">
-<h3>Same AI with and without our system</h3>
-<table style="font-size: 28px; width: 1000px;">
-<tr><th style="width:46%">57 questions</th><th style="width:27%">Gemma 4 alone</th><th style="width:27%">Haq Assist</th></tr>
-<tr><td>Quotes really in the law</td><td>0 of 77</td><td><b>121 of 121</b></td></tr>
-<tr><td>Answer cites the right law</td><td>0 of 49</td><td><b>41 of 49</b></td></tr>
-<tr><td>Refused when it should</td><td>6 of 8</td><td><b>8 of 8</b></td></tr>
-</table>
+<h3>Same AI, with and without our system (57 questions)</h3>
+<div class="col" style="gap: 22px;"><div class="pair"><h4>Quotes that really are in the law</h4><div class="bar-row"><p class="bar-label">Gemma 4 alone</p><div class="bar-track"><div class="bar-fill base" style="width:0.6%; --i:0"></div></div><p class="bar-val">0 of 77</p></div><div class="bar-row"><p class="bar-label"><b>Haq Assist</b></p><div class="bar-track"><div class="bar-fill win" style="width:100%; --i:1"></div></div><p class="bar-val"><b>121 of 121</b></p></div></div><div class="pair"><h4>Answer cites the right law</h4><div class="bar-row"><p class="bar-label">Gemma 4 alone</p><div class="bar-track"><div class="bar-fill base" style="width:0.6%; --i:2"></div></div><p class="bar-val">0 of 49</p></div><div class="bar-row"><p class="bar-label"><b>Haq Assist</b></p><div class="bar-track"><div class="bar-fill win" style="width:84%; --i:3"></div></div><p class="bar-val"><b>41 of 49</b></p></div></div><div class="pair"><h4>Refused when it should</h4><div class="bar-row"><p class="bar-label">Gemma 4 alone</p><div class="bar-track"><div class="bar-fill base" style="width:75%; --i:4"></div></div><p class="bar-val">6 of 8</p></div><div class="bar-row"><p class="bar-label"><b>Haq Assist</b></p><div class="bar-track"><div class="bar-fill win" style="width:100%; --i:5"></div></div><p class="bar-val"><b>8 of 8</b></p></div></div></div>
 <p class="small muted">Harder, on the 40 unseen stories: right law in 19 of 32; refused all 8 it should. Without the checking step, 17 unbacked citations reached the user; with it, none.</p>
 </div>
 </div>
 <p class="source">This comparison is called an ablation test. Gemma 4 (12B) runs on our own PC. Results and test sets: github.com/HayyanFaisal/haq-assist</p>
-<aside>SCRIPT: For a RAG system, the data is the law itself. We downloaded 54 laws, 4,716 sections, only from the five official government law websites, covering police and FIRs, arrest, consumer rights, rent, family, online harm, land and traffic. Every section keeps its PDF page, which is how each quote links back to its source. We train nothing, so what we needed was a fair test: 57 questions with known answers, including 8 the app should refuse, and 40 long, messy real-life stories written by another AI, Codex, which we didn’t read until the final test. Here is the key result, an ablation test: the same AI, Gemma 4, with and without our system. Alone, it gave 77 citations, and not one quote was in the actual law. With Haq Assist, 121 of 121 quotes are real, the answer cites the right law in 41 of 49 questions, and it refuses all 8 it should. The unseen stories are harder: right law in 19 of 32, and all 8 refusals correct.</aside>
+<aside>SCRIPT: For a RAG system, the data is the law itself. We downloaded 54 laws, 4,716 sections, only from the five official government law websites: the bar shows 31 federal laws and 23 from the four provinces. Every section keeps its PDF page, which is how each quote links back to its source. We train nothing, so what we needed was a fair test: 57 questions with known answers, including 8 the app should refuse, and 40 long, messy real-life stories written by another AI, Codex, which we didn’t read until the final test. Here is the key result, an ablation test: the same AI, Gemma 4, with and without our system. Grey is Gemma alone, green is Haq Assist. Alone, it gave 77 citations, and not one quote was in the actual law. With Haq Assist, 121 of 121 quotes are real, the answer cites the right law in 41 of 49 questions, and it refuses all 8 it should. The unseen stories are harder: right law in 19 of 32, and all 8 refusals correct.</aside>
 </section>

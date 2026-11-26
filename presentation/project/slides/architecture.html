@@ -1,14 +1,71 @@
 <section id="architecture" class="tint">
 <p class="eyebrow">How it works</p>
-<h2>Five steps from question to answer</h2>
-<table style="font-size: 26px; width: 1664px;">
-<tr><th style="width:15%">Step</th><th style="width:43%">What happens to our stolen-phone question</th><th style="width:42%">Under the hood</th></tr>
-<tr><td><b>1 · Understand</b></td><td>“FIR nahi kaat rahe” becomes “police refusing to register a report of theft”; province noted</td><td>Gemma 4 12B, run locally; also writes law-like sentences to search with (HyDE)</td></tr>
-<tr><td><b>2 · Look up</b></td><td>Searches the law and keeps the 6 best sections, including CrPC 154 and 22-A</td><td>Two embedding models plus a reranker; that province’s laws and federal law</td></tr>
-<tr><td><b>3 · Answer</b></td><td>Writes simple steps in Urdu and English, each quoting one section</td><td>Strict JSON output; temperature 0 to keep answers consistent</td></tr>
-<tr><td><b>4 · Check</b></td><td>Every quote and number is compared with the official text; a step whose quote doesn’t support it is removed</td><td>Code-based text matching, then a second AI pass on support; any error means reject</td></tr>
-<tr><td><b>5 · Show</b></td><td>The answer, its quotes and a link to the government PDF, or “Not found”</td><td>Web app; Whisper for voice in, OmniVoice for voice out</td></tr>
-</table>
-<p class="in" style="--i:1; max-width: 1600px;">Everything runs on one PC with one 16 GB graphics card: no cloud AI.</p>
-<aside>SCRIPT: Here’s our stolen-phone question going through the system. One, understand: Gemma 4, running on our PC, turns “FIR nahi kaat rahe” into “police refusing to register a report of theft”. For long stories it also writes sentences phrased the way a law would say it and searches with those; that’s called HyDE. Two, look up: the embedding models and the reranker search that province’s laws plus federal law, and keep six sections, here including CrPC 154 and 22-A. Three, answer: Gemma writes steps in Urdu and English in a strict format, each quoting one section, at temperature zero to keep answers consistent. Four, the step that makes it safe: check. Our code compares every quote and number with the official text, and a second AI pass confirms the quote really supports the advice. If anything fails, that step is removed. Five, show: the answer, the quotes and the PDF link, or “Not found”.</aside>
+<h2>The pipeline: five steps from question to answer</h2>
+<svg class="in" style="--i:1" width="1664" height="590" viewBox="0 0 1664 590" xmlns="http://www.w3.org/2000/svg" font-family="Public Sans, Arial, sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0B6B45"/></marker><marker id="aa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9A5600"/></marker></defs>
+<rect x="0.0" y="2" width="236" height="270" rx="20" fill="#FCFCFA" stroke="#C3D3CA" stroke-width="2"/>
+<text x="18.0" y="46" font-size="28" font-weight="700" fill="#10211A">Question</text>
+<text x="18.0" y="84" font-size="21" fill="#1B2A23">Typed or spoken in</text>
+<text x="18.0" y="112" font-size="21" fill="#1B2A23">Urdu, Roman Urdu</text>
+<text x="18.0" y="140" font-size="21" fill="#1B2A23">or English</text>
+<line x1="18.0" y1="170" x2="218.0" y2="170" stroke="#C3D3CA" stroke-width="2"/>
+<text x="18.0" y="198" font-size="18" font-weight="600" fill="#0B6B45">Whisper large-v3-</text>
+<text x="18.0" y="222" font-size="18" font-weight="600" fill="#0B6B45">turbo (speech→text)</text>
+<line x1="240.0" y1="110" x2="281.6" y2="110" stroke="#0B6B45" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="285.6" y="2" width="236" height="270" rx="20" fill="#FCFCFA" stroke="#C3D3CA" stroke-width="2"/>
+<text x="303.6" y="46" font-size="28" font-weight="700" fill="#10211A">1 · Understand</text>
+<text x="303.6" y="84" font-size="21" fill="#1B2A23">Rewrite it in legal</text>
+<text x="303.6" y="112" font-size="21" fill="#1B2A23">words; note the</text>
+<text x="303.6" y="140" font-size="21" fill="#1B2A23">province</text>
+<line x1="303.6" y1="170" x2="503.6" y2="170" stroke="#C3D3CA" stroke-width="2"/>
+<text x="303.6" y="198" font-size="18" font-weight="600" fill="#0B6B45">Gemma 4 12B, local</text>
+<text x="303.6" y="222" font-size="18" font-weight="600" fill="#0B6B45">+ HyDE search lines</text>
+<line x1="525.6" y1="110" x2="567.2" y2="110" stroke="#0B6B45" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="571.2" y="2" width="236" height="270" rx="20" fill="#FCFCFA" stroke="#C3D3CA" stroke-width="2"/>
+<text x="589.2" y="46" font-size="28" font-weight="700" fill="#10211A">2 · Look up</text>
+<text x="589.2" y="84" font-size="21" fill="#1B2A23">Keep the 6 best of</text>
+<text x="589.2" y="112" font-size="21" fill="#1B2A23">4,716 sections</text>
+<line x1="589.2" y1="170" x2="789.2" y2="170" stroke="#C3D3CA" stroke-width="2"/>
+<text x="589.2" y="198" font-size="18" font-weight="600" fill="#0B6B45">BGE-M3 + Qwen3</text>
+<text x="589.2" y="222" font-size="18" font-weight="600" fill="#0B6B45">embeddings → RRF</text>
+<text x="589.2" y="246" font-size="18" font-weight="600" fill="#0B6B45">→ reranker</text>
+<line x1="811.2" y1="110" x2="852.8" y2="110" stroke="#0B6B45" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="856.8" y="2" width="236" height="270" rx="20" fill="#FCFCFA" stroke="#C3D3CA" stroke-width="2"/>
+<text x="874.8" y="46" font-size="28" font-weight="700" fill="#10211A">3 · Answer</text>
+<text x="874.8" y="84" font-size="21" fill="#1B2A23">Simple steps, each</text>
+<text x="874.8" y="112" font-size="21" fill="#1B2A23">quoting one section</text>
+<line x1="874.8" y1="170" x2="1074.8" y2="170" stroke="#C3D3CA" stroke-width="2"/>
+<text x="874.8" y="198" font-size="18" font-weight="600" fill="#0B6B45">Gemma 4, strict</text>
+<text x="874.8" y="222" font-size="18" font-weight="600" fill="#0B6B45">JSON, temperature 0</text>
+<line x1="1096.8" y1="110" x2="1138.4" y2="110" stroke="#0B6B45" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1142.4" y="2" width="236" height="270" rx="20" fill="#EEF6F1" stroke="#0B6B45" stroke-width="3"/>
+<text x="1160.4" y="46" font-size="28" font-weight="700" fill="#10211A">4 · Check</text>
+<text x="1160.4" y="84" font-size="21" fill="#1B2A23">Every quote, number</text>
+<text x="1160.4" y="112" font-size="21" fill="#1B2A23">and province vs the</text>
+<text x="1160.4" y="140" font-size="21" fill="#1B2A23">official text</text>
+<line x1="1160.4" y1="170" x2="1360.4" y2="170" stroke="#C3D3CA" stroke-width="2"/>
+<text x="1160.4" y="198" font-size="18" font-weight="600" fill="#0B6B45">Fuzzy match ≥ 96/100</text>
+<text x="1160.4" y="222" font-size="18" font-weight="600" fill="#0B6B45">+ 2nd AI support pass</text>
+<line x1="1382.4" y1="110" x2="1424.0" y2="110" stroke="#0B6B45" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1428.0" y="2" width="236" height="270" rx="20" fill="#FCFCFA" stroke="#C3D3CA" stroke-width="2"/>
+<text x="1446.0" y="46" font-size="28" font-weight="700" fill="#10211A">5 · Show</text>
+<text x="1446.0" y="84" font-size="21" fill="#1B2A23">Answer, quotes, PDF</text>
+<text x="1446.0" y="112" font-size="21" fill="#1B2A23">page, Listen button</text>
+<line x1="1446.0" y1="170" x2="1646.0" y2="170" stroke="#C3D3CA" stroke-width="2"/>
+<text x="1446.0" y="198" font-size="18" font-weight="600" fill="#0B6B45">Web app + OmniVoice</text>
+<text x="1446.0" y="222" font-size="18" font-weight="600" fill="#0B6B45">(text→speech)</text>
+<rect x="285.6" y="320" width="521.6" height="92" rx="16" fill="#FCFCFA" stroke="#0B6B45" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="305.6" y="357" font-size="21" font-weight="700" fill="#0B6B45">Urgent topics (arrest, FIR refused)</text>
+<text x="305.6" y="390" font-size="21" fill="#1B2A23">pre-checked rights cards join the sources</text>
+<line x1="689.2" y1="318" x2="689.2" y2="280" stroke="#0B6B45" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="1142.4" y="320" width="521.6" height="92" rx="16" fill="#FBF1E3" stroke="#9A5600" stroke-width="2"/>
+<text x="1162.4" y="357" font-size="21" font-weight="700" fill="#9A5600">Fails a check → that step is removed</text>
+<text x="1162.4" y="390" font-size="21" fill="#1B2A23">Nothing left → “Not found”, see a lawyer</text>
+<line x1="1260.4" y1="276" x2="1260.4" y2="316" stroke="#9A5600" stroke-width="4" marker-end="url(#aa)"/>
+<rect x="1" y="440" width="1662" height="96" rx="16" fill="#FCFCFA" stroke="#C3D3CA" stroke-width="2"/>
+<text x="28" y="476" font-size="20" font-weight="700" fill="#0B6B45" letter-spacing="2">OUR STOLEN-PHONE QUESTION, STEP BY STEP</text>
+<text x="28" y="514" font-size="22" fill="#1B2A23">“FIR nahi kaat rahe” → “police refusing to register a theft report” → CrPC 154, 22-A + 4 more → steps in Urdu and English → quotes verified → answer + PDF link</text>
+<text x="0" y="576" font-size="22" fill="#4A5A52">Everything runs on one PC with one 16 GB graphics card (13.4 GB used): no cloud AI. Questions stay on it unless the optional web search is switched on.</text>
+</svg>
+<aside>SCRIPT: Here is the whole pipeline, with our stolen-phone question going left to right. The question is typed, or spoken and turned into text by Whisper. One, understand: Gemma 4, on our own PC, rewrites “FIR nahi kaat rahe” as “police refusing to register a theft report” and notes the province; for long stories it also writes law-style sentences to search with, called HyDE. Two, look up: two embedding models search by meaning, a reranker re-reads the best thirty and keeps six, here including CrPC 154 and 22-A. For urgent topics like arrest, rights cards we checked in advance join the sources. Three, answer: Gemma writes simple steps, each quoting one section, in a strict format at temperature zero. Four, the step that makes it safe: check. Every quote, number and province is compared with the official text, and a second AI pass confirms the quote supports the advice. A step that fails is removed; if nothing is left, it says “Not found” and points to a lawyer. Five, show the answer with its PDF page and a Listen button.</aside>
 </section>

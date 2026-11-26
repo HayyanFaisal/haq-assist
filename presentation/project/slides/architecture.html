@@ -1,20 +1,14 @@
 <section id="architecture" class="tint">
-<p class="eyebrow">Architecture</p>
-<h2>Five stages, with checks before anything is shown</h2>
-<div class="row" style="gap: 0; align-items: center;">
-<div class="node in" style="--i:0"><h3>1 · Understand</h3><p class="body">Gemma 4 12B finds topic and province, rewrites in legal English, writes 3 statute-style search sentences</p></div>
-<x-connector head="end" style="width: 64px; height: 4px;"></x-connector>
-<div class="node in" style="--i:1"><h3>2 · Retrieve</h3><p class="body">54 acts, 4,716 sections; that region’s law; each angle searched; fused search + reranker</p></div>
-<x-connector head="end" style="width: 64px; height: 4px;"></x-connector>
-<div class="node in" style="--i:2"><h3>3 · Answer</h3><p class="body">Steps in Urdu and English, each citing one source and one excerpt</p></div>
-<x-connector head="end" style="width: 64px; height: 4px;"></x-connector>
-<div class="node key in" style="--i:3"><h3>4 · Check</h3><p class="body">Excerpt matched to the official text; numbers in both languages; a support pass</p></div>
-<x-connector head="end" style="width: 64px; height: 4px;"></x-connector>
-<div class="node key in" style="--i:4"><h3>5 · Show</h3><p class="body">Trust level, excerpts, PDF page links, the live trace; read aloud on request</p></div>
-</div>
-<div class="row in" style="--i:5">
-<div class="card"><p class="badge">Nothing passes the checks?</p><p class="body">Online search on: official .gov.pk / .gob.pk pages, labelled “not yet reviewed”. Off, or nothing found: “Not found” and a suggestion to see a lawyer.</p></div>
-<div class="card"><p class="badge">Runs on one PC</p><p class="body">Three local services: llama.cpp (Gemma), the FastAPI app, VoiceStudio (Whisper in, OmniVoice out). 13.4 of 16 GB on GPU 1.</p></div>
-</div>
-<aside>SCRIPT: Here is how one question flows through the system. First, understand: Gemma works out the topic and the province, rewrites the question in legal English, and writes up to three statute-style search sentences. Second, retrieve: we search only the law that applies in that province, with two embedding models and a reranker, one search per angle, keeping up to six sections. Third, answer: Gemma writes steps in Urdu and English, and each step must cite one source and copy one exact quote. Fourth, the important one, check: code matches every quote against the official text, checks that every number in the English and the Urdu appears in the quote, and a second model pass confirms the quote supports the claim. If that pass errors, the step is rejected. Fifth, show: the trust level, the quotes, links to the PDF page, and a live trace of each stage. If nothing passes, the answer is “Not found”. With online search switched on, it can also try official government websites, and those answers go through the same checks. Everything runs as three services on one PC.</aside>
+<p class="eyebrow">How it works</p>
+<h2>Five steps from question to answer</h2>
+<table style="font-size: 26px; width: 1664px;">
+<tr><th style="width:15%">Step</th><th style="width:43%">What happens to our stolen-phone question</th><th style="width:42%">Under the hood</th></tr>
+<tr><td><b>1 · Understand</b></td><td>“FIR nahi kaat rahe” becomes “police refusing to register a report of theft”; province noted</td><td>Gemma 4 12B, run locally; also writes law-like sentences to search with (HyDE)</td></tr>
+<tr><td><b>2 · Look up</b></td><td>Searches the law and keeps the 6 best sections, including CrPC 154 and 22-A</td><td>Two embedding models plus a reranker; that province’s laws and federal law</td></tr>
+<tr><td><b>3 · Answer</b></td><td>Writes simple steps in Urdu and English, each quoting one section</td><td>Strict JSON output; temperature 0 to keep answers consistent</td></tr>
+<tr><td><b>4 · Check</b></td><td>Every quote and number is compared with the official text; a step whose quote doesn’t support it is removed</td><td>Code-based text matching, then a second AI pass on support; any error means reject</td></tr>
+<tr><td><b>5 · Show</b></td><td>The answer, its quotes and a link to the government PDF, or “Not found”</td><td>Web app; Whisper for voice in, OmniVoice for voice out</td></tr>
+</table>
+<p class="in" style="--i:1; max-width: 1600px;">Everything runs on one PC with one 16 GB graphics card: no cloud AI.</p>
+<aside>SCRIPT: Here’s our stolen-phone question going through the system. One, understand: Gemma 4, running on our PC, turns “FIR nahi kaat rahe” into “police refusing to register a report of theft”. For long stories it also writes sentences phrased the way a law would say it and searches with those; that’s called HyDE. Two, look up: the embedding models and the reranker search that province’s laws plus federal law, and keep six sections, here including CrPC 154 and 22-A. Three, answer: Gemma writes steps in Urdu and English in a strict format, each quoting one section, at temperature zero to keep answers consistent. Four, the step that makes it safe: check. Our code compares every quote and number with the official text, and a second AI pass confirms the quote really supports the advice. If anything fails, that step is removed. Five, show: the answer, the quotes and the PDF link, or “Not found”.</aside>
 </section>

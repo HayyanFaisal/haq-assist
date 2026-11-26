@@ -1,19 +1,14 @@
-<section id="system" class="tint compact" style="gap: 28px;">
-<p class="eyebrow">AI system requirements</p>
-<h2>Abstain, never invent, serve every language</h2>
-<table style="font-size: 24px; width: 1664px;">
-<tr><th style="width:24%">Requirement</th><th style="width:30%">Target</th><th style="width:46%">Measured</th></tr>
-<tr><td>Abstention</td><td>≥ 7 of 8 trick questions declined</td><td>8 of 8; 8 of 8 on the held-out stories</td></tr>
-<tr><td>Hallucination tolerance</td><td>≥ 95% verifiable; 0 unverifiable shown</td><td>121 of 121 verifiable; 0 shown</td></tr>
-<tr><td>Fairness across languages</td><td>Within 10 points</td><td>English 27/27, Roman Urdu 12/17: not met. Held-out stories: English 5/8, Roman Urdu 8/15</td></tr>
-<tr><td>Grounded retrieval</td><td>Right section in the top 5, ≥ 85%</td><td>48 of 49 in selection; 46 of 49 deployed</td></tr>
-<tr><td>Consistency</td><td>Same question, same answer</td><td>Temperature 0 at every step</td></tr>
-<tr><td>Latency</td><td>Median &lt; 12 s</td><td>13.8 s (p90 17.9 s): missed, because each angle of a story is searched</td></tr>
+<section id="system" class="tint">
+<p class="eyebrow">What an AI system like this must do</p>
+<h2>Our requirements, and how we did</h2>
+<table style="font-size: 28px; width: 1664px;">
+<tr><th style="width:42%">Requirement</th><th style="width:22%">Target</th><th style="width:36%">Result</th></tr>
+<tr><td>Never show a made-up law <span style="color:#4A5A52">(hallucination)</span></td><td>0 made-up quotes</td><td><b>0</b> (121 of 121 real)</td></tr>
+<tr><td>Say “Not found” instead of guessing <span style="color:#4A5A52">(abstention)</span></td><td>7 of 8 refusals</td><td><b>8 of 8</b></td></tr>
+<tr><td>Find the right law <span style="color:#4A5A52">(retrieval)</span></td><td>85% in the first 5</td><td><b>94%</b> (46 of 49); the 3 misses gave no province</td></tr>
+<tr><td>Work as well in Roman Urdu <span style="color:#4A5A52">(fairness)</span></td><td>No big difference</td><td><b>Not yet:</b> right law for English 27 of 27, Roman Urdu 12 of 17</td></tr>
+<tr><td>Answer quickly <span style="color:#4A5A52">(latency)</span></td><td>Median under 12 s</td><td><b>13.8 s</b>, a little slow</td></tr>
+<tr><td>Keep questions private <span style="color:#4A5A52">(privacy)</span></td><td>Runs on our own PC</td><td><b>Yes</b>; an optional web-search switch (off by default) sends the question to a search engine</td></tr>
 </table>
-<div class="row in" style="--i:0">
-<div class="card"><h3>Hardware</h3><p class="body">One RTX 5070 Ti, the GPU with no display: 13.4 of 16 GB with every model loaded. The CPU encodes questions.</p></div>
-<div class="card"><h3>Models</h3><p class="body">Gemma 4 12B (Apache-2.0), chosen over Qwen3.5-9B; BGE-M3 + Qwen3-Embedding; bge-reranker-v2-m3; Whisper; OmniVoice.</p></div>
-<div class="card"><h3>Privacy</h3><p class="body">Runs locally. Online search is off by default; when on, a rewritten query goes to search providers.</p></div>
-</div>
-<aside>SCRIPT: These are the requirements that matter because the system is generative. Abstention: it must decline rather than guess. It declined 8 of 8 trick questions, and 8 of 8 on Codex’s held-out stories. Hallucination tolerance: zero for citations. 121 of 121 were verifiable, and none unverifiable was shown. Fairness across languages: here we fall short, and we want to say it plainly. English questions got the correct law 27 of 27 times, Roman Urdu only 12 of 17, likely because people write “parcha” or “thanedar” while the law uses formal terms. On the held-out stories the gap is smaller. Retrieval: the right section was in the top five for 48 of 49 questions in our selection experiment, and 46 of 49 in the deployed app, where the three misses are questions with no province. Consistency: temperature zero everywhere, so the same question gives the same answer. Latency: 13.8 seconds median, which misses our 12-second target, because each angle of a story is searched separately. It all runs on one 16-gigabyte GPU, with Gemma 4 chosen over Qwen because Qwen invented law names.</aside>
+<aside>SCRIPT: For a generative AI system, the key requirements are about what the AI may say. In brackets are the course terms. Hallucination: never show a made-up law. Target zero, result zero. Abstention: say “Not found” instead of guessing. It refused all 8. Retrieval: the right section was found for 94 percent of questions in the final app. That’s lower than the 98 percent on the last slide because three questions gave no province, so the app searched only nationwide law or asked which province. Two honest gaps. Fairness: English questions got the right law every time, Roman Urdu only 12 of 17, most likely because words like “parcha” or “thanedar” never appear in the law; we added an everyday-word dictionary, but it isn’t solved. And latency: a median of 13.8 seconds, a little over our target. Finally, privacy: everything runs on our own PC.</aside>
 </section>

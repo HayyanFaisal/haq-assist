@@ -1,25 +1,19 @@
-<section id="technique" class="has-source">
-<p class="eyebrow">Technique</p>
-<h2>Retrieve the law, then check the supporting excerpts</h2>
-<div class="row" style="gap: 64px; align-items: flex-start;">
-<div class="col" style="width: 620px; flex: none;">
-<div class="step in" style="--i:0"><div class="dot">✕</div><p class="small"><b>Plain LLM:</b> answers from memory. Asked only to rephrase a question, Qwen3.5-9B invented a “Consumer Protection Act 2012”.</p></div>
-<div class="step in" style="--i:1"><div class="dot">✕</div><p class="small"><b>Fine-tuning:</b> bakes the law into weights that go stale with every amendment, and needs training data we don’t have.</p></div>
-<div class="step in" style="--i:2"><div class="dot" style="background:#0B6B45">✓</div><p class="small"><b>RAG with checks:</b> the library updates without retraining; answers use only retrieved text, and quotes and numbers are checked in code.</p></div>
-<div class="step in" style="--i:3"><div class="dot" style="background:#0B6B45">+</div><p class="small"><b>For stories:</b> the LLM writes statute-style search sentences (rights, remedy, offence: HyDE). Each is searched, and reviewed rights-card law is pinned.</p></div>
+<section id="technique">
+<p class="eyebrow">Our approach</p>
+<h2>Why not just ChatGPT? It makes up laws.</h2>
+<div class="row">
+<div class="card in" style="--i:0"><h3>✕ AI from memory</h3><p class="body">Invents laws. Asked only to reword a question, one model made up a “Consumer Protection Act 2012”.</p></div>
+<div class="card in" style="--i:1"><h3>✕ Fine-tune an AI</h3><p class="body">Needs thousands of checked examples we don’t have, and can’t show where an answer came from.</p></div>
+<div class="card accent in" style="--i:2"><h3>✓ RAG, plus a check</h3><p class="body">An open-book exam: look up the law (retrieval), answer only from it (generation), then check every quote. Update a law by updating the library.</p></div>
 </div>
-<div class="col grow">
-<h3>Finding the right section</h3>
+<div class="col in" style="--i:3; gap: 14px;">
+<h3>Finding the right law: right section in the first 5 results</h3>
 <div class="bars">
-<div class="bar-row"><p class="bar-label">Keyword search (BM25), raw question</p><div class="bar-track"><div class="bar-fill" style="width:31%; --i:0"></div></div><p class="bar-val">31%</p></div>
-<div class="bar-row"><p class="bar-label">BM25 + LLM rewrite into legal English</p><div class="bar-track"><div class="bar-fill" style="width:71%; --i:1"></div></div><p class="bar-val">71%</p></div>
-<div class="bar-row"><p class="bar-label">Multilingual embeddings (BGE-M3)</p><div class="bar-track"><div class="bar-fill" style="width:88%; --i:2"></div></div><p class="bar-val">88%</p></div>
-<div class="bar-row"><p class="bar-label">Two embedding models fused</p><div class="bar-track"><div class="bar-fill" style="width:94%; --i:3"></div></div><p class="bar-val">94%</p></div>
-<div class="bar-row"><p class="bar-label"><b>+ reranker — selected</b></p><div class="bar-track"><div class="bar-fill win" style="width:98%; --i:4"></div></div><p class="bar-val">98%</p></div>
-</div>
-<p class="small muted">A labelled section in the top 5: 48 of 49 in selection; 46 of 49 in the deployed app, where the 3 misses first ask for the province. All on 1,000-character windows with act and section headings; 69 configurations tested.</p>
+<div class="bar-row"><p class="bar-label">Keyword search on the user’s words</p><div class="bar-track"><div class="bar-fill" style="width:31%; --i:0"></div></div><p class="bar-val">31%</p></div>
+<div class="bar-row"><p class="bar-label">+ AI rewrites the question in legal words</p><div class="bar-track"><div class="bar-fill" style="width:71%; --i:1"></div></div><p class="bar-val">71%</p></div>
+<div class="bar-row"><p class="bar-label">Search by meaning (embeddings)</p><div class="bar-track"><div class="bar-fill" style="width:88%; --i:2"></div></div><p class="bar-val">88%</p></div>
+<div class="bar-row"><p class="bar-label"><b>Two embedding models + a reranker</b></p><div class="bar-track"><div class="bar-fill win" style="width:98%; --i:3"></div></div><p class="bar-val">98%</p></div>
 </div>
 </div>
-<p class="source">Same 49 labelled questions used to select the configuration, region supplied. Models: BAAI/bge-m3, Qwen3-Embedding-0.6B, bge-reranker-v2-m3.</p>
-<aside>SCRIPT: Why this technique? A plain language model answers from memory, and memory invents law. When we only asked Qwen to rephrase a question, it invented a “Consumer Protection Act 2012”; Punjab’s act is from 2005. Fine-tuning would bake the law into the model’s weights, which go stale with every amendment, and we have no large verified question-and-answer dataset to train on. So we use retrieval-augmented generation, with checks. The model may only use text we retrieve from the official library, and code checks every quote and number. In the lecture’s terms this is advanced, modular RAG: rewrite the question before retrieval, rerank after it, and reflect on the answer before showing it. The chart shows how we chose the search. Keyword search found the right section in the top five only 31 percent of the time, because people don’t use the law’s words. Rewriting into legal English took it to 71. Multilingual embeddings reached 88, two embedding models fused reached 94, and a reranker 98 percent. We tested 69 configurations. One more fix for real stories: the model writes sentences the way a statute would state the rule, and we search with those. That is HyDE. For “police won’t register my FIR”, the right section, CrPC 22-A, was not even in the top 200; phrased like a statute, it ranks first.</aside>
+<aside>SCRIPT: Why not just use ChatGPT? Because an AI answering from memory makes up laws: one model we tested, asked only to reword a question, invented a “Consumer Protection Act 2012”. We could fine-tune a model on our laws, but that needs thousands of checked examples we don’t have, and it still can’t show where an answer came from. So we used RAG, retrieval-augmented generation. It works like an open-book exam: retrieve the relevant law first, then generate the answer only from it. When a law changes, we update the library, not the model. Our addition is a third step that checks every quote. The hard part of RAG is retrieval, finding the right page, so we compared 69 search setups on 49 test questions. A hit means the right section is among the first five results. Keyword search scored 31 percent, because people don’t use the law’s words. Letting the AI rewrite the question in legal words: 71. Searching by meaning with embeddings: 88. Two embedding models plus a reranker, a second model that re-reads the top results and re-orders them: 98 percent. That’s what we built.</aside>
 </section>
